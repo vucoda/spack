@@ -1,0 +1,45 @@
+
+{
+  "url":"https://mirror.spack.io/_source-cache/archive/ea/eaa3f69d927a853313a0b06e2117c51adab6377a2278549b05abc5df93643e16",
+  "hash":"eaa3f69d927a853313a0b06e2117c51adab6377a2278549b05abc5df93643e16",
+  "filepath":"/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/ea/eaa3f69d927a853313a0b06e2117c51adab6377a2278549b05abc5df93643e16"
+},
+{
+  "url":"https://mirror.spack.io/_source-cache/archive/8c/8cf4302ca8b480c60ccdcaa29ec53d9d50a71d4baf469ac8c6fca00ca31e58a2",
+  "hash":"8cf4302ca8b480c60ccdcaa29ec53d9d50a71d4baf469ac8c6fca00ca31e58a2",
+  "filepath":"/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/8c/8cf4302ca8b480c60ccdcaa29ec53d9d50a71d4baf469ac8c6fca00ca31e58a2"
+},
+{
+  "url":"https://mirror.spack.io/_source-cache/archive/3e/3e06d42596b105839648070a5921157fe284b932289ffdbfa304ddc3457e5637",
+  "hash":"3e06d42596b105839648070a5921157fe284b932289ffdbfa304ddc3457e5637",
+  "filepath":"/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/3e/3e06d42596b105839648070a5921157fe284b932289ffdbfa304ddc3457e5637"
+},
+{
+  "url":"https://mirror.spack.io/_source-cache/archive/a4/a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee",
+  "hash":"a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee",
+  "filepath":"/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/a4/a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee"
+},
+
+{
+  "url":"https://mirror.spack.io/_source-cache/archive/0e/0eac10ed90aeb0459ad8851f88081d439a4e41978e586ec743069e8b059370ac",
+  "hash":"0eac10ed90aeb0459ad8851f88081d439a4e41978e586ec743069e8b059370ac",
+  "filepath":"/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/0e/0eac10ed90aeb0459ad8851f88081d439a4e41978e586ec743069e8b059370ac"
+},
+
+{
+  "url":"https://mirror.spack.io/_source-cache/archive/35/35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2",
+  "hash":"35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2",
+  "filepath":"/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/35/35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2"
+},
+{
+  "url":"https://mirror.spack.io/_source-cache/archive/77/7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7",
+  "hash":"7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7",
+  "filepath":"/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/77/7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7"
+},
+{
+  "url":"https://mirror.spack.io/_source-cache/archive/3b/3bbd7d6f9933d80b9571533867b444c6f8f5a1ba0575bfba1fba4db9d885a71a",
+  "hash":"3bbd7d6f9933d80b9571533867b444c6f8f5a1ba0575bfba1fba4db9d885a71a",
+  "filepath":"/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/3b/3bbd7d6f9933d80b9571533867b444c6f8f5a1ba0575bfba1fba4db9d885a71a"
+},
+
+

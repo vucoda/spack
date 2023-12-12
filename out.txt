@@ -1,0 +1,1429 @@
+INFO: Processing "{'url': 'https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.38/util-linux-2.38.1.tar.gz', 'hash': '0820eb8eea90408047e3715424bc6be771417047f683950fecb4bdd2e2cbbc6e', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/08/0820eb8eea90408047e3715424bc6be771417047f683950fecb4bdd2e2cbbc6e.tar.gz'}"
+('util-linux', '2.38.1', 'kernelmirror')
+INFO: Identified package: util-linux@2.38.1 type: kernelmirror
+{'name': 'kernelmirror', 'type': 'collection', 'parent': None, 'urls': [], 'mirror_urls': ['https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.38/util-linux-2.38.1.tar.gz'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': [['(https://mirrors\\.edge\\.kernel\\.org/pub/[0-9.]+/perl-[0-9.]+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1sha256sums.asc']], 'signature_urls': [['(https://mirrors\\.edge\\.kernel\\.org/pub/linux/utils/.+/.+\\.tar)\\.(?:gz|bz2|xz|lz)', '\\1.sign']], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "kernelmirror"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.38/util-linux-2.38.1.tar.sign"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.Y1x0FHa3lW/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.Y1x0FHa3lW/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+:signature packet: algo 1, keyid E4B71D5EEC39C284
+	version 4, created 1659604639, md5len 0, sigclass 0x00
+	digest algo 8, begin of digest d0 83
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2022-08-04)
+	subpkt 16 len 8 (issuer key ID E4B71D5EEC39C284)
+	data: [4096 bits]
+
+INFO: File "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/08/0820eb8eea90408047e3715424bc6be771417047f683950fecb4bdd2e2cbbc6e.tar.gz" has been uncompressed as "/dev/shm/vu/temp/temp.tar" for signature verification
+gpg: enabled compatibility flags:
+gpg: keybox '/dev/shm/vu/temp/tmp.ZiBLxvjwxO/pubring.kbx' created
+gpg: Signature made Thu 04 Aug 2022 06:47:19 PM ACST
+gpg:                using RSA key B0C64D14301CC6EFAEDF60E4E4B71D5EEC39C284
+gpg: Can't check signature: No public key
+
+INFO: public key from signature is "B0C64D14301CC6EFAEDF60E4E4B71D5EEC39C284"
+INFO: Trying to retrieve key "B0C64D14301CC6EFAEDF60E4E4B71D5EEC39C284" from "hkps://keyserver.ubuntu.com"
+HELLO
+INFO: Fingerprint "b0c64d14301cc6efaedf60e4e4b71d5eec39c284"
+>> 0 << ('https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.38/util-linux-2.38.1.tar.sign', 'b0c64d14301cc6efaedf60e4e4b71d5eec39c284')
+INFO: Processing "{'url': 'http://www.cpan.org/src/5.0/perl-5.36.0.tar.gz', 'hash': 'e26085af8ac396f62add8a533c3a0ea8c8497d836f0689347ac5abd7b7a4e00a', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/e2/e26085af8ac396f62add8a533c3a0ea8c8497d836f0689347ac5abd7b7a4e00a.tar.gz'}"
+('perl', '5.36.0', 'perl')
+INFO: Identified package: perl@5.36.0 type: perl
+{'name': 'perl', 'type': 'single', 'parent': None, 'urls': ['https://www.gnupg.org/ftp/gcrypt/{package}/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': ['checksum'], 'checksum_urls': [['(https?://www\\.cpan\\.org/src/[0-9.]+/perl-[0-9.]+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sha256.txt']], 'signature_urls': [], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "perl"
+INFO: Trying checksum verification
+INFO: Trying to fetch "http://www.cpan.org/src/5.0/perl-5.36.0.tar.gz.sha256.txt"
+INFO: Checksum is "e26085af8ac396f62add8a533c3a0ea8c8497d836f0689347ac5abd7b7a4e00a" which is "sha256"
+INFO: File "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/e2/e26085af8ac396f62add8a533c3a0ea8c8497d836f0689347ac5abd7b7a4e00a.tar.gz" has "sha256" digest of "e26085af8ac396f62add8a533c3a0ea8c8497d836f0689347ac5abd7b7a4e00a"
+INFO: checksum match for "e26085af8ac396f62add8a533c3a0ea8c8497d836f0689347ac5abd7b7a4e00a"
+>> 1 << ('http://www.cpan.org/src/5.0/perl-5.36.0.tar.gz.sha256.txt', 'sha256:e26085af8ac396f62add8a533c3a0ea8c8497d836f0689347ac5abd7b7a4e00a')
+INFO: Processing "{'url': 'https://www.openssl.org/source/openssl-1.1.1t.tar.gz', 'hash': '8dee9b24bdb1dcbf0c3d1e9b02fb8f6bf22165e807f45adeb7c9677536859d3b', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/8d/8dee9b24bdb1dcbf0c3d1e9b02fb8f6bf22165e807f45adeb7c9677536859d3b.tar.gz'}"
+('openssl', '1.1.1t', 'openssl')
+INFO: Identified package: openssl@1.1.1t type: openssl
+{'name': 'openssl', 'type': 'single', 'parent': None, 'urls': ['https://www.openssl.org/source/{Name}-{Version}.tar.gz'], 'mirror_urls': [], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https://www.openssl.org/source/openssl-[0-9.a-z]+.tar.gz)', '\\1.asc']], 'public_key_urls': [], 'public_key_ids': ['EFC0A467D613CB83C7ED6D30D894E2CE8B3D79F5', '8657ABB260F056B1E5190839D9C4D26D0E604491', 'B7C1C14360F353A36862E4D5231C84CDDCC69C45', 'C1F33DD8CE1D4CC613AF14DA9195C48241FBF7DD', '95A9908DDFA16830BE9FB9003D30A3A9FF1360DC', '7953AC1FBC3DC8B3B292393ED5E9E43F7DF9EE8C', 'A21FAB74B0088AA361152586B8EF1A6BA9DA2D5C', 'E5E52560DD91C556DDBDA5D02064C53641C25E5D']}
+INFO: Known package match for "openssl"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://www.openssl.org/source/openssl-1.1.1t.tar.gz.asc"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.uLXuVMFHLB/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.uLXuVMFHLB/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+:signature packet: algo 1, keyid D5E9E43F7DF9EE8C
+	version 4, created 1675777038, md5len 0, sigclass 0x00
+	digest algo 10, begin of digest 0e f5
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2023-02-07)
+	subpkt 16 len 8 (issuer key ID D5E9E43F7DF9EE8C)
+	data: [4094 bits]
+
+gpg: enabled compatibility flags:
+gpg: keybox '/dev/shm/vu/temp/tmp.WSFOvFQXUH/pubring.kbx' created
+gpg: Signature made Wed 08 Feb 2023 12:07:18 AM ACDT
+gpg:                using RSA key 7953AC1FBC3DC8B3B292393ED5E9E43F7DF9EE8C
+gpg: Can't check signature: No public key
+
+INFO: public key from signature is "7953AC1FBC3DC8B3B292393ED5E9E43F7DF9EE8C"
+INFO: Trying to retrieve key "7953AC1FBC3DC8B3B292393ED5E9E43F7DF9EE8C" from "hkps://keyserver.ubuntu.com"
+HELLO
+INFO: Fingerprint "7953ac1fbc3dc8b3b292393ed5e9e43f7df9ee8c"
+>> 2 << ('https://www.openssl.org/source/openssl-1.1.1t.tar.gz.asc', '7953ac1fbc3dc8b3b292393ed5e9e43f7df9ee8c')
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-8.0-patches/readline80-002', 'hash': '36b0febff1e560091ae7476026921f31b6d1dd4c918dcb7b741aa2dad1aec8f7', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/36/36b0febff1e560091ae7476026921f31b6d1dd4c918dcb7b741aa2dad1aec8f7'}"
+None
+>> 3 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-8.0-patches/readline80-002"
+INFO: Processing "{'url': 'No Match', 'hash': 'eaa3f69d927a853313a0b06e2117c51adab6377a2278549b05abc5df93643e16', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/ea/eaa3f69d927a853313a0b06e2117c51adab6377a2278549b05abc5df93643e16'}"
+None
+>> 4 << ISSUE with identifying "No Match"
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/gmp/gmp-6.2.1.tar.bz2', 'hash': 'eae9326beb4158c386e39a356818031bd28f3124cf915f8c5b1dc4c7a36b4d7c', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/ea/eae9326beb4158c386e39a356818031bd28f3124cf915f8c5b1dc4c7a36b4d7c.tar.bz2'}"
+('gmp', '6.2.1', 'gnu')
+INFO: Identified package: gmp@6.2.1 type: gnu
+{'name': 'gnu', 'type': 'collection', 'parent': None, 'urls': ['https://ftp.gnu.org/gnu/{package}/'], 'mirror_urls': ['https://mirror.freedif.org/GNU/{package}/{package}-{version}.tar.**'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https?://.+/(?:GNU|gnu)/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['http://ftp.gnu.org/gnu/gnu-keyring.gpg'], 'public_key_ids': []}
+INFO: Known package match for "gnu"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirror.freedif.org/GNU/gmp/gmp-6.2.1.tar.bz2.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.KHolI4Diey/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.KHolI4Diey/pubring.gpg' created
+:signature packet: algo 1, keyid F3599FF828C67298
+	version 4, created 1605383871, md5len 0, sigclass 0x00
+	digest algo 10, begin of digest d5 94
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2020-11-14)
+	subpkt 16 len 8 (issuer key ID F3599FF828C67298)
+	data: [2558 bits]
+
+INFO: Trying to fetch public key file "http://ftp.gnu.org/gnu/gnu-keyring.gpg"
+gpg: enabled compatibility flags:
+gpg: Signature made Sun 15 Nov 2020 06:27:51 AM ACDT
+gpg:                using RSA key 343C2FF0FBEE5EC2EDBEF399F3599FF828C67298
+gpg: Note: signature key 0xF3599FF828C67298 expired 2023-01-05 19:26:27
+gpg: Note: signature key 0xF3599FF828C67298 expired 2023-01-05 19:26:27
+gpg: Note: signature key 0xF3599FF828C67298 expired 2023-01-05 19:26:27
+gpg: /dev/shm/vu/temp/tmp.d7vchIfF31/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Niels Möller <nisse@lysator.liu.se>" [expired]
+gpg: Note: This key has expired!
+Primary key fingerprint: 343C 2FF0 FBEE 5EC2 EDBE  F399 F359 9FF8 28C6 7298
+gpg: binary signature, digest algorithm SHA512, key algorithm rsa2560
+
+INFO: Fingerprint "343c2ff0fbee5ec2edbef399f3599ff828c67298"
+>> 5 << ('https://mirror.freedif.org/GNU/gmp/gmp-6.2.1.tar.bz2.sig', '343c2ff0fbee5ec2edbef399f3599ff828c67298')
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-004', 'hash': 'f925683429f20973c552bff6702c74c58c2a38ff6e5cf305a8e847119c5a6b64', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/f9/f925683429f20973c552bff6702c74c58c2a38ff6e5cf305a8e847119c5a6b64'}"
+None
+>> 6 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-004"
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-003', 'hash': 'ec41bdd8b00fd884e847708513df41d51b1243cecb680189e31b7173d01ca52f', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/ec/ec41bdd8b00fd884e847708513df41d51b1243cecb680189e31b7173d01ca52f'}"
+None
+>> 7 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-003"
+INFO: Processing "{'url': 'No Match', 'hash': '8cf4302ca8b480c60ccdcaa29ec53d9d50a71d4baf469ac8c6fca00ca31e58a2', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/8c/8cf4302ca8b480c60ccdcaa29ec53d9d50a71d4baf469ac8c6fca00ca31e58a2'}"
+None
+>> 8 << ISSUE with identifying "No Match"
+INFO: Processing "{'url': 'http://zlib.net/fossils/zlib-1.2.13.tar.gz', 'hash': 'b3a24de97a8fdbc835b9833169501030b8977031bcb54b3b3ac13740f846ab30', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/b3/b3a24de97a8fdbc835b9833169501030b8977031bcb54b3b3ac13740f846ab30.tar.gz'}"
+('zlib', '1.2.13', 'zlib')
+INFO: Identified package: zlib@1.2.13 type: zlib
+{'name': 'zlib', 'type': 'single', 'parent': None, 'urls': ['https://www.zlib.net/fossils/{package}'], 'mirror_urls': [], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['https?://(?:www.)?zlib.net/fossils/(zlib-([0-9.]+)\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', 'https://github.com/madler/zlib/releases/download/v\\2/\\1.asc']], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "zlib"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://github.com/madler/zlib/releases/download/v1.2.13/zlib-1.2.13.tar.gz.asc"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.pCWQSSuUWG/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.pCWQSSuUWG/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+gpg: armor header: Comment: GPGTools - http://gpgtools.org
+:signature packet: algo 17, keyid 783FCD8E58BCAFBA
+	version 4, created 1665693913, md5len 0, sigclass 0x00
+	digest algo 2, begin of digest 9b d9
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2022-10-13)
+	subpkt 16 len 8 (issuer key ID 783FCD8E58BCAFBA)
+	data: [160 bits]
+	data: [160 bits]
+
+gpg: enabled compatibility flags:
+gpg: keybox '/dev/shm/vu/temp/tmp.GLGahHeCs3/pubring.kbx' created
+gpg: armor header: Comment: GPGTools - http://gpgtools.org
+gpg: Signature made Fri 14 Oct 2022 07:15:13 AM ACDT
+gpg:                using DSA key 5ED46A6721D365587791E2AA783FCD8E58BCAFBA
+gpg: Can't check signature: No public key
+
+INFO: public key from signature is "5ED46A6721D365587791E2AA783FCD8E58BCAFBA"
+INFO: Trying to retrieve key "5ED46A6721D365587791E2AA783FCD8E58BCAFBA" from "hkps://keyserver.ubuntu.com"
+HELLO
+INFO: Fingerprint "5ed46a6721d365587791e2aa783fcd8e58bcafba"
+>> 9 << ('https://github.com/madler/zlib/releases/download/v1.2.13/zlib-1.2.13.tar.gz.asc', '5ed46a6721d365587791e2aa783fcd8e58bcafba')
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/gawk/gawk-5.2.1.tar.xz', 'hash': '673553b91f9e18cc5792ed51075df8d510c9040f550a6f74e09c9add243a7e4f', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/67/673553b91f9e18cc5792ed51075df8d510c9040f550a6f74e09c9add243a7e4f.tar.xz'}"
+('gawk', '5.2.1', 'gnu')
+INFO: Identified package: gawk@5.2.1 type: gnu
+{'name': 'gnu', 'type': 'collection', 'parent': None, 'urls': ['https://ftp.gnu.org/gnu/{package}/'], 'mirror_urls': ['https://mirror.freedif.org/GNU/{package}/{package}-{version}.tar.**'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https?://.+/(?:GNU|gnu)/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['http://ftp.gnu.org/gnu/gnu-keyring.gpg'], 'public_key_ids': []}
+INFO: Known package match for "gnu"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirror.freedif.org/GNU/gawk/gawk-5.2.1.tar.xz.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.HCjIOnJQCQ/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.HCjIOnJQCQ/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+:signature packet: algo 1, keyid DF597815937EC0D2
+	version 4, created 1669135011, md5len 0, sigclass 0x00
+	digest algo 10, begin of digest b7 f8
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2022-11-22)
+	subpkt 16 len 8 (issuer key ID DF597815937EC0D2)
+	data: [2048 bits]
+
+INFO: Trying to fetch public key file "http://ftp.gnu.org/gnu/gnu-keyring.gpg"
+gpg: enabled compatibility flags:
+gpg: Signature made Wed 23 Nov 2022 03:06:51 AM ACDT
+gpg:                using RSA key D1967C63788713177D861ED7DF597815937EC0D2
+gpg: /dev/shm/vu/temp/tmp.5TnIpiZWTV/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Arnold Robbins <arnold@skeeve.com>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: D196 7C63 7887 1317 7D86  1ED7 DF59 7815 937E C0D2
+gpg: binary signature, digest algorithm SHA512, key algorithm rsa2048
+
+INFO: Fingerprint "d1967c63788713177d861ed7df597815937ec0d2"
+>> 10 << ('https://mirror.freedif.org/GNU/gawk/gawk-5.2.1.tar.xz.sig', 'd1967c63788713177d861ed7df597815937ec0d2')
+INFO: Processing "{'url': 'https://www.mpfr.org/mpfr-3.1.6/allpatches', 'hash': '7a6dd71bcda4803d6b89612706a17b8816e1acd5dd9bf1bec29cf748f3b60008', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/7a/7a6dd71bcda4803d6b89612706a17b8816e1acd5dd9bf1bec29cf748f3b60008'}"
+None
+>> 11 << ISSUE with identifying "https://www.mpfr.org/mpfr-3.1.6/allpatches"
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-8.0-patches/readline80-001', 'hash': 'd8e5e98933cf5756f862243c0601cb69d3667bb33f2c7b751fe4e40b2c3fd069', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/d8/d8e5e98933cf5756f862243c0601cb69d3667bb33f2c7b751fe4e40b2c3fd069'}"
+None
+>> 12 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-8.0-patches/readline80-001"
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/diffutils/diffutils-3.9.tar.xz', 'hash': 'd80d3be90a201868de83d78dad3413ad88160cc53bcc36eb9eaf7c20dbf023f1', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/d8/d80d3be90a201868de83d78dad3413ad88160cc53bcc36eb9eaf7c20dbf023f1.tar.xz'}"
+('diffutils', '3.9', 'gnu')
+INFO: Identified package: diffutils@3.9 type: gnu
+{'name': 'gnu', 'type': 'collection', 'parent': None, 'urls': ['https://ftp.gnu.org/gnu/{package}/'], 'mirror_urls': ['https://mirror.freedif.org/GNU/{package}/{package}-{version}.tar.**'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https?://.+/(?:GNU|gnu)/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['http://ftp.gnu.org/gnu/gnu-keyring.gpg'], 'public_key_ids': []}
+INFO: Known package match for "gnu"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirror.freedif.org/GNU/diffutils/diffutils-3.9.tar.xz.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.0NDH3Pof0y/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.0NDH3Pof0y/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+:signature packet: algo 1, keyid 7FD9FCCB000BEEEE
+	version 4, created 1673827194, md5len 0, sigclass 0x00
+	digest algo 10, begin of digest b0 7e
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2023-01-15)
+	subpkt 16 len 8 (issuer key ID 7FD9FCCB000BEEEE)
+	data: [4095 bits]
+
+INFO: Trying to fetch public key file "http://ftp.gnu.org/gnu/gnu-keyring.gpg"
+gpg: enabled compatibility flags:
+gpg: Signature made Mon 16 Jan 2023 10:29:54 AM ACDT
+gpg:                using RSA key 155D3FC500C834486D1EEA677FD9FCCB000BEEEE
+gpg: /dev/shm/vu/temp/tmp.72Q1RULoWK/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Jim Meyering <jim@meyering.net>" [unknown]
+gpg:                 aka "Jim Meyering <meyering@redhat.com>" [unknown]
+gpg:                 aka "Jim Meyering <meyering@gnu.org>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 155D 3FC5 00C8 3448 6D1E  EA67 7FD9 FCCB 000B EEEE
+gpg: binary signature, digest algorithm SHA512, key algorithm rsa4096
+
+INFO: Fingerprint "155d3fc500c834486d1eea677fd9fccb000beeee"
+>> 13 << ('https://mirror.freedif.org/GNU/diffutils/diffutils-3.9.tar.xz.sig', '155d3fc500c834486d1eea677fd9fccb000beeee')
+INFO: Processing "{'url': 'https://archive.hadrons.org/software/libmd/libmd-1.0.4.tar.xz', 'hash': 'f51c921042e34beddeded4b75557656559cf5b1f2448033b4c1eec11c07e530f', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/f5/f51c921042e34beddeded4b75557656559cf5b1f2448033b4c1eec11c07e530f.tar.xz'}"
+('libmd', '1.0.4', 'hadrons')
+INFO: Identified package: libmd@1.0.4 type: hadrons
+{'name': 'hadrons', 'type': 'collection', 'parent': None, 'urls': ['https://archive.hadrons.org/software/{package}/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': ['signature'], 'checksum_urls': [], 'signature_urls': [['(https://archive.hadrons.org/software/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.asc']], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "hadrons"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://archive.hadrons.org/software/libmd/libmd-1.0.4.tar.xz.asc"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.XSYJQEW9ju/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.XSYJQEW9ju/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+:signature packet: algo 1, keyid B972BF3EA4AE57A3
+	version 4, created 1633402102, md5len 0, sigclass 0x00
+	digest algo 10, begin of digest 6d 39
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2021-10-05)
+	subpkt 16 len 8 (issuer key ID B972BF3EA4AE57A3)
+	data: [4096 bits]
+
+gpg: enabled compatibility flags:
+gpg: keybox '/dev/shm/vu/temp/tmp.9L823XlNqm/pubring.kbx' created
+gpg: Signature made Tue 05 Oct 2021 01:18:22 PM ACDT
+gpg:                using RSA key 4F3E74F436050C10F5696574B972BF3EA4AE57A3
+gpg: Can't check signature: No public key
+
+INFO: public key from signature is "4F3E74F436050C10F5696574B972BF3EA4AE57A3"
+INFO: Trying to retrieve key "4F3E74F436050C10F5696574B972BF3EA4AE57A3" from "hkps://keyserver.ubuntu.com"
+HELLO
+INFO: Fingerprint "4f3e74f436050c10f5696574b972bf3ea4ae57a3"
+>> 14 << ('https://archive.hadrons.org/software/libmd/libmd-1.0.4.tar.xz.asc', '4f3e74f436050c10f5696574b972bf3ea4ae57a3')
+INFO: Processing "{'url': 'https://objects.githubusercontent.com/github-production-release-asset-2e65be/321154/1f285637-fb0d-4129-8c8d-92aac449a444?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202249Z&X-Amz-Expires=300&X-Amz-Signature=7cae1d4730b71f9bebc1e6b9a600a78f98970d24108efce6947ce44079a1e07a&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=321154&response-content-disposition=attachment%3B%20filename%3Dlibffi-3.4.4.tar.gz&response-content-type=application%2Foctet-stream', 'hash': 'd66c56ad259a82cf2a9dfc408b32bf5da52371500b84745f7fb8b645712df676', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/d6/d66c56ad259a82cf2a9dfc408b32bf5da52371500b84745f7fb8b645712df676.tar.gz'}"
+('libffi', '3.4.4', 'github')
+INFO: Identified package: libffi@3.4.4 type: github
+{'name': 'github', 'type': 'collection', 'parent': None, 'urls': ['https://objects.githubusercontent.com/github-production-release-asset-2e65be/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': [], 'checksum_urls': [], 'signature_urls': [], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "github"
+>> 15 << ('SKIP for https://objects.githubusercontent.com/github-production-release-asset-2e65be/321154/1f285637-fb0d-4129-8c8d-92aac449a444?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202249Z&X-Amz-Expires=300&X-Amz-Signature=7cae1d4730b71f9bebc1e6b9a600a78f98970d24108efce6947ce44079a1e07a&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=321154&response-content-disposition=attachment%3B%20filename%3Dlibffi-3.4.4.tar.gz&response-content-type=application%2Foctet-stream github',)
+INFO: Processing "{'url': 'https://www.mpfr.org/mpfr-3.1.3/allpatches', 'hash': '4152a780b3cc6e9643283e59093b43460196d0fea9302d8c93b2496f6679f4e4', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/41/4152a780b3cc6e9643283e59093b43460196d0fea9302d8c93b2496f6679f4e4'}"
+None
+>> 16 << ISSUE with identifying "https://www.mpfr.org/mpfr-3.1.3/allpatches"
+INFO: Processing "{'url': 'https://objects.githubusercontent.com/github-production-release-asset-2e65be/35503965/642d8fad-137a-4df9-8817-74250df0fb4e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202252Z&X-Amz-Expires=300&X-Amz-Signature=0f3a12ced01923e1a5f182e3a223458e1c17b51f8e2bbd8aa355b6359dd63f6b&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=35503965&response-content-disposition=attachment%3B%20filename%3Dlibxcrypt-4.4.33.tar.xz&response-content-type=application%2Foctet-stream', 'hash': 'e87acf9c652c573a4713d5582159f98f305d56ed5f754ce64f57d4194d6b3a6f', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/e8/e87acf9c652c573a4713d5582159f98f305d56ed5f754ce64f57d4194d6b3a6f.tar.xz'}"
+('libxcrypt', '4.4.33', 'github')
+INFO: Identified package: libxcrypt@4.4.33 type: github
+{'name': 'github', 'type': 'collection', 'parent': None, 'urls': ['https://objects.githubusercontent.com/github-production-release-asset-2e65be/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': [], 'checksum_urls': [], 'signature_urls': [], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "github"
+>> 17 << ('SKIP for https://objects.githubusercontent.com/github-production-release-asset-2e65be/35503965/642d8fad-137a-4df9-8817-74250df0fb4e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202252Z&X-Amz-Expires=300&X-Amz-Signature=0f3a12ced01923e1a5f182e3a223458e1c17b51f8e2bbd8aa355b6359dd63f6b&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=35503965&response-content-disposition=attachment%3B%20filename%3Dlibxcrypt-4.4.33.tar.xz&response-content-type=application%2Foctet-stream github',)
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-8.1-patches/readline81-002', 'hash': 'e55be055a68cb0719b0ccb5edc9a74edcc1d1f689e8a501525b3bc5ebad325dc', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/e5/e55be055a68cb0719b0ccb5edc9a74edcc1d1f689e8a501525b3bc5ebad325dc'}"
+None
+>> 18 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-8.1-patches/readline81-002"
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-8.1-patches/readline81-001', 'hash': '682a465a68633650565c43d59f0b8cdf149c13a874682d3c20cb4af6709b9144', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/68/682a465a68633650565c43d59f0b8cdf149c13a874682d3c20cb4af6709b9144'}"
+None
+>> 19 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-8.1-patches/readline81-001"
+INFO: Processing "{'url': 'https://gnupg.org/ftp/gcrypt/npth/npth-1.6.tar.bz2', 'hash': '1393abd9adcf0762d34798dc34fdcf4d0d22a8410721e76f1e3afcd1daa4e2d1', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/13/1393abd9adcf0762d34798dc34fdcf4d0d22a8410721e76f1e3afcd1daa4e2d1.tar.bz2'}"
+('npth', '1.6', 'gnupg')
+INFO: Identified package: npth@1.6 type: gnupg
+{'name': 'gnupg', 'type': 'collection', 'parent': None, 'urls': ['https://www.gnupg.org/ftp/gcrypt/{package}/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': ['signature'], 'checksum_urls': [], 'signature_urls': [['(https://(?:www\\.)?gnupg\\.org/ftp/gcrypt/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['https://gnupg.org/signature_key.asc', 'https://lists.gnupg.org/pipermail/gnupg-devel/attachments/20200831/3c7a6aa6/attachment.key'], 'public_key_ids': ['D8692123C4065DEA5E0F3AB5249B39D24F25E3B6', '5B80 C575 4298 F0CB 55D8  ED6A BCEF 7E29 4B09 2E28', '6DAA 6E64 A76D 2840 571B  4902 5288 97B8 2640 3ADA', 'AC8E 115B F73E 2D8D 47FA  9908 E98E 9B2D 19C6 C8BD', '02F3 8DFF 731F F97C B039  A1DA 549E 695E 905B A208', '7B96 D396 E647 1601 754B  E4DB 53B6 20D0 1CE0 C630', '6BD9 050F D8FC 941B 4341  2DCC 68B7 AB89 5754 8DCD']}
+INFO: Known package match for "gnupg"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://gnupg.org/ftp/gcrypt/npth/npth-1.6.tar.bz2.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.vDUV4hSWV2/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.vDUV4hSWV2/pubring.gpg' created
+:signature packet: algo 1, keyid 249B39D24F25E3B6
+	version 4, created 1531726643, md5len 0, sigclass 0x00
+	digest algo 8, begin of digest 5c d2
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2018-07-16)
+	subpkt 16 len 8 (issuer key ID 249B39D24F25E3B6)
+	data: [2045 bits]
+
+INFO: Trying to fetch public key file "https://gnupg.org/signature_key.asc"
+gpg: enabled compatibility flags:
+gpg: Signature made Mon 16 Jul 2018 05:07:23 PM ACST
+gpg:                using RSA key D8692123C4065DEA5E0F3AB5249B39D24F25E3B6
+gpg: Can't check signature: No public key
+
+INFO: public key from signature is "D8692123C4065DEA5E0F3AB5249B39D24F25E3B6"
+INFO: Trying to retrieve key "D8692123C4065DEA5E0F3AB5249B39D24F25E3B6" from "hkps://keyserver.ubuntu.com"
+HELLO
+INFO: Fingerprint "d8692123c4065dea5e0f3ab5249b39d24f25e3b6"
+>> 20 << ('https://gnupg.org/ftp/gcrypt/npth/npth-1.6.tar.bz2.sig', 'd8692123c4065dea5e0f3ab5249b39d24f25e3b6')
+INFO: Processing "{'url': 'https://github.com/autoconf-archive/autoconf-archive/commit/510672bc200e869fb0ad4634407561be819cf093.patch?full_index=1', 'hash': '139214f5104f699f868dc87a14378e1e694a3c2539efa0de6f878024f3d7c66d', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/13/139214f5104f699f868dc87a14378e1e694a3c2539efa0de6f878024f3d7c66d'}"
+None
+>> 21 << ISSUE with identifying "https://github.com/autoconf-archive/autoconf-archive/commit/510672bc200e869fb0ad4634407561be819cf093.patch?full_index=1"
+INFO: Processing "{'url': 'https://www.mpfr.org/mpfr-3.1.4/allpatches', 'hash': '113705d5333ef0d0ad3eb136a85404ba6bd1cc524dece5ce902c536aa2e29903', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/11/113705d5333ef0d0ad3eb136a85404ba6bd1cc524dece5ce902c536aa2e29903'}"
+None
+>> 22 << ISSUE with identifying "https://www.mpfr.org/mpfr-3.1.4/allpatches"
+INFO: Processing "{'url': 'https://download.oracle.com/berkeley-db/db-18.1.40.tar.gz', 'hash': '0cecb2ef0c67b166de93732769abdeba0555086d51de1090df325e18ee8da9c8', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/0c/0cecb2ef0c67b166de93732769abdeba0555086d51de1090df325e18ee8da9c8.tar.gz'}"
+('berkeley-db', '18.1.40', 'berkeleydb')
+INFO: Identified package: berkeley-db@18.1.40 type: berkeleydb
+{'name': 'berkeleydb', 'type': 'single', 'parent': None, 'urls': ['https://download.oracle.com/berkeley-db/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': [], 'checksum_urls': [], 'signature_urls': [], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "berkeleydb"
+>> 23 << ('SKIP for https://download.oracle.com/berkeley-db/db-18.1.40.tar.gz berkeleydb',)
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-8.2-patches/readline82-001', 'hash': 'bbf97f1ec40a929edab5aa81998c1e2ef435436c597754916e6a5868f273aff7', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/bb/bbf97f1ec40a929edab5aa81998c1e2ef435436c597754916e6a5868f273aff7'}"
+None
+>> 24 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-8.2-patches/readline82-001"
+INFO: Processing "{'url': 'https://objects.githubusercontent.com/github-production-release-asset-2e65be/537699/0ef24e89-c105-42fb-81db-5cba0b813af3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202131Z&X-Amz-Expires=300&X-Amz-Signature=fc1b1ace6b2b30a36b7f0237bffcde777b05b7eddbd3fcbac8682e1b111cbcc5&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=537699&response-content-disposition=attachment%3B%20filename%3Dcmake-3.26.3.tar.gz&response-content-type=application%2Foctet-stream', 'hash': 'bbd8d39217509d163cb544a40d6428ac666ddc83e22905d3e52c925781f0f659', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/bb/bbd8d39217509d163cb544a40d6428ac666ddc83e22905d3e52c925781f0f659.tar.gz'}"
+('cmake', '3.26.3', 'github')
+INFO: Identified package: cmake@3.26.3 type: github
+{'name': 'github', 'type': 'collection', 'parent': None, 'urls': ['https://objects.githubusercontent.com/github-production-release-asset-2e65be/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': [], 'checksum_urls': [], 'signature_urls': [], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "github"
+>> 25 << ('SKIP for https://objects.githubusercontent.com/github-production-release-asset-2e65be/537699/0ef24e89-c105-42fb-81db-5cba0b813af3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202131Z&X-Amz-Expires=300&X-Amz-Signature=fc1b1ace6b2b30a36b7f0237bffcde777b05b7eddbd3fcbac8682e1b111cbcc5&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=537699&response-content-disposition=attachment%3B%20filename%3Dcmake-3.26.3.tar.gz&response-content-type=application%2Foctet-stream github',)
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/libiconv/libiconv-1.17.tar.gz', 'hash': '8f74213b56238c85a50a5329f77e06198771e70dd9a739779f4c02f65d971313', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/8f/8f74213b56238c85a50a5329f77e06198771e70dd9a739779f4c02f65d971313.tar.gz'}"
+('libiconv', '1.17', 'gnu')
+INFO: Identified package: libiconv@1.17 type: gnu
+{'name': 'gnu', 'type': 'collection', 'parent': None, 'urls': ['https://ftp.gnu.org/gnu/{package}/'], 'mirror_urls': ['https://mirror.freedif.org/GNU/{package}/{package}-{version}.tar.**'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https?://.+/(?:GNU|gnu)/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['http://ftp.gnu.org/gnu/gnu-keyring.gpg'], 'public_key_ids': []}
+INFO: Known package match for "gnu"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirror.freedif.org/GNU/libiconv/libiconv-1.17.tar.gz.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.aUBdmp1xE2/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.aUBdmp1xE2/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+:signature packet: algo 1, keyid F5BE8B267C6A406D
+	version 4, created 1652628402, md5len 0, sigclass 0x00
+	digest algo 10, begin of digest 75 4a
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2022-05-15)
+	subpkt 16 len 8 (issuer key ID F5BE8B267C6A406D)
+	data: [4095 bits]
+
+INFO: Trying to fetch public key file "http://ftp.gnu.org/gnu/gnu-keyring.gpg"
+gpg: enabled compatibility flags:
+gpg: Signature made Mon 16 May 2022 12:56:42 AM ACST
+gpg:                using RSA key 9001B85AF9E1B83DF1BDA942F5BE8B267C6A406D
+gpg: /dev/shm/vu/temp/tmp.NKrDoB1y41/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Bruno Haible (Open Source Development) <bruno@clisp.org>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 9001 B85A F9E1 B83D F1BD  A942 F5BE 8B26 7C6A 406D
+gpg: binary signature, digest algorithm SHA512, key algorithm rsa4096
+
+INFO: Fingerprint "9001b85af9e1b83df1bda942f5be8b267c6a406d"
+>> 26 << ('https://mirror.freedif.org/GNU/libiconv/libiconv-1.17.tar.gz.sig', '9001b85af9e1b83df1bda942f5be8b267c6a406d')
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/mpfr/mpfr-4.2.0.tar.bz2', 'hash': '691db39178e36fc460c046591e4b0f2a52c8f2b3ee6d750cc2eab25f1eaa999d', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/69/691db39178e36fc460c046591e4b0f2a52c8f2b3ee6d750cc2eab25f1eaa999d.tar.bz2'}"
+('mpfr', '4.2.0', 'gnu')
+INFO: Identified package: mpfr@4.2.0 type: gnu
+{'name': 'gnu', 'type': 'collection', 'parent': None, 'urls': ['https://ftp.gnu.org/gnu/{package}/'], 'mirror_urls': ['https://mirror.freedif.org/GNU/{package}/{package}-{version}.tar.**'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https?://.+/(?:GNU|gnu)/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['http://ftp.gnu.org/gnu/gnu-keyring.gpg'], 'public_key_ids': []}
+INFO: Known package match for "gnu"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirror.freedif.org/GNU/mpfr/mpfr-4.2.0.tar.bz2.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.gyr8UNOwhC/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.gyr8UNOwhC/pubring.gpg' created
+:signature packet: algo 22, keyid 5831D11A0D4DB02A
+	version 4, created 1673017440, md5len 0, sigclass 0x00
+	digest algo 8, begin of digest 7e c2
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2023-01-06)
+	subpkt 16 len 8 (issuer key ID 5831D11A0D4DB02A)
+	unknown algorithm 22
+gpg: can't handle public key algorithm 22
+
+INFO: Trying to fetch public key file "http://ftp.gnu.org/gnu/gnu-keyring.gpg"
+gpg: enabled compatibility flags:
+gpg: Signature made Sat 07 Jan 2023 01:34:00 AM ACDT
+gpg:                using EDDSA key A534BE3F83E241D918280AEB5831D11A0D4DB02A
+gpg: /dev/shm/vu/temp/tmp.MXyZrdLkeK/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Vincent Lefevre <vincent@vinc17.net>" [unknown]
+gpg:                 aka "Vincent Lefevre <Vincent.Lefevre@ens-lyon.fr>" [unknown]
+gpg:                 aka "Vincent Lefevre <Vincent.Lefevre@inria.fr>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: A534 BE3F 83E2 41D9 1828  0AEB 5831 D11A 0D4D B02A
+gpg: binary signature, digest algorithm SHA256, key algorithm ed25519
+
+INFO: Fingerprint "a534be3f83e241d918280aeb5831d11a0d4db02a"
+>> 27 << ('https://mirror.freedif.org/GNU/mpfr/mpfr-4.2.0.tar.bz2.sig', 'a534be3f83e241d918280aeb5831d11a0d4db02a')
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/ncurses/ncurses-6.4.tar.gz', 'hash': '6931283d9ac87c5073f30b6290c4c75f21632bb4fc3603ac8100812bed248159', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/69/6931283d9ac87c5073f30b6290c4c75f21632bb4fc3603ac8100812bed248159.tar.gz'}"
+('ncurses', '6.4', 'gnu')
+INFO: Identified package: ncurses@6.4 type: gnu
+{'name': 'gnu', 'type': 'collection', 'parent': None, 'urls': ['https://ftp.gnu.org/gnu/{package}/'], 'mirror_urls': ['https://mirror.freedif.org/GNU/{package}/{package}-{version}.tar.**'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https?://.+/(?:GNU|gnu)/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['http://ftp.gnu.org/gnu/gnu-keyring.gpg'], 'public_key_ids': []}
+INFO: Known package match for "gnu"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirror.freedif.org/GNU/ncurses/ncurses-6.4.tar.gz.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.kLJBw7laC6/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.kLJBw7laC6/pubring.gpg' created
+:signature packet: algo 1, keyid CC2AF4472167BE03
+	version 4, created 1672522558, md5len 0, sigclass 0x00
+	digest algo 10, begin of digest 34 24
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2022-12-31)
+	subpkt 16 len 8 (issuer key ID CC2AF4472167BE03)
+	data: [3070 bits]
+
+INFO: Trying to fetch public key file "http://ftp.gnu.org/gnu/gnu-keyring.gpg"
+gpg: enabled compatibility flags:
+gpg: Signature made Sun 01 Jan 2023 08:05:58 AM ACDT
+gpg:                using RSA key 19882D92DDA4C400C22C0D56CC2AF4472167BE03
+gpg: Note: signature key 0xCC2AF4472167BE03 expired 2023-07-30 23:08:24
+gpg: Note: signature key 0xCC2AF4472167BE03 expired 2023-07-30 23:08:24
+gpg: Note: signature key 0xCC2AF4472167BE03 expired 2023-07-30 23:08:24
+gpg: /dev/shm/vu/temp/tmp.1duvysRwhS/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Thomas E. Dickey (self-signed w/o SHA1) <dickey@invisible-island.net>" [expired]
+gpg: Note: This key has expired!
+Primary key fingerprint: 1988 2D92 DDA4 C400 C22C  0D56 CC2A F447 2167 BE03
+gpg: binary signature, digest algorithm SHA512, key algorithm rsa3072
+
+INFO: Fingerprint "19882d92dda4c400c22c0d56cc2af4472167be03"
+>> 28 << ('https://mirror.freedif.org/GNU/ncurses/ncurses-6.4.tar.gz.sig', '19882d92dda4c400c22c0d56cc2af4472167be03')
+INFO: Processing "{'url': 'No Match', 'hash': '3e06d42596b105839648070a5921157fe284b932289ffdbfa304ddc3457e5637', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3e/3e06d42596b105839648070a5921157fe284b932289ffdbfa304ddc3457e5637'}"
+None
+>> 29 << ISSUE with identifying "No Match"
+INFO: Processing "{'url': 'https://src.fedoraproject.org/rpms/make/raw/519a7c5bcbead22e6ea2d2c2341d981ef9e25c0d/f/make-4.2.1-glob-fix-3.patch', 'hash': 'ca60bd9c1a1b35bc0dc58b6a4a19d5c2651f7a94a4b22b2c5ea001a1ca7a8a7f', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/ca/ca60bd9c1a1b35bc0dc58b6a4a19d5c2651f7a94a4b22b2c5ea001a1ca7a8a7f'}"
+None
+>> 30 << ISSUE with identifying "https://src.fedoraproject.org/rpms/make/raw/519a7c5bcbead22e6ea2d2c2341d981ef9e25c0d/f/make-4.2.1-glob-fix-3.patch"
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-005', 'hash': 'ca159c83706541c6bbe39129a33d63bbd76ac594303f67e4d35678711c51b753', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/ca/ca159c83706541c6bbe39129a33d63bbd76ac594303f67e4d35678711c51b753'}"
+None
+>> 31 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-005"
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/libsigsegv/libsigsegv-2.14.tar.gz', 'hash': 'cdac3941803364cf81a908499beb79c200ead60b6b5b40cad124fd1e06caa295', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/cd/cdac3941803364cf81a908499beb79c200ead60b6b5b40cad124fd1e06caa295.tar.gz'}"
+('libsigsegv', '2.14', 'gnu')
+INFO: Identified package: libsigsegv@2.14 type: gnu
+{'name': 'gnu', 'type': 'collection', 'parent': None, 'urls': ['https://ftp.gnu.org/gnu/{package}/'], 'mirror_urls': ['https://mirror.freedif.org/GNU/{package}/{package}-{version}.tar.**'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https?://.+/(?:GNU|gnu)/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['http://ftp.gnu.org/gnu/gnu-keyring.gpg'], 'public_key_ids': []}
+INFO: Known package match for "gnu"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirror.freedif.org/GNU/libsigsegv/libsigsegv-2.14.tar.gz.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.ECuPOR43Cl/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.ECuPOR43Cl/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+:signature packet: algo 1, keyid F5BE8B267C6A406D
+	version 4, created 1641578559, md5len 0, sigclass 0x00
+	digest algo 10, begin of digest d2 70
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2022-01-07)
+	subpkt 16 len 8 (issuer key ID F5BE8B267C6A406D)
+	data: [4092 bits]
+
+INFO: Trying to fetch public key file "http://ftp.gnu.org/gnu/gnu-keyring.gpg"
+gpg: enabled compatibility flags:
+gpg: Signature made Sat 08 Jan 2022 04:32:39 AM ACDT
+gpg:                using RSA key 9001B85AF9E1B83DF1BDA942F5BE8B267C6A406D
+gpg: /dev/shm/vu/temp/tmp.MPpta8aQ0J/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Bruno Haible (Open Source Development) <bruno@clisp.org>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 9001 B85A F9E1 B83D F1BD  A942 F5BE 8B26 7C6A 406D
+gpg: binary signature, digest algorithm SHA512, key algorithm rsa4096
+
+INFO: Fingerprint "9001b85af9e1b83df1bda942f5be8b267c6a406d"
+>> 32 << ('https://mirror.freedif.org/GNU/libsigsegv/libsigsegv-2.14.tar.gz.sig', '9001b85af9e1b83df1bda942f5be8b267c6a406d')
+INFO: Processing "{'url': 'No Match', 'hash': 'a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/a4/a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee'}"
+None
+>> 33 << ISSUE with identifying "No Match"
+INFO: Processing "{'url': 'https://www.mpfr.org/mpfr-4.0.1/allpatches', 'hash': '5230aab653fa8675fc05b5bdd3890e071e8df49a92a9d58c4284024affd27739', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/52/5230aab653fa8675fc05b5bdd3890e071e8df49a92a9d58c4284024affd27739'}"
+None
+>> 34 << ISSUE with identifying "https://www.mpfr.org/mpfr-4.0.1/allpatches"
+INFO: Processing "{'url': 'https://libbsd.freedesktop.org/releases/libbsd-0.11.7.tar.xz', 'hash': '9baa186059ebbf25c06308e9f991fda31f7183c0f24931826d83aa6abd8a0261', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/9b/9baa186059ebbf25c06308e9f991fda31f7183c0f24931826d83aa6abd8a0261.tar.xz'}"
+('libbsd', '0.11.7', 'freedesktop')
+INFO: Identified package: libbsd@0.11.7 type: freedesktop
+{'name': 'freedesktop', 'type': 'collection', 'comment': 'not consistent for verification', 'parent': None, 'urls': ['https://{package}.freedesktop.org/releases/', 'https://www.freedesktop.org/wiki/Software/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': ['signature'], 'checksum_urls': [], 'signature_urls': [['(https://(?:.+\\.)freedesktop\\.org/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.asc']], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "freedesktop"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://libbsd.freedesktop.org/releases/libbsd-0.11.7.tar.xz.asc"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.gu5Dk4JwRM/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.gu5Dk4JwRM/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+:signature packet: algo 1, keyid B972BF3EA4AE57A3
+	version 4, created 1665022403, md5len 0, sigclass 0x00
+	digest algo 10, begin of digest 7c 74
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2022-10-06)
+	subpkt 16 len 8 (issuer key ID B972BF3EA4AE57A3)
+	data: [4093 bits]
+
+gpg: enabled compatibility flags:
+gpg: keybox '/dev/shm/vu/temp/tmp.5uJuF57Fma/pubring.kbx' created
+gpg: Signature made Thu 06 Oct 2022 12:43:23 PM ACDT
+gpg:                using RSA key 4F3E74F436050C10F5696574B972BF3EA4AE57A3
+gpg: Can't check signature: No public key
+
+INFO: public key from signature is "4F3E74F436050C10F5696574B972BF3EA4AE57A3"
+INFO: Trying to retrieve key "4F3E74F436050C10F5696574B972BF3EA4AE57A3" from "hkps://keyserver.ubuntu.com"
+HELLO
+INFO: Fingerprint "4f3e74f436050c10f5696574b972bf3ea4ae57a3"
+>> 35 << ('https://libbsd.freedesktop.org/releases/libbsd-0.11.7.tar.xz.asc', '4f3e74f436050c10f5696574b972bf3ea4ae57a3')
+INFO: Processing "{'url': 'No Match', 'hash': '0eac10ed90aeb0459ad8851f88081d439a4e41978e586ec743069e8b059370ac', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/0e/0eac10ed90aeb0459ad8851f88081d439a4e41978e586ec743069e8b059370ac'}"
+None
+>> 36 << ISSUE with identifying "No Match"
+INFO: Processing "{'url': 'https://gnupg.org/ftp/gcrypt/libassuan/libassuan-2.5.5.tar.bz2', 'hash': '8e8c2fcc982f9ca67dcbb1d95e2dc746b1739a4668bc20b3a3c5be632edb34e4', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/8e/8e8c2fcc982f9ca67dcbb1d95e2dc746b1739a4668bc20b3a3c5be632edb34e4.tar.bz2'}"
+('libassuan', '2.5.5', 'gnupg')
+INFO: Identified package: libassuan@2.5.5 type: gnupg
+{'name': 'gnupg', 'type': 'collection', 'parent': None, 'urls': ['https://www.gnupg.org/ftp/gcrypt/{package}/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': ['signature'], 'checksum_urls': [], 'signature_urls': [['(https://(?:www\\.)?gnupg\\.org/ftp/gcrypt/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['https://gnupg.org/signature_key.asc', 'https://lists.gnupg.org/pipermail/gnupg-devel/attachments/20200831/3c7a6aa6/attachment.key'], 'public_key_ids': ['D8692123C4065DEA5E0F3AB5249B39D24F25E3B6', '5B80 C575 4298 F0CB 55D8  ED6A BCEF 7E29 4B09 2E28', '6DAA 6E64 A76D 2840 571B  4902 5288 97B8 2640 3ADA', 'AC8E 115B F73E 2D8D 47FA  9908 E98E 9B2D 19C6 C8BD', '02F3 8DFF 731F F97C B039  A1DA 549E 695E 905B A208', '7B96 D396 E647 1601 754B  E4DB 53B6 20D0 1CE0 C630', '6BD9 050F D8FC 941B 4341  2DCC 68B7 AB89 5754 8DCD']}
+INFO: Known package match for "gnupg"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://gnupg.org/ftp/gcrypt/libassuan/libassuan-2.5.5.tar.bz2.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.hiAVGQsRs2/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.hiAVGQsRs2/pubring.gpg' created
+:signature packet: algo 22, keyid 528897B826403ADA
+	version 4, created 1616415974, md5len 0, sigclass 0x00
+	digest algo 8, begin of digest d4 89
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2021-03-22)
+	subpkt 16 len 8 (issuer key ID 528897B826403ADA)
+	unknown algorithm 22
+gpg: can't handle public key algorithm 22
+
+INFO: Trying to fetch public key file "https://gnupg.org/signature_key.asc"
+gpg: enabled compatibility flags:
+gpg: Signature made Mon 22 Mar 2021 10:56:14 PM ACDT
+gpg:                using EDDSA key 6DAA6E64A76D2840571B4902528897B826403ADA
+gpg: /dev/shm/vu/temp/tmp.6PnvmCtnjj/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Werner Koch (dist signing 2020)" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 6DAA 6E64 A76D 2840 571B  4902 5288 97B8 2640 3ADA
+gpg: binary signature, digest algorithm SHA256, key algorithm ed25519
+
+INFO: Fingerprint "6daa6e64a76d2840571b4902528897b826403ada"
+>> 37 << ('https://gnupg.org/ftp/gcrypt/libassuan/libassuan-2.5.5.tar.bz2.sig', '6daa6e64a76d2840571b4902528897b826403ada')
+INFO: Processing "{'url': 'https://www.mpfr.org/mpfr-4.0.2/allpatches', 'hash': '3f80b836948aa96f8d1cb9cc7f3f55973f19285482a96f9a4e1623d460bcccf0', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3f/3f80b836948aa96f8d1cb9cc7f3f55973f19285482a96f9a4e1623d460bcccf0'}"
+None
+>> 38 << ISSUE with identifying "https://www.mpfr.org/mpfr-4.0.2/allpatches"
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-8.2.tar.gz', 'hash': '3feb7171f16a84ee82ca18a36d7b9be109a52c04f492a053331d7d1095007c35', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3f/3feb7171f16a84ee82ca18a36d7b9be109a52c04f492a053331d7d1095007c35.tar.gz'}"
+('readline', '8.2', 'gnu')
+INFO: Identified package: readline@8.2 type: gnu
+{'name': 'gnu', 'type': 'collection', 'parent': None, 'urls': ['https://ftp.gnu.org/gnu/{package}/'], 'mirror_urls': ['https://mirror.freedif.org/GNU/{package}/{package}-{version}.tar.**'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https?://.+/(?:GNU|gnu)/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['http://ftp.gnu.org/gnu/gnu-keyring.gpg'], 'public_key_ids': []}
+INFO: Known package match for "gnu"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirror.freedif.org/GNU/readline/readline-8.2.tar.gz.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.oQgJ0H64E7/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.oQgJ0H64E7/pubring.gpg' created
+:signature packet: algo 17, keyid BB5869F064EA74AB
+	version 4, created 1664197180, md5len 0, sigclass 0x00
+	digest algo 2, begin of digest 8a ad
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2022-09-26)
+	subpkt 16 len 8 (issuer key ID BB5869F064EA74AB)
+	data: [158 bits]
+	data: [156 bits]
+
+INFO: Trying to fetch public key file "http://ftp.gnu.org/gnu/gnu-keyring.gpg"
+gpg: enabled compatibility flags:
+gpg: Signature made Mon 26 Sep 2022 10:29:40 PM ACST
+gpg:                using DSA key 7C0135FB088AAF6C66C650B9BB5869F064EA74AB
+gpg: /dev/shm/vu/temp/tmp.NfuzLINeXb/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Chet Ramey <chet@cwru.edu>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 7C01 35FB 088A AF6C 66C6  50B9 BB58 69F0 64EA 74AB
+gpg: binary signature, digest algorithm SHA1, key algorithm dsa1024
+
+INFO: Fingerprint "7c0135fb088aaf6c66c650b9bb5869f064ea74ab"
+>> 39 << ('https://mirror.freedif.org/GNU/readline/readline-8.2.tar.gz.sig', '7c0135fb088aaf6c66c650b9bb5869f064ea74ab')
+INFO: Processing "{'url': 'https://github.com/openssl/openssl/commit/f9e578e720bb35228948564192adbe3bc503d5fb.patch?full_index=1', 'hash': '3fdcf2d1e47c34f3a012f23306322c5a35cad55b180c9b6fb34537b55884645c', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3f/3fdcf2d1e47c34f3a012f23306322c5a35cad55b180c9b6fb34537b55884645c'}"
+None
+>> 40 << ISSUE with identifying "https://github.com/openssl/openssl/commit/f9e578e720bb35228948564192adbe3bc503d5fb.patch?full_index=1"
+INFO: Processing "{'url': 'https://gnupg.org/ftp/gcrypt/libksba/libksba-1.6.3.tar.bz2', 'hash': '3f72c68db30971ebbf14367527719423f0a4d5f8103fc9f4a1c01a9fa440de5c', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3f/3f72c68db30971ebbf14367527719423f0a4d5f8103fc9f4a1c01a9fa440de5c.tar.bz2'}"
+('libksba', '1.6.3', 'gnupg')
+INFO: Identified package: libksba@1.6.3 type: gnupg
+{'name': 'gnupg', 'type': 'collection', 'parent': None, 'urls': ['https://www.gnupg.org/ftp/gcrypt/{package}/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': ['signature'], 'checksum_urls': [], 'signature_urls': [['(https://(?:www\\.)?gnupg\\.org/ftp/gcrypt/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['https://gnupg.org/signature_key.asc', 'https://lists.gnupg.org/pipermail/gnupg-devel/attachments/20200831/3c7a6aa6/attachment.key'], 'public_key_ids': ['D8692123C4065DEA5E0F3AB5249B39D24F25E3B6', '5B80 C575 4298 F0CB 55D8  ED6A BCEF 7E29 4B09 2E28', '6DAA 6E64 A76D 2840 571B  4902 5288 97B8 2640 3ADA', 'AC8E 115B F73E 2D8D 47FA  9908 E98E 9B2D 19C6 C8BD', '02F3 8DFF 731F F97C B039  A1DA 549E 695E 905B A208', '7B96 D396 E647 1601 754B  E4DB 53B6 20D0 1CE0 C630', '6BD9 050F D8FC 941B 4341  2DCC 68B7 AB89 5754 8DCD']}
+INFO: Known package match for "gnupg"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://gnupg.org/ftp/gcrypt/libksba/libksba-1.6.3.tar.bz2.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.jTtbwqvMUI/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.jTtbwqvMUI/pubring.gpg' created
+:signature packet: algo 22, keyid 528897B826403ADA
+	version 4, created 1670333667, md5len 0, sigclass 0x00
+	digest algo 8, begin of digest 29 f5
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2022-12-06)
+	subpkt 16 len 8 (issuer key ID 528897B826403ADA)
+	unknown algorithm 22
+gpg: can't handle public key algorithm 22
+:signature packet: algo 22, keyid E98E9B2D19C6C8BD
+	version 4, created 1671666297, md5len 0, sigclass 0x00
+	digest algo 8, begin of digest bb 8d
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2022-12-21)
+	subpkt 16 len 8 (issuer key ID E98E9B2D19C6C8BD)
+	unknown algorithm 22
+
+INFO: Trying to fetch public key file "https://gnupg.org/signature_key.asc"
+gpg: enabled compatibility flags:
+gpg: Signature made Wed 07 Dec 2022 12:04:27 AM ACDT
+gpg:                using EDDSA key 6DAA6E64A76D2840571B4902528897B826403ADA
+gpg: /dev/shm/vu/temp/tmp.3RhOWkOXy5/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Werner Koch (dist signing 2020)" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 6DAA 6E64 A76D 2840 571B  4902 5288 97B8 2640 3ADA
+gpg: binary signature, digest algorithm SHA256, key algorithm ed25519
+gpg: Signature made Thu 22 Dec 2022 10:14:57 AM ACDT
+gpg:                using EDDSA key AC8E115BF73E2D8D47FA9908E98E9B2D19C6C8BD
+gpg: Good signature from "Niibe Yutaka (GnuPG Release Key)" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: AC8E 115B F73E 2D8D 47FA  9908 E98E 9B2D 19C6 C8BD
+gpg: binary signature, digest algorithm SHA256, key algorithm ed25519
+
+INFO: Fingerprint "6daa6e64a76d2840571b4902528897b826403ada"
+>> 41 << ('https://gnupg.org/ftp/gcrypt/libksba/libksba-1.6.3.tar.bz2.sig', '6daa6e64a76d2840571b4902528897b826403ada')
+INFO: Processing "{'url': 'https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz', 'hash': 'ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/ab/ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269.tar.gz'}"
+('bzip2', '1.0.8', 'sourceware')
+INFO: Identified package: bzip2@1.0.8 type: sourceware
+{'name': 'sourceware', 'type': 'collection', 'comment': '', 'parent': None, 'urls': ['https://sourceware.org/pub/{package}/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': ['signature'], 'checksum_urls': [], 'signature_urls': [['(https://sourceware\\.org/pub/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "sourceware"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.62pR9BemtN/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.62pR9BemtN/pubring.gpg' created
+:signature packet: algo 1, keyid FC57E3CCACD99A78
+	version 4, created 1563040227, md5len 0, sigclass 0x00
+	digest algo 8, begin of digest a5 15
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2019-07-13)
+	subpkt 16 len 8 (issuer key ID FC57E3CCACD99A78)
+	data: [2047 bits]
+
+gpg: enabled compatibility flags:
+gpg: keybox '/dev/shm/vu/temp/tmp.ebcFvE4uwV/pubring.kbx' created
+gpg: Signature made Sun 14 Jul 2019 03:20:27 AM ACST
+gpg:                using RSA key 12768A96795990107A0D2FDFFC57E3CCACD99A78
+gpg: Can't check signature: No public key
+
+INFO: public key from signature is "12768A96795990107A0D2FDFFC57E3CCACD99A78"
+INFO: Trying to retrieve key "12768A96795990107A0D2FDFFC57E3CCACD99A78" from "hkps://keyserver.ubuntu.com"
+HELLO
+INFO: Fingerprint "ec3cfe88f6ca0788774f5c1d1aa44be649de760a"
+>> 42 << ('https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz.sig', 'ec3cfe88f6ca0788774f5c1d1aa44be649de760a')
+INFO: Processing "{'url': 'https://ixpeering.dl.sourceforge.net/project/lzmautils/xz-5.4.1.tar.bz2', 'hash': 'dd172acb53867a68012f94c17389401b2f274a1aa5ae8f84cbfb8b7e383ea8d3', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/dd/dd172acb53867a68012f94c17389401b2f274a1aa5ae8f84cbfb8b7e383ea8d3.tar.bz2'}"
+('lzmautils', '5.4.1', 'xzutils')
+INFO: Identified package: lzmautils@5.4.1 type: xzutils
+{'name': 'xzutils', 'type': 'single', 'comment': '', 'parent': None, 'urls': ['https://tukaani.org/{package}/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': ['signature'], 'checksum_urls': [], 'signature_urls': [['.+/(.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', 'https://tukaani.org/xz/\\1.sig']], 'public_key_urls': [], 'public_key_ids': ['3690C240CE51B4670D30AD1C38EE757D69184620']}
+INFO: Known package match for "xzutils"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://tukaani.org/xz/xz-5.4.1.tar.bz2.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.CsEmkIl6Iy/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.CsEmkIl6Iy/pubring.gpg' created
+:signature packet: algo 1, keyid 38EE757D69184620
+	version 4, created 1673457143, md5len 0, sigclass 0x00
+	digest algo 10, begin of digest a3 fd
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2023-01-11)
+	subpkt 16 len 8 (issuer key ID 38EE757D69184620)
+	data: [4095 bits]
+
+gpg: enabled compatibility flags:
+gpg: keybox '/dev/shm/vu/temp/tmp.8fNMFTaEsy/pubring.kbx' created
+gpg: Signature made Thu 12 Jan 2023 03:42:23 AM ACDT
+gpg:                using RSA key 3690C240CE51B4670D30AD1C38EE757D69184620
+gpg: Can't check signature: No public key
+
+INFO: public key from signature is "3690C240CE51B4670D30AD1C38EE757D69184620"
+INFO: Trying to retrieve key "3690C240CE51B4670D30AD1C38EE757D69184620" from "hkps://keyserver.ubuntu.com"
+HELLO
+INFO: Fingerprint "3690c240ce51b4670d30ad1c38ee757d69184620"
+>> 43 << ('https://tukaani.org/xz/xz-5.4.1.tar.bz2.sig', '3690c240ce51b4670d30ad1c38ee757d69184620')
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/make/make-4.4.1.tar.gz', 'hash': 'dd16fb1d67bfab79a72f5e8390735c49e3e8e70b4945a15ab1f81ddb78658fb3', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/dd/dd16fb1d67bfab79a72f5e8390735c49e3e8e70b4945a15ab1f81ddb78658fb3.tar.gz'}"
+('make', '4.4.1', 'gnu')
+INFO: Identified package: make@4.4.1 type: gnu
+{'name': 'gnu', 'type': 'collection', 'parent': None, 'urls': ['https://ftp.gnu.org/gnu/{package}/'], 'mirror_urls': ['https://mirror.freedif.org/GNU/{package}/{package}-{version}.tar.**'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https?://.+/(?:GNU|gnu)/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['http://ftp.gnu.org/gnu/gnu-keyring.gpg'], 'public_key_ids': []}
+INFO: Known package match for "gnu"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirror.freedif.org/GNU/make/make-4.4.1.tar.gz.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.Lx73FBAZwK/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.Lx73FBAZwK/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+:signature packet: algo 1, keyid DEACCAAEDB78137A
+	version 4, created 1677441979, md5len 0, sigclass 0x00
+	digest algo 10, begin of digest 35 69
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2023-02-26)
+	subpkt 16 len 8 (issuer key ID DEACCAAEDB78137A)
+	data: [4096 bits]
+
+INFO: Trying to fetch public key file "http://ftp.gnu.org/gnu/gnu-keyring.gpg"
+gpg: enabled compatibility flags:
+gpg: Signature made Mon 27 Feb 2023 06:36:19 AM ACDT
+gpg:                using RSA key B2508A90102F8AE3B12A0090DEACCAAEDB78137A
+gpg: using subkey 0xDEACCAAEDB78137A instead of primary key 0x80CB727A20C79BB2
+gpg: using subkey 0xDEACCAAEDB78137A instead of primary key 0x80CB727A20C79BB2
+gpg: /dev/shm/vu/temp/tmp.lQOXz5kov6/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Paul D. Smith <paul@mad-scientist.net>" [unknown]
+gpg:                 aka "Paul D. Smith <psmith@gnu.org>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 6D4E EB02 AD83 4703 510B  1176 80CB 727A 20C7 9BB2
+     Subkey fingerprint: B250 8A90 102F 8AE3 B12A  0090 DEAC CAAE DB78 137A
+gpg: binary signature, digest algorithm SHA512, key algorithm rsa4096
+
+INFO: Fingerprint "6d4eeb02ad834703510b117680cb727a20c79bb2"
+>> 44 << ('https://mirror.freedif.org/GNU/make/make-4.4.1.tar.gz.sig', '6d4eeb02ad834703510b117680cb727a20c79bb2')
+INFO: Processing "{'url': 'https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.4.1.tar.bz2', 'hash': '76b71e5aeb443bfd910ce9cbc8281b617c8341687afb67bae455877972b59de8', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/76/76b71e5aeb443bfd910ce9cbc8281b617c8341687afb67bae455877972b59de8.tar.bz2'}"
+('gnupg', '2.4.1', 'gnupg')
+INFO: Identified package: gnupg@2.4.1 type: gnupg
+{'name': 'gnupg', 'type': 'collection', 'parent': None, 'urls': ['https://www.gnupg.org/ftp/gcrypt/{package}/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': ['signature'], 'checksum_urls': [], 'signature_urls': [['(https://(?:www\\.)?gnupg\\.org/ftp/gcrypt/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['https://gnupg.org/signature_key.asc', 'https://lists.gnupg.org/pipermail/gnupg-devel/attachments/20200831/3c7a6aa6/attachment.key'], 'public_key_ids': ['D8692123C4065DEA5E0F3AB5249B39D24F25E3B6', '5B80 C575 4298 F0CB 55D8  ED6A BCEF 7E29 4B09 2E28', '6DAA 6E64 A76D 2840 571B  4902 5288 97B8 2640 3ADA', 'AC8E 115B F73E 2D8D 47FA  9908 E98E 9B2D 19C6 C8BD', '02F3 8DFF 731F F97C B039  A1DA 549E 695E 905B A208', '7B96 D396 E647 1601 754B  E4DB 53B6 20D0 1CE0 C630', '6BD9 050F D8FC 941B 4341  2DCC 68B7 AB89 5754 8DCD']}
+INFO: Known package match for "gnupg"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.4.1.tar.bz2.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.OvkMuERWWB/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.OvkMuERWWB/pubring.gpg' created
+:signature packet: algo 22, keyid 528897B826403ADA
+	version 4, created 1682682191, md5len 0, sigclass 0x00
+	digest algo 10, begin of digest ae 7b
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2023-04-28)
+	subpkt 16 len 8 (issuer key ID 528897B826403ADA)
+	unknown algorithm 22
+gpg: can't handle public key algorithm 22
+:signature packet: algo 22, keyid E98E9B2D19C6C8BD
+	version 4, created 1682734205, md5len 0, sigclass 0x00
+	digest algo 8, begin of digest f2 c6
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2023-04-29)
+	subpkt 16 len 8 (issuer key ID E98E9B2D19C6C8BD)
+	unknown algorithm 22
+
+INFO: Trying to fetch public key file "https://gnupg.org/signature_key.asc"
+gpg: enabled compatibility flags:
+gpg: Signature made Fri 28 Apr 2023 09:13:11 PM ACST
+gpg:                using EDDSA key 6DAA6E64A76D2840571B4902528897B826403ADA
+gpg: /dev/shm/vu/temp/tmp.9qUkihrhoq/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Werner Koch (dist signing 2020)" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 6DAA 6E64 A76D 2840 571B  4902 5288 97B8 2640 3ADA
+gpg: binary signature, digest algorithm SHA512, key algorithm ed25519
+gpg: Signature made Sat 29 Apr 2023 11:40:05 AM ACST
+gpg:                using EDDSA key AC8E115BF73E2D8D47FA9908E98E9B2D19C6C8BD
+gpg: Good signature from "Niibe Yutaka (GnuPG Release Key)" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: AC8E 115B F73E 2D8D 47FA  9908 E98E 9B2D 19C6 C8BD
+gpg: binary signature, digest algorithm SHA256, key algorithm ed25519
+
+INFO: Fingerprint "6daa6e64a76d2840571b4902528897b826403ada"
+>> 45 << ('https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.4.1.tar.bz2.sig', '6daa6e64a76d2840571b4902528897b826403ada')
+INFO: Processing "{'url': 'https://objects.githubusercontent.com/github-production-release-asset-2e65be/15682168/1cdaa4e4-5842-4201-9377-4c9a40fefe58?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202309Z&X-Amz-Expires=300&X-Amz-Signature=dd47c7ca979040745f91a69c95e27401b63c705415ded6ffa986c9f217418e3d&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=15682168&response-content-disposition=attachment%3B%20filename%3Dre2c-2.2.tar.xz&response-content-type=application%2Foctet-stream', 'hash': '0fc45e4130a8a555d68e230d1795de0216dfe99096b61b28e67c86dfd7d86bda', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/0f/0fc45e4130a8a555d68e230d1795de0216dfe99096b61b28e67c86dfd7d86bda.tar.xz'}"
+('re2c', '2.2', 'github')
+INFO: Identified package: re2c@2.2 type: github
+{'name': 'github', 'type': 'collection', 'parent': None, 'urls': ['https://objects.githubusercontent.com/github-production-release-asset-2e65be/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': [], 'checksum_urls': [], 'signature_urls': [], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "github"
+>> 46 << ('SKIP for https://objects.githubusercontent.com/github-production-release-asset-2e65be/15682168/1cdaa4e4-5842-4201-9377-4c9a40fefe58?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202309Z&X-Amz-Expires=300&X-Amz-Signature=dd47c7ca979040745f91a69c95e27401b63c705415ded6ffa986c9f217418e3d&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=15682168&response-content-disposition=attachment%3B%20filename%3Dre2c-2.2.tar.xz&response-content-type=application%2Foctet-stream github',)
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-004', 'hash': '4547b906fb2570866c21887807de5dee19838a60a1afb66385b272155e4355cc', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/45/4547b906fb2570866c21887807de5dee19838a60a1afb66385b272155e4355cc'}"
+None
+>> 47 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-004"
+INFO: Processing "{'url': 'https://gnupg.org/ftp/gcrypt/pinentry/pinentry-1.2.1.tar.bz2', 'hash': '457a185e5a85238fb945a955dc6352ab962dc8b48720b62fc9fa48c7540a4067', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/45/457a185e5a85238fb945a955dc6352ab962dc8b48720b62fc9fa48c7540a4067.tar.bz2'}"
+('pinentry', '1.2.1', 'gnupg')
+INFO: Identified package: pinentry@1.2.1 type: gnupg
+{'name': 'gnupg', 'type': 'collection', 'parent': None, 'urls': ['https://www.gnupg.org/ftp/gcrypt/{package}/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': ['signature'], 'checksum_urls': [], 'signature_urls': [['(https://(?:www\\.)?gnupg\\.org/ftp/gcrypt/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['https://gnupg.org/signature_key.asc', 'https://lists.gnupg.org/pipermail/gnupg-devel/attachments/20200831/3c7a6aa6/attachment.key'], 'public_key_ids': ['D8692123C4065DEA5E0F3AB5249B39D24F25E3B6', '5B80 C575 4298 F0CB 55D8  ED6A BCEF 7E29 4B09 2E28', '6DAA 6E64 A76D 2840 571B  4902 5288 97B8 2640 3ADA', 'AC8E 115B F73E 2D8D 47FA  9908 E98E 9B2D 19C6 C8BD', '02F3 8DFF 731F F97C B039  A1DA 549E 695E 905B A208', '7B96 D396 E647 1601 754B  E4DB 53B6 20D0 1CE0 C630', '6BD9 050F D8FC 941B 4341  2DCC 68B7 AB89 5754 8DCD']}
+INFO: Known package match for "gnupg"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://gnupg.org/ftp/gcrypt/pinentry/pinentry-1.2.1.tar.bz2.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.bMbuGLvGCR/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.bMbuGLvGCR/pubring.gpg' created
+:signature packet: algo 22, keyid 528897B826403ADA
+	version 4, created 1661338451, md5len 0, sigclass 0x00
+	digest algo 8, begin of digest 82 ef
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2022-08-24)
+	subpkt 16 len 8 (issuer key ID 528897B826403ADA)
+	unknown algorithm 22
+gpg: can't handle public key algorithm 22
+:signature packet: algo 22, keyid E98E9B2D19C6C8BD
+	version 4, created 1661406639, md5len 0, sigclass 0x00
+	digest algo 8, begin of digest 82 0d
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2022-08-25)
+	subpkt 16 len 8 (issuer key ID E98E9B2D19C6C8BD)
+	unknown algorithm 22
+
+INFO: Trying to fetch public key file "https://gnupg.org/signature_key.asc"
+gpg: enabled compatibility flags:
+gpg: Signature made Wed 24 Aug 2022 08:24:11 PM ACST
+gpg:                using EDDSA key 6DAA6E64A76D2840571B4902528897B826403ADA
+gpg: /dev/shm/vu/temp/tmp.MmVtBQjsuW/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Werner Koch (dist signing 2020)" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 6DAA 6E64 A76D 2840 571B  4902 5288 97B8 2640 3ADA
+gpg: binary signature, digest algorithm SHA256, key algorithm ed25519
+gpg: Signature made Thu 25 Aug 2022 03:20:39 PM ACST
+gpg:                using EDDSA key AC8E115BF73E2D8D47FA9908E98E9B2D19C6C8BD
+gpg: Good signature from "Niibe Yutaka (GnuPG Release Key)" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: AC8E 115B F73E 2D8D 47FA  9908 E98E 9B2D 19C6 C8BD
+gpg: binary signature, digest algorithm SHA256, key algorithm ed25519
+
+INFO: Fingerprint "6daa6e64a76d2840571b4902528897b826403ada"
+>> 48 << ('https://gnupg.org/ftp/gcrypt/pinentry/pinentry-1.2.1.tar.bz2.sig', '6daa6e64a76d2840571b4902528897b826403ada')
+INFO: Processing "{'url': 'https://distfiles.dereferenced.org/pkgconf/pkgconf-1.9.5.tar.xz', 'hash': '1ac1656debb27497563036f7bffc281490f83f9b8457c0d60bcfb638fb6b6171', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/1a/1ac1656debb27497563036f7bffc281490f83f9b8457c0d60bcfb638fb6b6171.tar.xz'}"
+('pkgconf', '1.9.5', 'pkgconf')
+INFO: Identified package: pkgconf@1.9.5 type: pkgconf
+{'name': 'pkgconf', 'type': 'single', 'comment': 'no official verification methods', 'parent': None, 'urls': ['https://distfiles.dereferenced.org/pkgconf/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': [], 'checksum_urls': [], 'signature_urls': [], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "pkgconf"
+>> 49 << ('SKIP for https://distfiles.dereferenced.org/pkgconf/pkgconf-1.9.5.tar.xz pkgconf',)
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-001', 'hash': '1a79bbb6eaee750e0d6f7f3d059b30a45fc54e8e388a8e05e9c3ae598590146f', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/1a/1a79bbb6eaee750e0d6f7f3d059b30a45fc54e8e388a8e05e9c3ae598590146f'}"
+None
+>> 50 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-001"
+INFO: Processing "{'url': 'https://www.mpfr.org/mpfr-3.1.5/allpatches', 'hash': '1ae14fb3a54ae8e0faed20801970255b279eee9e5ac624891ab5d29727f0bc04', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/1a/1ae14fb3a54ae8e0faed20801970255b279eee9e5ac624891ab5d29727f0bc04'}"
+None
+>> 51 << ISSUE with identifying "https://www.mpfr.org/mpfr-3.1.5/allpatches"
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/gettext/gettext-0.21.1.tar.xz', 'hash': '50dbc8f39797950aa2c98e939947c527e5ac9ebd2c1b99dd7b06ba33a6767ae6', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/50/50dbc8f39797950aa2c98e939947c527e5ac9ebd2c1b99dd7b06ba33a6767ae6.tar.xz'}"
+('gettext', '0.21.1', 'gnu')
+INFO: Identified package: gettext@0.21.1 type: gnu
+{'name': 'gnu', 'type': 'collection', 'parent': None, 'urls': ['https://ftp.gnu.org/gnu/{package}/'], 'mirror_urls': ['https://mirror.freedif.org/GNU/{package}/{package}-{version}.tar.**'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https?://.+/(?:GNU|gnu)/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['http://ftp.gnu.org/gnu/gnu-keyring.gpg'], 'public_key_ids': []}
+INFO: Known package match for "gnu"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirror.freedif.org/GNU/gettext/gettext-0.21.1.tar.xz.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.xgeEGXFCOj/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.xgeEGXFCOj/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+:signature packet: algo 1, keyid F5BE8B267C6A406D
+	version 4, created 1665356709, md5len 0, sigclass 0x00
+	digest algo 10, begin of digest 13 06
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2022-10-09)
+	subpkt 16 len 8 (issuer key ID F5BE8B267C6A406D)
+	data: [4095 bits]
+
+INFO: Trying to fetch public key file "http://ftp.gnu.org/gnu/gnu-keyring.gpg"
+gpg: enabled compatibility flags:
+gpg: Signature made Mon 10 Oct 2022 09:35:09 AM ACDT
+gpg:                using RSA key 9001B85AF9E1B83DF1BDA942F5BE8B267C6A406D
+gpg: /dev/shm/vu/temp/tmp.rDV7ryvlED/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Bruno Haible (Open Source Development) <bruno@clisp.org>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 9001 B85A F9E1 B83D F1BD  A942 F5BE 8B26 7C6A 406D
+gpg: binary signature, digest algorithm SHA512, key algorithm rsa4096
+
+INFO: Fingerprint "9001b85af9e1b83df1bda942f5be8b267c6a406d"
+>> 52 << ('https://mirror.freedif.org/GNU/gettext/gettext-0.21.1.tar.xz.sig', '9001b85af9e1b83df1bda942f5be8b267c6a406d')
+INFO: Processing "{'url': 'https://src.fedoraproject.org/rpms/m4/raw/5d147168d4b93f38a4833f5dd1d650ad88af5a8a/f/m4-1.4.18-glibc-change-work-around.patch', 'hash': 'fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/fc/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8'}"
+None
+>> 53 << ISSUE with identifying "https://src.fedoraproject.org/rpms/m4/raw/5d147168d4b93f38a4833f5dd1d650ad88af5a8a/f/m4-1.4.18-glibc-change-work-around.patch"
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/bison/bison-3.8.2.tar.gz', 'hash': '06c9e13bdf7eb24d4ceb6b59205a4f67c2c7e7213119644430fe82fbd14a0abb', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/06/06c9e13bdf7eb24d4ceb6b59205a4f67c2c7e7213119644430fe82fbd14a0abb.tar.gz'}"
+('bison', '3.8.2', 'gnu')
+INFO: Identified package: bison@3.8.2 type: gnu
+{'name': 'gnu', 'type': 'collection', 'parent': None, 'urls': ['https://ftp.gnu.org/gnu/{package}/'], 'mirror_urls': ['https://mirror.freedif.org/GNU/{package}/{package}-{version}.tar.**'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https?://.+/(?:GNU|gnu)/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['http://ftp.gnu.org/gnu/gnu-keyring.gpg'], 'public_key_ids': []}
+INFO: Known package match for "gnu"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirror.freedif.org/GNU/bison/bison-3.8.2.tar.gz.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.hsx7n4COYJ/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.hsx7n4COYJ/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+:signature packet: algo 17, keyid 0DDCAA3278D5264E
+	version 4, created 1632562228, md5len 0, sigclass 0x00
+	digest algo 2, begin of digest 01 d0
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2021-09-25)
+	subpkt 16 len 8 (issuer key ID 0DDCAA3278D5264E)
+	data: [154 bits]
+	data: [157 bits]
+
+INFO: Trying to fetch public key file "http://ftp.gnu.org/gnu/gnu-keyring.gpg"
+gpg: enabled compatibility flags:
+gpg: Signature made Sat 25 Sep 2021 07:00:28 PM ACST
+gpg:                using DSA key 7DF84374B1EE1F9764BBE25D0DDCAA3278D5264E
+gpg: /dev/shm/vu/temp/tmp.VA07Re7qYn/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Akim Demaille <demaille@enst.fr>" [unknown]
+gpg:                 aka "Akim Demaille <akim@lrde.epita.fr>" [unknown]
+gpg:                 aka "Akim Demaille <akim@epita.fr>" [unknown]
+gpg:                 aka "Akim Demaille <akim@freefriends.org>" [unknown]
+gpg:                 aka "Akim Demaille <akim@gnu.org>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 7DF8 4374 B1EE 1F97 64BB  E25D 0DDC AA32 78D5 264E
+gpg: binary signature, digest algorithm SHA1, key algorithm dsa1024
+
+INFO: Fingerprint "7df84374b1ee1f9764bbe25d0ddcaa3278d5264e"
+>> 54 << ('https://mirror.freedif.org/GNU/bison/bison-3.8.2.tar.gz.sig', '7df84374b1ee1f9764bbe25d0ddcaa3278d5264e')
+INFO: Processing "{'url': 'https://src.fedoraproject.org/rpms/make/raw/519a7c5bcbead22e6ea2d2c2341d981ef9e25c0d/f/make-4.2.1-glob-fix-2.patch', 'hash': 'fe5b60d091c33f169740df8cb718bf4259f84528b42435194ffe0dd5b79cd125', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/fe/fe5b60d091c33f169740df8cb718bf4259f84528b42435194ffe0dd5b79cd125'}"
+None
+>> 55 << ISSUE with identifying "https://src.fedoraproject.org/rpms/make/raw/519a7c5bcbead22e6ea2d2c2341d981ef9e25c0d/f/make-4.2.1-glob-fix-2.patch"
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-8.0-patches/readline80-004', 'hash': 'b1aa3d2a40eee2dea9708229740742e649c32bb8db13535ea78f8ac15377394c', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/b1/b1aa3d2a40eee2dea9708229740742e649c32bb8db13535ea78f8ac15377394c'}"
+None
+>> 56 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-8.0-patches/readline80-004"
+INFO: Processing "{'url': 'https://www.sqlite.org/2022/sqlite-autoconf-3400100.tar.gz', 'hash': '2c5dea207fa508d765af1ef620b637dcb06572afa6f01f0815bd5bbf864b33d9', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/2c/2c5dea207fa508d765af1ef620b637dcb06572afa6f01f0815bd5bbf864b33d9.tar.gz'}"
+('sqlite', '3400100', 'sqlite')
+INFO: Identified package: sqlite@3400100 type: sqlite
+{'name': 'sqlite', 'type': 'single', 'comment': 'no official verification methods', 'parent': None, 'urls': ['https://www.sqlite.org/{YYYY}/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': [], 'checksum_urls': [], 'signature_urls': [], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "sqlite"
+INFO: Found match for filename "sqlite-autoconf-3400100.tar.gz" with "sha3": "3136db4bcd9e9e1e485c291380a3d86f0f21cae0eff9f714c0ef4821e2e5cdf7"
+INFO: Match for digest "sha3": "3136db4bcd9e9e1e485c291380a3d86f0f21cae0eff9f714c0ef4821e2e5cdf7"
+>> 57 << ('https://web.archive.org/web/20221228155058/https://www.sqlite.org/download.html', 'sha3:3136db4bcd9e9e1e485c291380a3d86f0f21cae0eff9f714c0ef4821e2e5cdf7')
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/texinfo/texinfo-7.0.3.tar.gz', 'hash': '3cc5706fb086b895e1dc2b407aade9f95a3a233ff856273e2b659b089f117683', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3c/3cc5706fb086b895e1dc2b407aade9f95a3a233ff856273e2b659b089f117683.tar.gz'}"
+('texinfo', '7.0.3', 'gnu')
+INFO: Identified package: texinfo@7.0.3 type: gnu
+{'name': 'gnu', 'type': 'collection', 'parent': None, 'urls': ['https://ftp.gnu.org/gnu/{package}/'], 'mirror_urls': ['https://mirror.freedif.org/GNU/{package}/{package}-{version}.tar.**'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https?://.+/(?:GNU|gnu)/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['http://ftp.gnu.org/gnu/gnu-keyring.gpg'], 'public_key_ids': []}
+INFO: Known package match for "gnu"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirror.freedif.org/GNU/texinfo/texinfo-7.0.3.tar.gz.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.UNJRmTlVY3/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.UNJRmTlVY3/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+:signature packet: algo 17, keyid DDBC579DAB37FBA9
+	version 4, created 1679832538, md5len 0, sigclass 0x00
+	digest algo 8, begin of digest 39 8b
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2023-03-26)
+	hashed subpkt 28 len 24 (signer's user ID)
+	subpkt 16 len 8 (issuer key ID DDBC579DAB37FBA9)
+	data: [255 bits]
+	data: [254 bits]
+
+INFO: Trying to fetch public key file "http://ftp.gnu.org/gnu/gnu-keyring.gpg"
+gpg: enabled compatibility flags:
+gpg: Signature made Sun 26 Mar 2023 10:38:58 PM ACDT
+gpg:                using DSA key EAF669B31E31E1DECBD11513DDBC579DAB37FBA9
+gpg:                issuer "gavinsmith0123@gmail.com"
+gpg: /dev/shm/vu/temp/tmp.GIXjYMpDv0/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Gavin Smith (Texinfo maintainer) <GavinSmith0123@gmail.com>" [unknown]
+gpg: checking User ID "gavinsmith0123@gmail.com"
+gpg: WARNING: The key's User ID is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: EAF6 69B3 1E31 E1DE CBD1  1513 DDBC 579D AB37 FBA9
+gpg: binary signature, digest algorithm SHA256, key algorithm dsa2048
+
+INFO: Fingerprint "eaf669b31e31e1decbd11513ddbc579dab37fba9"
+>> 58 << ('https://mirror.freedif.org/GNU/texinfo/texinfo-7.0.3.tar.gz.sig', 'eaf669b31e31e1decbd11513ddbc579dab37fba9')
+INFO: Processing "{'url': 'https://objects.githubusercontent.com/github-production-release-asset-2e65be/80314213/2209b97f-1505-46fb-abef-61798e869a4b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202201Z&X-Amz-Expires=300&X-Amz-Signature=8e137fcdc822a75157f60aee5f83e41a63b99ed30007c80ea6c4bdd4129e9396&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=80314213&response-content-disposition=attachment%3B%20filename%3Dexpat-2.5.0.tar.bz2&response-content-type=application%2Foctet-stream', 'hash': '6f0e6e01f7b30025fa05c85fdad1e5d0ec7fd35d9f61b22f34998de11969ff67', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/6f/6f0e6e01f7b30025fa05c85fdad1e5d0ec7fd35d9f61b22f34998de11969ff67.tar.bz2'}"
+('expat', '2.5.0', 'github')
+INFO: Identified package: expat@2.5.0 type: github
+{'name': 'github', 'type': 'collection', 'parent': None, 'urls': ['https://objects.githubusercontent.com/github-production-release-asset-2e65be/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': [], 'checksum_urls': [], 'signature_urls': [], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "github"
+>> 59 << ('SKIP for https://objects.githubusercontent.com/github-production-release-asset-2e65be/80314213/2209b97f-1505-46fb-abef-61798e869a4b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202201Z&X-Amz-Expires=300&X-Amz-Signature=8e137fcdc822a75157f60aee5f83e41a63b99ed30007c80ea6c4bdd4129e9396&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=80314213&response-content-disposition=attachment%3B%20filename%3Dexpat-2.5.0.tar.bz2&response-content-type=application%2Foctet-stream github',)
+INFO: Processing "{'url': 'https://gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.47.tar.bz2', 'hash': '9e3c670966b96ecc746c28c2c419541e3bcb787d1a73930f5e5f5e1bcbbb9bdb', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/9e/9e3c670966b96ecc746c28c2c419541e3bcb787d1a73930f5e5f5e1bcbbb9bdb.tar.bz2'}"
+('libgpg', 'error-1.47', 'gnupg')
+INFO: Identified package: libgpg@error-1.47 type: gnupg
+{'name': 'gnupg', 'type': 'collection', 'parent': None, 'urls': ['https://www.gnupg.org/ftp/gcrypt/{package}/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': ['signature'], 'checksum_urls': [], 'signature_urls': [['(https://(?:www\\.)?gnupg\\.org/ftp/gcrypt/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['https://gnupg.org/signature_key.asc', 'https://lists.gnupg.org/pipermail/gnupg-devel/attachments/20200831/3c7a6aa6/attachment.key'], 'public_key_ids': ['D8692123C4065DEA5E0F3AB5249B39D24F25E3B6', '5B80 C575 4298 F0CB 55D8  ED6A BCEF 7E29 4B09 2E28', '6DAA 6E64 A76D 2840 571B  4902 5288 97B8 2640 3ADA', 'AC8E 115B F73E 2D8D 47FA  9908 E98E 9B2D 19C6 C8BD', '02F3 8DFF 731F F97C B039  A1DA 549E 695E 905B A208', '7B96 D396 E647 1601 754B  E4DB 53B6 20D0 1CE0 C630', '6BD9 050F D8FC 941B 4341  2DCC 68B7 AB89 5754 8DCD']}
+INFO: Known package match for "gnupg"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.47.tar.bz2.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.DTz3xJkpc0/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.DTz3xJkpc0/pubring.gpg' created
+:signature packet: algo 22, keyid 528897B826403ADA
+	version 4, created 1680769882, md5len 0, sigclass 0x00
+	digest algo 8, begin of digest 3d 9f
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2023-04-06)
+	subpkt 16 len 8 (issuer key ID 528897B826403ADA)
+	unknown algorithm 22
+gpg: can't handle public key algorithm 22
+
+INFO: Trying to fetch public key file "https://gnupg.org/signature_key.asc"
+gpg: enabled compatibility flags:
+gpg: Signature made Thu 06 Apr 2023 06:01:22 PM ACST
+gpg:                using EDDSA key 6DAA6E64A76D2840571B4902528897B826403ADA
+gpg: /dev/shm/vu/temp/tmp.MOGrcM5mSo/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Werner Koch (dist signing 2020)" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 6DAA 6E64 A76D 2840 571B  4902 5288 97B8 2640 3ADA
+gpg: binary signature, digest algorithm SHA256, key algorithm ed25519
+
+INFO: Fingerprint "6daa6e64a76d2840571b4902528897b826403ada"
+>> 60 << ('https://gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.47.tar.bz2.sig', '6daa6e64a76d2840571b4902528897b826403ada')
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-003', 'hash': '9e43aa93378c7e9f7001d8174b1beb948deefa6799b6f581673f465b7d9d4780', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/9e/9e43aa93378c7e9f7001d8174b1beb948deefa6799b6f581673f465b7d9d4780'}"
+None
+>> 61 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-003"
+INFO: Processing "{'url': 'No Match', 'hash': '35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/35/35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2'}"
+None
+>> 62 << ISSUE with identifying "No Match"
+INFO: Processing "{'url': 'https://objects.githubusercontent.com/github-production-release-asset-2e65be/2928164/5eab00c8-fa59-4774-b219-c95d5339adc1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202703Z&X-Amz-Expires=300&X-Amz-Signature=753fc2a49b462bb65ce202d149d3403963117afada5412ea8728a7503778b0b1&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=2928164&response-content-disposition=attachment%3B%20filename%3Dpatchelf-0.17.2.tar.gz&response-content-type=application%2Foctet-stream', 'hash': '20427b718dd130e4b66d95072c2a2bd5e17232e20dad58c1bea9da81fae330e0', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/20/20427b718dd130e4b66d95072c2a2bd5e17232e20dad58c1bea9da81fae330e0.tar.gz'}"
+('patchelf', '0.17.2', 'github')
+INFO: Identified package: patchelf@0.17.2 type: github
+{'name': 'github', 'type': 'collection', 'parent': None, 'urls': ['https://objects.githubusercontent.com/github-production-release-asset-2e65be/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': [], 'checksum_urls': [], 'signature_urls': [], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "github"
+>> 63 << ('SKIP for https://objects.githubusercontent.com/github-production-release-asset-2e65be/2928164/5eab00c8-fa59-4774-b219-c95d5339adc1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202703Z&X-Amz-Expires=300&X-Amz-Signature=753fc2a49b462bb65ce202d149d3403963117afada5412ea8728a7503778b0b1&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=2928164&response-content-disposition=attachment%3B%20filename%3Dpatchelf-0.17.2.tar.gz&response-content-type=application%2Foctet-stream github',)
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/autoconf-archive/autoconf-archive-2023.02.20.tar.xz', 'hash': '71d4048479ae28f1f5794619c3d72df9c01df49b1c628ef85fde37596dc31a33', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/71/71d4048479ae28f1f5794619c3d72df9c01df49b1c628ef85fde37596dc31a33.tar.xz'}"
+('autoconf', 'archive-2023.02.20', 'gnu')
+INFO: Identified package: autoconf@archive-2023.02.20 type: gnu
+{'name': 'gnu', 'type': 'collection', 'parent': None, 'urls': ['https://ftp.gnu.org/gnu/{package}/'], 'mirror_urls': ['https://mirror.freedif.org/GNU/{package}/{package}-{version}.tar.**'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https?://.+/(?:GNU|gnu)/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['http://ftp.gnu.org/gnu/gnu-keyring.gpg'], 'public_key_ids': []}
+INFO: Known package match for "gnu"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirror.freedif.org/GNU/autoconf-archive/autoconf-archive-2023.02.20.tar.xz.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.6VYhYv3zid/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.6VYhYv3zid/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+:signature packet: algo 1, keyid 41BC28FE99089D72
+	version 4, created 1676912726, md5len 0, sigclass 0x00
+	digest algo 8, begin of digest e9 7b
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2023-02-20)
+	subpkt 16 len 8 (issuer key ID 41BC28FE99089D72)
+	data: [2046 bits]
+
+INFO: Trying to fetch public key file "http://ftp.gnu.org/gnu/gnu-keyring.gpg"
+gpg: enabled compatibility flags:
+gpg: Signature made Tue 21 Feb 2023 03:35:26 AM ACDT
+gpg:                using RSA key 1A4F63A13A4649B632F65EE141BC28FE99089D72
+gpg: /dev/shm/vu/temp/tmp.hOZLz2VrBl/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Peter Simons <simons@cryp.to>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 1A4F 63A1 3A46 49B6 32F6  5EE1 41BC 28FE 9908 9D72
+gpg: binary signature, digest algorithm SHA256, key algorithm rsa2048
+
+INFO: Fingerprint "1a4f63a13a4649b632f65ee141bc28fe99089d72"
+>> 64 << ('https://mirror.freedif.org/GNU/autoconf-archive/autoconf-archive-2023.02.20.tar.xz.sig', '1a4f63a13a4649b632f65ee141bc28fe99089d72')
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/autoconf/autoconf-2.69.tar.gz', 'hash': '954bd69b391edc12d6a4a51a2dd1476543da5c6bbf05a95b59dc0dd6fd4c2969', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/95/954bd69b391edc12d6a4a51a2dd1476543da5c6bbf05a95b59dc0dd6fd4c2969.tar.gz'}"
+('autoconf', '2.69', 'gnu')
+INFO: Identified package: autoconf@2.69 type: gnu
+{'name': 'gnu', 'type': 'collection', 'parent': None, 'urls': ['https://ftp.gnu.org/gnu/{package}/'], 'mirror_urls': ['https://mirror.freedif.org/GNU/{package}/{package}-{version}.tar.**'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https?://.+/(?:GNU|gnu)/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['http://ftp.gnu.org/gnu/gnu-keyring.gpg'], 'public_key_ids': []}
+INFO: Known package match for "gnu"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirror.freedif.org/GNU/autoconf/autoconf-2.69.tar.gz.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.5ENdfOO5y4/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.5ENdfOO5y4/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+gpg: armor header: Version: GnuPG v1.4.12 (GNU/Linux)
+gpg: armor header: Comment: Public key at http://people.redhat.com/eblake/eblake.gpg
+:signature packet: algo 1, keyid A7A16B4A2527436A
+	version 4, created 1335323824, md5len 0, sigclass 0x00
+	digest algo 8, begin of digest dd 0e
+	hashed subpkt 2 len 4 (sig created 2012-04-25)
+	subpkt 16 len 8 (issuer key ID A7A16B4A2527436A)
+	data: [2048 bits]
+
+INFO: Trying to fetch public key file "http://ftp.gnu.org/gnu/gnu-keyring.gpg"
+gpg: enabled compatibility flags:
+gpg: armor header: Version: GnuPG v1.4.12 (GNU/Linux)
+gpg: armor header: Comment: Public key at http://people.redhat.com/eblake/eblake.gpg
+gpg: Signature made Wed 25 Apr 2012 12:47:04 PM ACST
+gpg:                using RSA key 0xA7A16B4A2527436A
+gpg: /dev/shm/vu/temp/tmp.UGeqLPO0Ba/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Eric Blake <eblake@redhat.com>" [unknown]
+gpg:                 aka "Eric Blake (Free Software Programmer) <ebb9@byu.net>" [unknown]
+gpg:                 aka "[jpeg image of size 6874]" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 71C2 CC22 B1C4 6029 27D2  F3AA A7A1 6B4A 2527 436A
+gpg: binary signature, digest algorithm SHA256, key algorithm rsa2048
+
+INFO: Fingerprint "71c2cc22b1c4602927d2f3aaa7a16b4a2527436a"
+>> 65 << ('https://mirror.freedif.org/GNU/autoconf/autoconf-2.69.tar.gz.sig', '71c2cc22b1c4602927d2f3aaa7a16b4a2527436a')
+INFO: Processing "{'url': 'https://objects.githubusercontent.com/github-production-release-asset-2e65be/404495845/377a9db5-f72c-4bcc-87bf-3a8d5ac674ca?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202704Z&X-Amz-Expires=300&X-Amz-Signature=6de2ee47d5001f7af56a2304c64456e7ffef5ebdf3a4dfa892bccfe789c23a48&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=404495845&response-content-disposition=attachment%3B%20filename%3Dgnuconfig-2022-09-17.tar.gz&response-content-type=application%2Foctet-stream', 'hash': '95306801ad7086e6a6e13397cb859183d8b7adbba2e372ce0819bad5fcb919b7', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/95/95306801ad7086e6a6e13397cb859183d8b7adbba2e372ce0819bad5fcb919b7.tar.gz'}"
+('gnuconfig', '2022-09-17', 'github')
+INFO: Identified package: gnuconfig@2022-09-17 type: github
+{'name': 'github', 'type': 'collection', 'parent': None, 'urls': ['https://objects.githubusercontent.com/github-production-release-asset-2e65be/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': [], 'checksum_urls': [], 'signature_urls': [], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "github"
+>> 66 << ('SKIP for https://objects.githubusercontent.com/github-production-release-asset-2e65be/404495845/377a9db5-f72c-4bcc-87bf-3a8d5ac674ca?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202704Z&X-Amz-Expires=300&X-Amz-Signature=6de2ee47d5001f7af56a2304c64456e7ffef5ebdf3a4dfa892bccfe789c23a48&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=404495845&response-content-disposition=attachment%3B%20filename%3Dgnuconfig-2022-09-17.tar.gz&response-content-type=application%2Foctet-stream github',)
+INFO: Processing "{'url': 'https://www.w3.org/XML/Test/xmlts20080827.tar.gz', 'hash': '96151685cec997e1f9f3387e3626d61e6284d4d6e66e0e440c209286c03e9cc7', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/96/96151685cec997e1f9f3387e3626d61e6284d4d6e66e0e440c209286c03e9cc7.tar.gz'}"
+('xmlts', '20080827', 'xmltestsuite')
+INFO: Identified package: xmlts@20080827 type: xmltestsuite
+{'name': 'xmltestsuite', 'type': 'single', 'comment': 'no official verification methods', 'parent': None, 'urls': ['https://www.w3.org/XML/Test/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': [], 'checksum_urls': [], 'signature_urls': [], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "xmltestsuite"
+>> 67 << ('SKIP for https://www.w3.org/XML/Test/xmlts20080827.tar.gz xmltestsuite',)
+INFO: Processing "{'url': 'https://curl.se/ca/cacert-2023-01-10.pem', 'hash': 'fb1ecd641d0a02c01bc9036d513cb658bbda62a75e246bedbc01764560a639f0', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/fb/fb1ecd641d0a02c01bc9036d513cb658bbda62a75e246bedbc01764560a639f0'}"
+None
+>> 68 << ISSUE with identifying "https://curl.se/ca/cacert-2023-01-10.pem"
+INFO: Processing "{'url': 'https://www.python.org/ftp/python/3.10.10/Python-3.10.10.tgz', 'hash': 'fba64559dde21ebdc953e4565e731573bb61159de8e4d4cedee70fb1196f610d', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/fb/fba64559dde21ebdc953e4565e731573bb61159de8e4d4cedee70fb1196f610d.tgz'}"
+('python', '3.10.10', 'python')
+INFO: Identified package: python@3.10.10 type: python
+{'name': 'python', 'type': 'single', 'comment': 'no official verification methods', 'parent': None, 'urls': ['https://www.python.org/ftp/python/{version}/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': ['signature'], 'checksum_urls': [], 'signature_urls': [['(https://www.python.org/ftp/python/[0-9.]+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.asc']], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "python"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://www.python.org/ftp/python/3.10.10/Python-3.10.10.tgz.asc"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.LFrxLyPiZg/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.LFrxLyPiZg/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+:signature packet: algo 1, keyid FFE87404168BD847
+	version 4, created 1675772409, md5len 0, sigclass 0x00
+	digest algo 8, begin of digest f5 c6
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2023-02-07)
+	subpkt 16 len 8 (issuer key ID FFE87404168BD847)
+	data: [4095 bits]
+
+gpg: enabled compatibility flags:
+gpg: keybox '/dev/shm/vu/temp/tmp.RsDN1NRj7Z/pubring.kbx' created
+gpg: Signature made Tue 07 Feb 2023 10:50:09 PM ACDT
+gpg:                using RSA key CFDCA245B1043CF2A5F97865FFE87404168BD847
+gpg: Can't check signature: No public key
+
+INFO: public key from signature is "CFDCA245B1043CF2A5F97865FFE87404168BD847"
+INFO: Trying to retrieve key "CFDCA245B1043CF2A5F97865FFE87404168BD847" from "hkps://keyserver.ubuntu.com"
+HELLO
+INFO: Fingerprint "a035c8c19219ba821ecea86b64e628f8d684696d"
+>> 69 << ('https://www.python.org/ftp/python/3.10.10/Python-3.10.10.tgz.asc', 'a035c8c19219ba821ecea86b64e628f8d684696d')
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-8.0-patches/readline80-003', 'hash': '94ddb2210b71eb5389c7756865d60e343666dfb722c85892f8226b26bb3eeaef', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/94/94ddb2210b71eb5389c7756865d60e343666dfb722c85892f8226b26bb3eeaef'}"
+None
+>> 70 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-8.0-patches/readline80-003"
+INFO: Processing "{'url': 'https://codeload.github.com/facebook/zstd/tar.gz/refs/tags/v1.5.5', 'hash': '98e9c3d949d1b924e28e01eccb7deed865eefebf25c2f21c702e5cd5b63b85e1', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/98/98e9c3d949d1b924e28e01eccb7deed865eefebf25c2f21c702e5cd5b63b85e1.tar.gz'}"
+('zstd', '1.5.5', 'github')
+INFO: Identified package: zstd@1.5.5 type: github
+{'name': 'github', 'type': 'collection', 'parent': None, 'urls': ['https://objects.githubusercontent.com/github-production-release-asset-2e65be/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': [], 'checksum_urls': [], 'signature_urls': [], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "github"
+>> 71 << ('SKIP for https://codeload.github.com/facebook/zstd/tar.gz/refs/tags/v1.5.5 github',)
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-005', 'hash': '877788f9228d1a9907a4bcfe3d6dd0439c08d728949458b41208d9bf9060274b', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/87/877788f9228d1a9907a4bcfe3d6dd0439c08d728949458b41208d9bf9060274b'}"
+None
+>> 72 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-005"
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-002', 'hash': '8747c92c35d5db32eae99af66f17b384abaca961653e185677f9c9a571ed2d58', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/87/8747c92c35d5db32eae99af66f17b384abaca961653e185677f9c9a571ed2d58'}"
+None
+>> 73 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-002"
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/libtool/libtool-2.4.7.tar.gz', 'hash': '04e96c2404ea70c590c546eba4202a4e12722c640016c12b9b2f1ce3d481e9a8', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/04/04e96c2404ea70c590c546eba4202a4e12722c640016c12b9b2f1ce3d481e9a8.tar.gz'}"
+('libtool', '2.4.7', 'gnu')
+INFO: Identified package: libtool@2.4.7 type: gnu
+{'name': 'gnu', 'type': 'collection', 'parent': None, 'urls': ['https://ftp.gnu.org/gnu/{package}/'], 'mirror_urls': ['https://mirror.freedif.org/GNU/{package}/{package}-{version}.tar.**'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https?://.+/(?:GNU|gnu)/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['http://ftp.gnu.org/gnu/gnu-keyring.gpg'], 'public_key_ids': []}
+INFO: Known package match for "gnu"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirror.freedif.org/GNU/libtool/libtool-2.4.7.tar.gz.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.tUMV0ms7vN/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.tUMV0ms7vN/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+:signature packet: algo 1, keyid 6EAC957F8EEB55C0
+	version 4, created 1647491026, md5len 0, sigclass 0x00
+	digest algo 10, begin of digest 90 e4
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2022-03-17)
+	subpkt 16 len 8 (issuer key ID 6EAC957F8EEB55C0)
+	data: [3070 bits]
+
+INFO: Trying to fetch public key file "http://ftp.gnu.org/gnu/gnu-keyring.gpg"
+gpg: enabled compatibility flags:
+gpg: Signature made Thu 17 Mar 2022 02:53:46 PM ACDT
+gpg:                using RSA key 7C5FBB96BE82B954AC20DF5F6EAC957F8EEB55C0
+gpg: /dev/shm/vu/temp/tmp.HiJQDojceR/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Alex Ameen <alex.ameen.tx@gmail.com>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 7C5F BB96 BE82 B954 AC20  DF5F 6EAC 957F 8EEB 55C0
+gpg: binary signature, digest algorithm SHA512, key algorithm rsa3072
+
+INFO: Fingerprint "7c5fbb96be82b954ac20df5f6eac957f8eeb55c0"
+>> 74 << ('https://mirror.freedif.org/GNU/libtool/libtool-2.4.7.tar.gz.sig', '7c5fbb96be82b954ac20df5f6eac957f8eeb55c0')
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/automake/automake-1.16.5.tar.gz', 'hash': '07bd24ad08a64bc17250ce09ec56e921d6343903943e99ccf63bbf0705e34605', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/07/07bd24ad08a64bc17250ce09ec56e921d6343903943e99ccf63bbf0705e34605.tar.gz'}"
+('automake', '1.16.5', 'gnu')
+INFO: Identified package: automake@1.16.5 type: gnu
+{'name': 'gnu', 'type': 'collection', 'parent': None, 'urls': ['https://ftp.gnu.org/gnu/{package}/'], 'mirror_urls': ['https://mirror.freedif.org/GNU/{package}/{package}-{version}.tar.**'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https?://.+/(?:GNU|gnu)/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['http://ftp.gnu.org/gnu/gnu-keyring.gpg'], 'public_key_ids': []}
+INFO: Known package match for "gnu"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirror.freedif.org/GNU/automake/automake-1.16.5.tar.gz.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.zDjHPtEBZw/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.zDjHPtEBZw/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+:signature packet: algo 1, keyid 7FD9FCCB000BEEEE
+	version 4, created 1633317803, md5len 0, sigclass 0x00
+	digest algo 10, begin of digest c4 99
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2021-10-04)
+	subpkt 16 len 8 (issuer key ID 7FD9FCCB000BEEEE)
+	data: [4094 bits]
+
+INFO: Trying to fetch public key file "http://ftp.gnu.org/gnu/gnu-keyring.gpg"
+gpg: enabled compatibility flags:
+gpg: Signature made Mon 04 Oct 2021 01:53:23 PM ACDT
+gpg:                using RSA key 155D3FC500C834486D1EEA677FD9FCCB000BEEEE
+gpg: /dev/shm/vu/temp/tmp.ZNiGm3VEwQ/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Jim Meyering <jim@meyering.net>" [unknown]
+gpg:                 aka "Jim Meyering <meyering@redhat.com>" [unknown]
+gpg:                 aka "Jim Meyering <meyering@gnu.org>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 155D 3FC5 00C8 3448 6D1E  EA67 7FD9 FCCB 000B EEEE
+gpg: binary signature, digest algorithm SHA512, key algorithm rsa4096
+
+INFO: Fingerprint "155d3fc500c834486d1eea677fd9fccb000beeee"
+>> 75 << ('https://mirror.freedif.org/GNU/automake/automake-1.16.5.tar.gz.sig', '155d3fc500c834486d1eea677fd9fccb000beeee')
+INFO: Processing "{'url': 'https://codeload.github.com/madler/pigz/tar.gz/refs/tags/v2.7', 'hash': 'd2045087dae5e9482158f1f1c0f21c7d3de6f7cdc7cc5848bdabda544e69aa58', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/d2/d2045087dae5e9482158f1f1c0f21c7d3de6f7cdc7cc5848bdabda544e69aa58.tar.gz'}"
+('pigz', '2.7', 'github')
+INFO: Identified package: pigz@2.7 type: github
+{'name': 'github', 'type': 'collection', 'parent': None, 'urls': ['https://objects.githubusercontent.com/github-production-release-asset-2e65be/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': [], 'checksum_urls': [], 'signature_urls': [], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "github"
+>> 76 << ('SKIP for https://codeload.github.com/madler/pigz/tar.gz/refs/tags/v2.7 github',)
+INFO: Processing "{'url': 'https://gnome.mirror.digitalpacific.com.au/sources/libxml2/2.10/libxml2-2.10.3.tar.xz', 'hash': '5d2cc3d78bec3dbe212a9d7fa629ada25a7da928af432c93060ff5c17ee28a9c', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/5d/5d2cc3d78bec3dbe212a9d7fa629ada25a7da928af432c93060ff5c17ee28a9c.tar.xz'}"
+('libxml2', '2.10.3', 'gnome')
+INFO: Identified package: libxml2@2.10.3 type: gnome
+{'name': 'gnome', 'type': 'single', 'comment': 'no official verification methods', 'parent': None, 'urls': ['https://download.gnome.org/sources/{package}/'], 'mirror_urls': ['https://gnome.mirror.digitalpacific.com.au/sources/{package}/{version}/'], 'regex': None, 'integrity_methods': ['checksum'], 'checksum_urls': [['https://gnome\\.mirror\\.[^/]+/(sources/.+/.+)\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz))', 'https://download.gnome.org/\\1.sha256sum']], 'signature_urls': [], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "gnome"
+INFO: Trying checksum verification
+INFO: Trying to fetch "https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.3.sha256sum"
+INFO: Checksum is "5d2cc3d78bec3dbe212a9d7fa629ada25a7da928af432c93060ff5c17ee28a9c" which is "sha256"
+INFO: File "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/5d/5d2cc3d78bec3dbe212a9d7fa629ada25a7da928af432c93060ff5c17ee28a9c.tar.xz" has "sha256" digest of "5d2cc3d78bec3dbe212a9d7fa629ada25a7da928af432c93060ff5c17ee28a9c"
+INFO: checksum match for "5d2cc3d78bec3dbe212a9d7fa629ada25a7da928af432c93060ff5c17ee28a9c"
+>> 77 << ('https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.3.sha256sum', 'sha256:5d2cc3d78bec3dbe212a9d7fa629ada25a7da928af432c93060ff5c17ee28a9c')
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-007', 'hash': '4d79b5a2adec3c2e8114cbd3d63c1771f7c6cf64035368624903d257014f5bea', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/4d/4d79b5a2adec3c2e8114cbd3d63c1771f7c6cf64035368624903d257014f5bea'}"
+None
+>> 78 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-007"
+INFO: Processing "{'url': 'No Match', 'hash': '7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/77/7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7'}"
+None
+>> 79 << ISSUE with identifying "No Match"
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-002', 'hash': '39e304c7a526888f9e112e733848215736fb7b9d540729b9e31f3347b7a1e0a5', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/39/39e304c7a526888f9e112e733848215736fb7b9d540729b9e31f3347b7a1e0a5'}"
+None
+>> 80 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-002"
+INFO: Processing "{'url': 'https://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/App-cpanminus-1.7042.tar.gz', 'hash': '9da50e155df72bce55cb69f51f1dbb4b62d23740fb99f6178bb27f22ebdf8a46', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/9d/9da50e155df72bce55cb69f51f1dbb4b62d23740fb99f6178bb27f22ebdf8a46.tar.gz'}"
+('app-cpanminus', '1.7042', 'cpan')
+INFO: Identified package: app-cpanminus@1.7042 type: cpan
+{'name': 'cpan', 'type': 'collection', 'comment': 'no official verification methods', 'parent': None, 'urls': ['https://download.gnome.org/sources/{package}/'], 'mirror_urls': ['https://gnome.mirror.digitalpacific.com.au/sources/{package}/{version}/'], 'regex': None, 'integrity_methods': [], 'checksum_urls': [['https://gnome\\.mirror\\.[^/]+/(sources/.+/.+)\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz))', 'https://download.gnome.org/\\1.sha256sum']], 'signature_urls': [], 'public_key_urls': [], 'public_key_ids': []}
+INFO: Known package match for "cpan"
+hello /dev/shm/vu/temp/temp.sum
+gpg: enabled compatibility flags:
+gpg: keybox '/dev/shm/vu/temp/tmp.HSkxpJyPss/pubring.kbx' created
+gpg: armor header: Hash: SHA1
+gpg: original file name=''
+gpg: armor header: Version: GnuPG v2.0.14 (GNU/Linux)
+gpg: Signature made Thu 14 Sep 2023 06:23:16 AM ACST
+gpg:                using RSA key 0x77576125A905F1BA
+gpg: Can't check signature: No public key
+
+INFO: public key from signature is "0x77576125A905F1BA"
+INFO: Trying to retrieve key "0x77576125A905F1BA" from "hkps://keyserver.ubuntu.com"
+INFO: Trying to retrieve key "0x77576125A905F1BA" from "hkps://pgp.surf.nl"
+HELLO
+2e66557ab97c19c791af8e20328da867450f89ec
+App-cpanminus-1.7042.tar.gz
+\s+'App-cpanminus-1.7042.tar.gz' => {
+("{\n    'cpan_path' => 'M/MI/MIYAGAWA',\n    'md5' => 'e87f55fbcb3c13a4754500c18e89219f',\n    'md5-ungz' => '6642b977fe098378d6396c9c962dda0e',\n    'mtime' => '2016-05-24',\n    'sha256' => '9da50e155df72bce55cb69f51f1dbb4b62d23740fb99f6178bb27f22ebdf8a46',\n    'sha256-ungz' => 'e0d342b8a2d77c9cdfed6cd518c69aabc05a5b8e8d322356487821f8273510cc',\n    'size' => 317681\n  }",)
+9da50e155df72bce55cb69f51f1dbb4b62d23740fb99f6178bb27f22ebdf8a46
+INFO: File "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/9d/9da50e155df72bce55cb69f51f1dbb4b62d23740fb99f6178bb27f22ebdf8a46.tar.gz" has "sha256" digest of "9da50e155df72bce55cb69f51f1dbb4b62d23740fb99f6178bb27f22ebdf8a46"
+INFO: checksum match for "9da50e155df72bce55cb69f51f1dbb4b62d23740fb99f6178bb27f22ebdf8a46"
+>> 81 << ('https://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/CHECKSUMS', 'sha256:9da50e155df72bce55cb69f51f1dbb4b62d23740fb99f6178bb27f22ebdf8a46')
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/tar/tar-1.34.tar.gz', 'hash': '03d908cf5768cfe6b7ad588c921c6ed21acabfb2b79b788d1330453507647aed', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/03/03d908cf5768cfe6b7ad588c921c6ed21acabfb2b79b788d1330453507647aed.tar.gz'}"
+('tar', '1.34', 'gnu')
+INFO: Identified package: tar@1.34 type: gnu
+{'name': 'gnu', 'type': 'collection', 'parent': None, 'urls': ['https://ftp.gnu.org/gnu/{package}/'], 'mirror_urls': ['https://mirror.freedif.org/GNU/{package}/{package}-{version}.tar.**'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https?://.+/(?:GNU|gnu)/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['http://ftp.gnu.org/gnu/gnu-keyring.gpg'], 'public_key_ids': []}
+INFO: Known package match for "gnu"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirror.freedif.org/GNU/tar/tar-1.34.tar.gz.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.K76LmbURxq/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.K76LmbURxq/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+gpg: armor header: Version: GnuPG v1
+:signature packet: algo 17, keyid 3602B07F55D0C732
+	version 4, created 1613215763, md5len 0, sigclass 0x00
+	digest algo 2, begin of digest 93 02
+	hashed subpkt 2 len 4 (sig created 2021-02-13)
+	subpkt 16 len 8 (issuer key ID 3602B07F55D0C732)
+	data: [158 bits]
+	data: [158 bits]
+
+INFO: Trying to fetch public key file "http://ftp.gnu.org/gnu/gnu-keyring.gpg"
+gpg: enabled compatibility flags:
+gpg: armor header: Version: GnuPG v1
+gpg: Signature made Sat 13 Feb 2021 09:59:23 PM ACDT
+gpg:                using DSA key 0x3602B07F55D0C732
+gpg: /dev/shm/vu/temp/tmp.UsUKvmc386/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Sergey Poznyakoff <gray@gnu.org>" [unknown]
+gpg:                 aka "Sergey Poznyakoff (Gray) <gray@mirddin.farlep.net>" [unknown]
+gpg:                 aka "Sergey Poznyakoff <gray@gnu.org.ua>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 325F 650C 4C2B 6AD5 8807  327A 3602 B07F 55D0 C732
+gpg: binary signature, digest algorithm SHA1, key algorithm dsa1024
+
+INFO: Fingerprint "325f650c4c2b6ad58807327a3602b07f55d0c732"
+>> 82 << ('https://mirror.freedif.org/GNU/tar/tar-1.34.tar.gz.sig', '325f650c4c2b6ad58807327a3602b07f55d0c732')
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/m4/m4-1.4.19.tar.gz', 'hash': '3be4a26d825ffdfda52a56fc43246456989a3630093cced3fbddf4771ee58a70', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3b/3be4a26d825ffdfda52a56fc43246456989a3630093cced3fbddf4771ee58a70.tar.gz'}"
+('m4', '1.4.19', 'gnu')
+INFO: Identified package: m4@1.4.19 type: gnu
+{'name': 'gnu', 'type': 'collection', 'parent': None, 'urls': ['https://ftp.gnu.org/gnu/{package}/'], 'mirror_urls': ['https://mirror.freedif.org/GNU/{package}/{package}-{version}.tar.**'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https?://.+/(?:GNU|gnu)/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['http://ftp.gnu.org/gnu/gnu-keyring.gpg'], 'public_key_ids': []}
+INFO: Known package match for "gnu"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirror.freedif.org/GNU/m4/m4-1.4.19.tar.gz.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.LzFtF2LTFb/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.LzFtF2LTFb/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+:signature packet: algo 1, keyid A7A16B4A2527436A
+	version 4, created 1622238907, md5len 0, sigclass 0x00
+	digest algo 8, begin of digest 79 ab
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2021-05-28)
+	subpkt 16 len 8 (issuer key ID A7A16B4A2527436A)
+	data: [2044 bits]
+
+INFO: Trying to fetch public key file "http://ftp.gnu.org/gnu/gnu-keyring.gpg"
+gpg: enabled compatibility flags:
+gpg: Signature made Sat 29 May 2021 07:25:07 AM ACST
+gpg:                using RSA key 71C2CC22B1C4602927D2F3AAA7A16B4A2527436A
+gpg: /dev/shm/vu/temp/tmp.cMeSzwLlEh/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Eric Blake <eblake@redhat.com>" [unknown]
+gpg:                 aka "Eric Blake (Free Software Programmer) <ebb9@byu.net>" [unknown]
+gpg:                 aka "[jpeg image of size 6874]" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 71C2 CC22 B1C4 6029 27D2  F3AA A7A1 6B4A 2527 436A
+gpg: binary signature, digest algorithm SHA256, key algorithm rsa2048
+
+INFO: Fingerprint "71c2cc22b1c4602927d2f3aaa7a16b4a2527436a"
+>> 83 << ('https://mirror.freedif.org/GNU/m4/m4-1.4.19.tar.gz.sig', '71c2cc22b1c4602927d2f3aaa7a16b4a2527436a')
+INFO: Processing "{'url': 'No Match', 'hash': '3bbd7d6f9933d80b9571533867b444c6f8f5a1ba0575bfba1fba4db9d885a71a', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3b/3bbd7d6f9933d80b9571533867b444c6f8f5a1ba0575bfba1fba4db9d885a71a'}"
+None
+>> 84 << ISSUE with identifying "No Match"
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-008', 'hash': '3bc093cf526ceac23eb80256b0ec87fa1735540d659742107b6284d635c43787', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3b/3bc093cf526ceac23eb80256b0ec87fa1735540d659742107b6284d635c43787'}"
+None
+>> 85 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-008"
+INFO: Processing "{'url': 'https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.10.2.tar.bz2', 'hash': '3b9c02a004b68c256add99701de00b383accccf37177e0d6c58289664cce0c03', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3b/3b9c02a004b68c256add99701de00b383accccf37177e0d6c58289664cce0c03.tar.bz2'}"
+('libgcrypt', '1.10.2', 'gnupg')
+INFO: Identified package: libgcrypt@1.10.2 type: gnupg
+{'name': 'gnupg', 'type': 'collection', 'parent': None, 'urls': ['https://www.gnupg.org/ftp/gcrypt/{package}/'], 'mirror_urls': [], 'regex': None, 'integrity_methods': ['signature'], 'checksum_urls': [], 'signature_urls': [['(https://(?:www\\.)?gnupg\\.org/ftp/gcrypt/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['https://gnupg.org/signature_key.asc', 'https://lists.gnupg.org/pipermail/gnupg-devel/attachments/20200831/3c7a6aa6/attachment.key'], 'public_key_ids': ['D8692123C4065DEA5E0F3AB5249B39D24F25E3B6', '5B80 C575 4298 F0CB 55D8  ED6A BCEF 7E29 4B09 2E28', '6DAA 6E64 A76D 2840 571B  4902 5288 97B8 2640 3ADA', 'AC8E 115B F73E 2D8D 47FA  9908 E98E 9B2D 19C6 C8BD', '02F3 8DFF 731F F97C B039  A1DA 549E 695E 905B A208', '7B96 D396 E647 1601 754B  E4DB 53B6 20D0 1CE0 C630', '6BD9 050F D8FC 941B 4341  2DCC 68B7 AB89 5754 8DCD']}
+INFO: Known package match for "gnupg"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.10.2.tar.bz2.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.UdTTYNhIm4/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.UdTTYNhIm4/pubring.gpg' created
+:signature packet: algo 22, keyid 528897B826403ADA
+	version 4, created 1680808236, md5len 0, sigclass 0x00
+	digest algo 8, begin of digest 5e 43
+	hashed subpkt 33 len 21 (?)
+	hashed subpkt 2 len 4 (sig created 2023-04-06)
+	subpkt 16 len 8 (issuer key ID 528897B826403ADA)
+	unknown algorithm 22
+gpg: can't handle public key algorithm 22
+
+INFO: Trying to fetch public key file "https://gnupg.org/signature_key.asc"
+gpg: enabled compatibility flags:
+gpg: Signature made Fri 07 Apr 2023 04:40:36 AM ACST
+gpg:                using EDDSA key 6DAA6E64A76D2840571B4902528897B826403ADA
+gpg: /dev/shm/vu/temp/tmp.EcmF3CykG3/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Werner Koch (dist signing 2020)" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 6DAA 6E64 A76D 2840 571B  4902 5288 97B8 2640 3ADA
+gpg: binary signature, digest algorithm SHA256, key algorithm ed25519
+
+INFO: Fingerprint "6daa6e64a76d2840571b4902528897b826403ada"
+>> 86 << ('https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.10.2.tar.bz2.sig', '6daa6e64a76d2840571b4902528897b826403ada')
+INFO: Processing "{'url': 'https://www.mpfr.org/mpfr-3.1.2/allpatches', 'hash': '1b9fdb515efb09a506a01e1eb307b1464455f5ca63d6c193db3a3da371ab3220', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/1b/1b9fdb515efb09a506a01e1eb307b1464455f5ca63d6c193db3a3da371ab3220'}"
+None
+>> 87 << ISSUE with identifying "https://www.mpfr.org/mpfr-3.1.2/allpatches"
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-001', 'hash': '9ac1b3ac2ec7b1bf0709af047f2d7d2a34ccde353684e57c6b47ebca77d7a376', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/9a/9ac1b3ac2ec7b1bf0709af047f2d7d2a34ccde353684e57c6b47ebca77d7a376'}"
+None
+>> 88 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-001"
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/gdbm/gdbm-1.23.tar.gz', 'hash': '74b1081d21fff13ae4bd7c16e5d6e504a4c26f7cde1dca0d963a484174bbcacd', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/74/74b1081d21fff13ae4bd7c16e5d6e504a4c26f7cde1dca0d963a484174bbcacd.tar.gz'}"
+('gdbm', '1.23', 'gnu')
+INFO: Identified package: gdbm@1.23 type: gnu
+{'name': 'gnu', 'type': 'collection', 'parent': None, 'urls': ['https://ftp.gnu.org/gnu/{package}/'], 'mirror_urls': ['https://mirror.freedif.org/GNU/{package}/{package}-{version}.tar.**'], 'regex': None, 'integrity_methods': ['signature', 'checksum'], 'checksum_urls': ['.sha256'], 'signature_urls': [['(https?://.+/(?:GNU|gnu)/.+/.+\\.(?:tar\\.(?:gz|bz2|xz|lz)|t(?:gz|xz|lz)))', '\\1.sig']], 'public_key_urls': ['http://ftp.gnu.org/gnu/gnu-keyring.gpg'], 'public_key_ids': []}
+INFO: Known package match for "gnu"
+INFO: Trying signature verification
+INFO: Trying to fetch signature file "https://mirror.freedif.org/GNU/gdbm/gdbm-1.23.tar.gz.sig"
+stderr gpg: using character set `utf-8'
+gpg: keyring `/dev/shm/vu/temp/tmp.hbc1VhfOhF/secring.gpg' created
+gpg: keyring `/dev/shm/vu/temp/tmp.hbc1VhfOhF/pubring.gpg' created
+gpg: armor: BEGIN PGP SIGNATURE
+gpg: armor header: Version: GnuPG v1
+:signature packet: algo 17, keyid 3602B07F55D0C732
+	version 4, created 1643983990, md5len 0, sigclass 0x00
+	digest algo 2, begin of digest 8b 0f
+	hashed subpkt 2 len 4 (sig created 2022-02-04)
+	subpkt 16 len 8 (issuer key ID 3602B07F55D0C732)
+	data: [159 bits]
+	data: [158 bits]
+
+INFO: Trying to fetch public key file "http://ftp.gnu.org/gnu/gnu-keyring.gpg"
+gpg: enabled compatibility flags:
+gpg: armor header: Version: GnuPG v1
+gpg: Signature made Sat 05 Feb 2022 12:43:10 AM ACDT
+gpg:                using DSA key 0x3602B07F55D0C732
+gpg: /dev/shm/vu/temp/tmp.AemFPeRoMa/trustdb.gpg: trustdb created
+gpg: using pgp trust model
+gpg: Good signature from "Sergey Poznyakoff <gray@gnu.org>" [unknown]
+gpg:                 aka "Sergey Poznyakoff (Gray) <gray@mirddin.farlep.net>" [unknown]
+gpg:                 aka "Sergey Poznyakoff <gray@gnu.org.ua>" [unknown]
+gpg: WARNING: This key is not certified with a trusted signature!
+gpg:          There is no indication that the signature belongs to the owner.
+Primary key fingerprint: 325F 650C 4C2B 6AD5 8807  327A 3602 B07F 55D0 C732
+gpg: binary signature, digest algorithm SHA1, key algorithm dsa1024
+
+INFO: Fingerprint "325f650c4c2b6ad58807327a3602b07f55d0c732"
+>> 89 << ('https://mirror.freedif.org/GNU/gdbm/gdbm-1.23.tar.gz.sig', '325f650c4c2b6ad58807327a3602b07f55d0c732')
+INFO: Processing "{'url': 'https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-006', 'hash': '5c237ab3c6c97c23cf52b2a118adc265b7fb411b57c93a5f7c221d50fafbe556', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/5c/5c237ab3c6c97c23cf52b2a118adc265b7fb411b57c93a5f7c221d50fafbe556'}"
+None
+>> 90 << ISSUE with identifying "https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-006"
+INFO: Processing "{'url': 'No Match', 'hash': '47955faec25a739254de3417aaf5ea6302888035f6bca46d724f17350626234a', 'filepath': '/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/git/potassco/clingo.git/2a025667090d71b2c9dce60fe924feb6bde8f667.tar.gz'}"
+None
+>> 91 << ISSUE with identifying "No Match"
