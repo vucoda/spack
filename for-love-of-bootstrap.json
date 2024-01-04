@@ -2,841 +2,1200 @@
     {
         "url": "https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.38/util-linux-2.38.1.tar.gz",
         "hash": "0820eb8eea90408047e3715424bc6be771417047f683950fecb4bdd2e2cbbc6e",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/08/0820eb8eea90408047e3715424bc6be771417047f683950fecb4bdd2e2cbbc6e.tar.gz",
-        "result": [
-            "https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.38/util-linux-2.38.1.tar.sign",
-            "b0c64d14301cc6efaedf60e4e4b71d5eec39c284"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/08/0820eb8eea90408047e3715424bc6be771417047f683950fecb4bdd2e2cbbc6e.tar.gz",
+        "match": "kernelmirror",
+        "package": "util-linux",
+        "version": "2.38.1",
+        "valid": true,
+        "validator": "https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/v2.38/util-linux-2.38.1.tar.sign",
+        "output": "b0c64d14301cc6efaedf60e4e4b71d5eec39c284"
     },
     {
         "url": "http://www.cpan.org/src/5.0/perl-5.36.0.tar.gz",
         "hash": "e26085af8ac396f62add8a533c3a0ea8c8497d836f0689347ac5abd7b7a4e00a",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/e2/e26085af8ac396f62add8a533c3a0ea8c8497d836f0689347ac5abd7b7a4e00a.tar.gz",
-        "result": [
-            "http://www.cpan.org/src/5.0/perl-5.36.0.tar.gz.sha256.txt",
-            "sha256:e26085af8ac396f62add8a533c3a0ea8c8497d836f0689347ac5abd7b7a4e00a"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/e2/e26085af8ac396f62add8a533c3a0ea8c8497d836f0689347ac5abd7b7a4e00a.tar.gz",
+        "match": "perl",
+        "package": "perl",
+        "version": "5.36.0",
+        "valid": true,
+        "validator": "http://www.cpan.org/src/5.0/perl-5.36.0.tar.gz.sha256.txt",
+        "output": "sha256:e26085af8ac396f62add8a533c3a0ea8c8497d836f0689347ac5abd7b7a4e00a"
     },
     {
         "url": "https://www.openssl.org/source/openssl-1.1.1t.tar.gz",
         "hash": "8dee9b24bdb1dcbf0c3d1e9b02fb8f6bf22165e807f45adeb7c9677536859d3b",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/8d/8dee9b24bdb1dcbf0c3d1e9b02fb8f6bf22165e807f45adeb7c9677536859d3b.tar.gz",
-        "result": [
-            "https://www.openssl.org/source/openssl-1.1.1t.tar.gz.asc",
-            "7953ac1fbc3dc8b3b292393ed5e9e43f7df9ee8c"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/8d/8dee9b24bdb1dcbf0c3d1e9b02fb8f6bf22165e807f45adeb7c9677536859d3b.tar.gz",
+        "match": "openssl",
+        "package": "openssl",
+        "version": "1.1.1t",
+        "valid": true,
+        "validator": "https://www.openssl.org/source/openssl-1.1.1t.tar.gz.asc",
+        "output": "7953ac1fbc3dc8b3b292393ed5e9e43f7df9ee8c"
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-8.0-patches/readline80-002",
         "hash": "36b0febff1e560091ae7476026921f31b6d1dd4c918dcb7b741aa2dad1aec8f7",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/36/36b0febff1e560091ae7476026921f31b6d1dd4c918dcb7b741aa2dad1aec8f7",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-8.0-patches/readline80-002\""
-    },
-    {
-        "url": "No Match",
-        "hash": "eaa3f69d927a853313a0b06e2117c51adab6377a2278549b05abc5df93643e16",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/ea/eaa3f69d927a853313a0b06e2117c51adab6377a2278549b05abc5df93643e16",
-        "result": "ISSUE with identifying \"No Match\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/36/36b0febff1e560091ae7476026921f31b6d1dd4c918dcb7b741aa2dad1aec8f7",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/gmp/gmp-6.2.1.tar.bz2",
         "hash": "eae9326beb4158c386e39a356818031bd28f3124cf915f8c5b1dc4c7a36b4d7c",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/ea/eae9326beb4158c386e39a356818031bd28f3124cf915f8c5b1dc4c7a36b4d7c.tar.bz2",
-        "result": [
-            "https://mirror.freedif.org/GNU/gmp/gmp-6.2.1.tar.bz2.sig",
-            "343c2ff0fbee5ec2edbef399f3599ff828c67298"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/ea/eae9326beb4158c386e39a356818031bd28f3124cf915f8c5b1dc4c7a36b4d7c.tar.bz2",
+        "match": "gnu",
+        "package": "gmp",
+        "version": "6.2.1",
+        "valid": true,
+        "validator": "https://mirror.freedif.org/GNU/gmp/gmp-6.2.1.tar.bz2.sig",
+        "output": "343c2ff0fbee5ec2edbef399f3599ff828c67298"
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-004",
         "hash": "f925683429f20973c552bff6702c74c58c2a38ff6e5cf305a8e847119c5a6b64",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/f9/f925683429f20973c552bff6702c74c58c2a38ff6e5cf305a8e847119c5a6b64",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-004\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/f9/f925683429f20973c552bff6702c74c58c2a38ff6e5cf305a8e847119c5a6b64",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-003",
         "hash": "ec41bdd8b00fd884e847708513df41d51b1243cecb680189e31b7173d01ca52f",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/ec/ec41bdd8b00fd884e847708513df41d51b1243cecb680189e31b7173d01ca52f",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-003\""
-    },
-    {
-        "url": "No Match",
-        "hash": "8cf4302ca8b480c60ccdcaa29ec53d9d50a71d4baf469ac8c6fca00ca31e58a2",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/8c/8cf4302ca8b480c60ccdcaa29ec53d9d50a71d4baf469ac8c6fca00ca31e58a2",
-        "result": "ISSUE with identifying \"No Match\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/ec/ec41bdd8b00fd884e847708513df41d51b1243cecb680189e31b7173d01ca52f",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "http://zlib.net/fossils/zlib-1.2.13.tar.gz",
         "hash": "b3a24de97a8fdbc835b9833169501030b8977031bcb54b3b3ac13740f846ab30",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/b3/b3a24de97a8fdbc835b9833169501030b8977031bcb54b3b3ac13740f846ab30.tar.gz",
-        "result": [
-            "https://github.com/madler/zlib/releases/download/v1.2.13/zlib-1.2.13.tar.gz.asc",
-            "5ed46a6721d365587791e2aa783fcd8e58bcafba"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/b3/b3a24de97a8fdbc835b9833169501030b8977031bcb54b3b3ac13740f846ab30.tar.gz",
+        "match": "zlib",
+        "package": "zlib",
+        "version": "1.2.13",
+        "valid": true,
+        "validator": "https://github.com/madler/zlib/releases/download/v1.2.13/zlib-1.2.13.tar.gz.asc",
+        "output": "5ed46a6721d365587791e2aa783fcd8e58bcafba"
     },
     {
         "url": "https://mirror.freedif.org/GNU/gawk/gawk-5.2.1.tar.xz",
         "hash": "673553b91f9e18cc5792ed51075df8d510c9040f550a6f74e09c9add243a7e4f",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/67/673553b91f9e18cc5792ed51075df8d510c9040f550a6f74e09c9add243a7e4f.tar.xz",
-        "result": [
-            "https://mirror.freedif.org/GNU/gawk/gawk-5.2.1.tar.xz.sig",
-            "d1967c63788713177d861ed7df597815937ec0d2"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/67/673553b91f9e18cc5792ed51075df8d510c9040f550a6f74e09c9add243a7e4f.tar.xz",
+        "match": "gnu",
+        "package": "gawk",
+        "version": "5.2.1",
+        "valid": true,
+        "validator": "https://mirror.freedif.org/GNU/gawk/gawk-5.2.1.tar.xz.sig",
+        "output": "d1967c63788713177d861ed7df597815937ec0d2"
     },
     {
         "url": "https://www.mpfr.org/mpfr-3.1.6/allpatches",
         "hash": "7a6dd71bcda4803d6b89612706a17b8816e1acd5dd9bf1bec29cf748f3b60008",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/7a/7a6dd71bcda4803d6b89612706a17b8816e1acd5dd9bf1bec29cf748f3b60008",
-        "result": "ISSUE with identifying \"https://www.mpfr.org/mpfr-3.1.6/allpatches\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/7a/7a6dd71bcda4803d6b89612706a17b8816e1acd5dd9bf1bec29cf748f3b60008",
+        "match": "mpfr",
+        "package": "mpfr",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-8.0-patches/readline80-001",
         "hash": "d8e5e98933cf5756f862243c0601cb69d3667bb33f2c7b751fe4e40b2c3fd069",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/d8/d8e5e98933cf5756f862243c0601cb69d3667bb33f2c7b751fe4e40b2c3fd069",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-8.0-patches/readline80-001\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/d8/d8e5e98933cf5756f862243c0601cb69d3667bb33f2c7b751fe4e40b2c3fd069",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/diffutils/diffutils-3.9.tar.xz",
         "hash": "d80d3be90a201868de83d78dad3413ad88160cc53bcc36eb9eaf7c20dbf023f1",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/d8/d80d3be90a201868de83d78dad3413ad88160cc53bcc36eb9eaf7c20dbf023f1.tar.xz",
-        "result": [
-            "https://mirror.freedif.org/GNU/diffutils/diffutils-3.9.tar.xz.sig",
-            "155d3fc500c834486d1eea677fd9fccb000beeee"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/d8/d80d3be90a201868de83d78dad3413ad88160cc53bcc36eb9eaf7c20dbf023f1.tar.xz",
+        "match": "gnu",
+        "package": "diffutils",
+        "version": "3.9",
+        "valid": true,
+        "validator": "https://mirror.freedif.org/GNU/diffutils/diffutils-3.9.tar.xz.sig",
+        "output": "155d3fc500c834486d1eea677fd9fccb000beeee"
     },
     {
         "url": "https://archive.hadrons.org/software/libmd/libmd-1.0.4.tar.xz",
         "hash": "f51c921042e34beddeded4b75557656559cf5b1f2448033b4c1eec11c07e530f",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/f5/f51c921042e34beddeded4b75557656559cf5b1f2448033b4c1eec11c07e530f.tar.xz",
-        "result": [
-            "https://archive.hadrons.org/software/libmd/libmd-1.0.4.tar.xz.asc",
-            "4f3e74f436050c10f5696574b972bf3ea4ae57a3"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/f5/f51c921042e34beddeded4b75557656559cf5b1f2448033b4c1eec11c07e530f.tar.xz",
+        "match": "hadrons",
+        "package": "libmd",
+        "version": "1.0.4",
+        "valid": true,
+        "validator": "https://archive.hadrons.org/software/libmd/libmd-1.0.4.tar.xz.asc",
+        "output": "4f3e74f436050c10f5696574b972bf3ea4ae57a3"
     },
     {
         "url": "https://objects.githubusercontent.com/github-production-release-asset-2e65be/321154/1f285637-fb0d-4129-8c8d-92aac449a444?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202249Z&X-Amz-Expires=300&X-Amz-Signature=7cae1d4730b71f9bebc1e6b9a600a78f98970d24108efce6947ce44079a1e07a&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=321154&response-content-disposition=attachment%3B%20filename%3Dlibffi-3.4.4.tar.gz&response-content-type=application%2Foctet-stream",
         "hash": "d66c56ad259a82cf2a9dfc408b32bf5da52371500b84745f7fb8b645712df676",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/d6/d66c56ad259a82cf2a9dfc408b32bf5da52371500b84745f7fb8b645712df676.tar.gz",
-        "result": [
-            "SKIP for https://objects.githubusercontent.com/github-production-release-asset-2e65be/321154/1f285637-fb0d-4129-8c8d-92aac449a444?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202249Z&X-Amz-Expires=300&X-Amz-Signature=7cae1d4730b71f9bebc1e6b9a600a78f98970d24108efce6947ce44079a1e07a&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=321154&response-content-disposition=attachment%3B%20filename%3Dlibffi-3.4.4.tar.gz&response-content-type=application%2Foctet-stream github"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/d6/d66c56ad259a82cf2a9dfc408b32bf5da52371500b84745f7fb8b645712df676.tar.gz",
+        "match": "github",
+        "package": "libffi",
+        "version": "3.4.4",
+        "valid": null,
+        "validator": "SKIP for github",
+        "output": null
     },
     {
         "url": "https://www.mpfr.org/mpfr-3.1.3/allpatches",
         "hash": "4152a780b3cc6e9643283e59093b43460196d0fea9302d8c93b2496f6679f4e4",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/41/4152a780b3cc6e9643283e59093b43460196d0fea9302d8c93b2496f6679f4e4",
-        "result": "ISSUE with identifying \"https://www.mpfr.org/mpfr-3.1.3/allpatches\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/41/4152a780b3cc6e9643283e59093b43460196d0fea9302d8c93b2496f6679f4e4",
+        "match": "mpfr",
+        "package": "mpfr",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://objects.githubusercontent.com/github-production-release-asset-2e65be/35503965/642d8fad-137a-4df9-8817-74250df0fb4e?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202252Z&X-Amz-Expires=300&X-Amz-Signature=0f3a12ced01923e1a5f182e3a223458e1c17b51f8e2bbd8aa355b6359dd63f6b&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=35503965&response-content-disposition=attachment%3B%20filename%3Dlibxcrypt-4.4.33.tar.xz&response-content-type=application%2Foctet-stream",
         "hash": "e87acf9c652c573a4713d5582159f98f305d56ed5f754ce64f57d4194d6b3a6f",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/e8/e87acf9c652c573a4713d5582159f98f305d56ed5f754ce64f57d4194d6b3a6f.tar.xz",
-        "result": [
-            "https://github.com/besser82/libxcrypt/releases/download/v4.4.33/libxcrypt-4.4.33.tar.xz.asc",
-            "678ce3fee430311596db8c16f52e98007594c21d"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/e8/e87acf9c652c573a4713d5582159f98f305d56ed5f754ce64f57d4194d6b3a6f.tar.xz",
+        "match": "libxcrypt",
+        "package": "libxcrypt",
+        "version": "4.4.33",
+        "valid": true,
+        "validator": "https://github.com/besser82/libxcrypt/releases/download/v4.4.33/libxcrypt-4.4.33.tar.xz.asc",
+        "output": "678ce3fee430311596db8c16f52e98007594c21d"
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-8.1-patches/readline81-002",
         "hash": "e55be055a68cb0719b0ccb5edc9a74edcc1d1f689e8a501525b3bc5ebad325dc",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/e5/e55be055a68cb0719b0ccb5edc9a74edcc1d1f689e8a501525b3bc5ebad325dc",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-8.1-patches/readline81-002\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/e5/e55be055a68cb0719b0ccb5edc9a74edcc1d1f689e8a501525b3bc5ebad325dc",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-8.1-patches/readline81-001",
         "hash": "682a465a68633650565c43d59f0b8cdf149c13a874682d3c20cb4af6709b9144",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/68/682a465a68633650565c43d59f0b8cdf149c13a874682d3c20cb4af6709b9144",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-8.1-patches/readline81-001\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/68/682a465a68633650565c43d59f0b8cdf149c13a874682d3c20cb4af6709b9144",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://gnupg.org/ftp/gcrypt/npth/npth-1.6.tar.bz2",
         "hash": "1393abd9adcf0762d34798dc34fdcf4d0d22a8410721e76f1e3afcd1daa4e2d1",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/13/1393abd9adcf0762d34798dc34fdcf4d0d22a8410721e76f1e3afcd1daa4e2d1.tar.bz2",
-        "result": [
-            "https://gnupg.org/ftp/gcrypt/npth/npth-1.6.tar.bz2.sig",
-            "d8692123c4065dea5e0f3ab5249b39d24f25e3b6"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/13/1393abd9adcf0762d34798dc34fdcf4d0d22a8410721e76f1e3afcd1daa4e2d1.tar.bz2",
+        "match": "gnupg",
+        "package": "npth",
+        "version": "1.6",
+        "valid": true,
+        "validator": "https://gnupg.org/ftp/gcrypt/npth/npth-1.6.tar.bz2.sig",
+        "output": "d8692123c4065dea5e0f3ab5249b39d24f25e3b6"
     },
     {
         "url": "https://github.com/autoconf-archive/autoconf-archive/commit/510672bc200e869fb0ad4634407561be819cf093.patch?full_index=1",
         "hash": "139214f5104f699f868dc87a14378e1e694a3c2539efa0de6f878024f3d7c66d",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/13/139214f5104f699f868dc87a14378e1e694a3c2539efa0de6f878024f3d7c66d",
-        "result": "ISSUE with identifying \"https://github.com/autoconf-archive/autoconf-archive/commit/510672bc200e869fb0ad4634407561be819cf093.patch?full_index=1\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/13/139214f5104f699f868dc87a14378e1e694a3c2539efa0de6f878024f3d7c66d",
+        "match": "github",
+        "package": "autoconf-archive",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://www.mpfr.org/mpfr-3.1.4/allpatches",
         "hash": "113705d5333ef0d0ad3eb136a85404ba6bd1cc524dece5ce902c536aa2e29903",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/11/113705d5333ef0d0ad3eb136a85404ba6bd1cc524dece5ce902c536aa2e29903",
-        "result": "ISSUE with identifying \"https://www.mpfr.org/mpfr-3.1.4/allpatches\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/11/113705d5333ef0d0ad3eb136a85404ba6bd1cc524dece5ce902c536aa2e29903",
+        "match": "mpfr",
+        "package": "mpfr",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://download.oracle.com/berkeley-db/db-18.1.40.tar.gz",
         "hash": "0cecb2ef0c67b166de93732769abdeba0555086d51de1090df325e18ee8da9c8",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/0c/0cecb2ef0c67b166de93732769abdeba0555086d51de1090df325e18ee8da9c8.tar.gz",
-        "result": [
-            "SKIP for https://download.oracle.com/berkeley-db/db-18.1.40.tar.gz berkeleydb"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/0c/0cecb2ef0c67b166de93732769abdeba0555086d51de1090df325e18ee8da9c8.tar.gz",
+        "match": "berkeleydb",
+        "package": "berkeley-db",
+        "version": "18.1.40",
+        "valid": null,
+        "validator": "SKIP for berkeleydb",
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-8.2-patches/readline82-001",
         "hash": "bbf97f1ec40a929edab5aa81998c1e2ef435436c597754916e6a5868f273aff7",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/bb/bbf97f1ec40a929edab5aa81998c1e2ef435436c597754916e6a5868f273aff7",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-8.2-patches/readline82-001\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/bb/bbf97f1ec40a929edab5aa81998c1e2ef435436c597754916e6a5868f273aff7",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://objects.githubusercontent.com/github-production-release-asset-2e65be/537699/0ef24e89-c105-42fb-81db-5cba0b813af3?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202131Z&X-Amz-Expires=300&X-Amz-Signature=fc1b1ace6b2b30a36b7f0237bffcde777b05b7eddbd3fcbac8682e1b111cbcc5&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=537699&response-content-disposition=attachment%3B%20filename%3Dcmake-3.26.3.tar.gz&response-content-type=application%2Foctet-stream",
         "hash": "bbd8d39217509d163cb544a40d6428ac666ddc83e22905d3e52c925781f0f659",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/bb/bbd8d39217509d163cb544a40d6428ac666ddc83e22905d3e52c925781f0f659.tar.gz",
-        "result": [
-            "https://github.com/Kitware/CMake/releases/download/v3.26.3/cmake-3.26.3-SHA-256.txt",
-            "cba23971357c2e6590d9efd3ec8fef3a7bfb4eda"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/bb/bbd8d39217509d163cb544a40d6428ac666ddc83e22905d3e52c925781f0f659.tar.gz",
+        "match": "cmake",
+        "package": "cmake",
+        "version": "3.26.3",
+        "valid": true,
+        "validator": "https://github.com/Kitware/CMake/releases/download/v3.26.3/cmake-3.26.3-SHA-256.txt",
+        "output": "cba23971357c2e6590d9efd3ec8fef3a7bfb4eda"
     },
     {
         "url": "https://mirror.freedif.org/GNU/libiconv/libiconv-1.17.tar.gz",
         "hash": "8f74213b56238c85a50a5329f77e06198771e70dd9a739779f4c02f65d971313",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/8f/8f74213b56238c85a50a5329f77e06198771e70dd9a739779f4c02f65d971313.tar.gz",
-        "result": [
-            "https://mirror.freedif.org/GNU/libiconv/libiconv-1.17.tar.gz.sig",
-            "9001b85af9e1b83df1bda942f5be8b267c6a406d"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/8f/8f74213b56238c85a50a5329f77e06198771e70dd9a739779f4c02f65d971313.tar.gz",
+        "match": "gnu",
+        "package": "libiconv",
+        "version": "1.17",
+        "valid": true,
+        "validator": "https://mirror.freedif.org/GNU/libiconv/libiconv-1.17.tar.gz.sig",
+        "output": "9001b85af9e1b83df1bda942f5be8b267c6a406d"
     },
     {
         "url": "https://mirror.freedif.org/GNU/mpfr/mpfr-4.2.0.tar.bz2",
         "hash": "691db39178e36fc460c046591e4b0f2a52c8f2b3ee6d750cc2eab25f1eaa999d",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/69/691db39178e36fc460c046591e4b0f2a52c8f2b3ee6d750cc2eab25f1eaa999d.tar.bz2",
-        "result": [
-            "https://mirror.freedif.org/GNU/mpfr/mpfr-4.2.0.tar.bz2.sig",
-            "a534be3f83e241d918280aeb5831d11a0d4db02a"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/69/691db39178e36fc460c046591e4b0f2a52c8f2b3ee6d750cc2eab25f1eaa999d.tar.bz2",
+        "match": "gnu",
+        "package": "mpfr",
+        "version": "4.2.0",
+        "valid": true,
+        "validator": "https://mirror.freedif.org/GNU/mpfr/mpfr-4.2.0.tar.bz2.sig",
+        "output": "a534be3f83e241d918280aeb5831d11a0d4db02a"
     },
     {
         "url": "https://mirror.freedif.org/GNU/ncurses/ncurses-6.4.tar.gz",
         "hash": "6931283d9ac87c5073f30b6290c4c75f21632bb4fc3603ac8100812bed248159",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/69/6931283d9ac87c5073f30b6290c4c75f21632bb4fc3603ac8100812bed248159.tar.gz",
-        "result": [
-            "https://mirror.freedif.org/GNU/ncurses/ncurses-6.4.tar.gz.sig",
-            "19882d92dda4c400c22c0d56cc2af4472167be03"
-        ]
-    },
-    {
-        "url": "No Match",
-        "hash": "3e06d42596b105839648070a5921157fe284b932289ffdbfa304ddc3457e5637",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3e/3e06d42596b105839648070a5921157fe284b932289ffdbfa304ddc3457e5637",
-        "result": "ISSUE with identifying \"No Match\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/69/6931283d9ac87c5073f30b6290c4c75f21632bb4fc3603ac8100812bed248159.tar.gz",
+        "match": "gnu",
+        "package": "ncurses",
+        "version": "6.4",
+        "valid": true,
+        "validator": "https://mirror.freedif.org/GNU/ncurses/ncurses-6.4.tar.gz.sig",
+        "output": "19882d92dda4c400c22c0d56cc2af4472167be03"
     },
     {
         "url": "https://src.fedoraproject.org/rpms/make/raw/519a7c5bcbead22e6ea2d2c2341d981ef9e25c0d/f/make-4.2.1-glob-fix-3.patch",
         "hash": "ca60bd9c1a1b35bc0dc58b6a4a19d5c2651f7a94a4b22b2c5ea001a1ca7a8a7f",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/ca/ca60bd9c1a1b35bc0dc58b6a4a19d5c2651f7a94a4b22b2c5ea001a1ca7a8a7f",
-        "result": "ISSUE with identifying \"https://src.fedoraproject.org/rpms/make/raw/519a7c5bcbead22e6ea2d2c2341d981ef9e25c0d/f/make-4.2.1-glob-fix-3.patch\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/ca/ca60bd9c1a1b35bc0dc58b6a4a19d5c2651f7a94a4b22b2c5ea001a1ca7a8a7f",
+        "match": "fedora",
+        "package": "make",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-005",
         "hash": "ca159c83706541c6bbe39129a33d63bbd76ac594303f67e4d35678711c51b753",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/ca/ca159c83706541c6bbe39129a33d63bbd76ac594303f67e4d35678711c51b753",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-005\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/ca/ca159c83706541c6bbe39129a33d63bbd76ac594303f67e4d35678711c51b753",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/libsigsegv/libsigsegv-2.14.tar.gz",
         "hash": "cdac3941803364cf81a908499beb79c200ead60b6b5b40cad124fd1e06caa295",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/cd/cdac3941803364cf81a908499beb79c200ead60b6b5b40cad124fd1e06caa295.tar.gz",
-        "result": [
-            "https://mirror.freedif.org/GNU/libsigsegv/libsigsegv-2.14.tar.gz.sig",
-            "9001b85af9e1b83df1bda942f5be8b267c6a406d"
-        ]
-    },
-    {
-        "url": "No Match",
-        "hash": "a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/a4/a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee",
-        "result": "ISSUE with identifying \"No Match\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/cd/cdac3941803364cf81a908499beb79c200ead60b6b5b40cad124fd1e06caa295.tar.gz",
+        "match": "gnu",
+        "package": "libsigsegv",
+        "version": "2.14",
+        "valid": true,
+        "validator": "https://mirror.freedif.org/GNU/libsigsegv/libsigsegv-2.14.tar.gz.sig",
+        "output": "9001b85af9e1b83df1bda942f5be8b267c6a406d"
     },
     {
         "url": "https://www.mpfr.org/mpfr-4.0.1/allpatches",
         "hash": "5230aab653fa8675fc05b5bdd3890e071e8df49a92a9d58c4284024affd27739",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/52/5230aab653fa8675fc05b5bdd3890e071e8df49a92a9d58c4284024affd27739",
-        "result": "ISSUE with identifying \"https://www.mpfr.org/mpfr-4.0.1/allpatches\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/52/5230aab653fa8675fc05b5bdd3890e071e8df49a92a9d58c4284024affd27739",
+        "match": "mpfr",
+        "package": "mpfr",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://libbsd.freedesktop.org/releases/libbsd-0.11.7.tar.xz",
         "hash": "9baa186059ebbf25c06308e9f991fda31f7183c0f24931826d83aa6abd8a0261",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/9b/9baa186059ebbf25c06308e9f991fda31f7183c0f24931826d83aa6abd8a0261.tar.xz",
-        "result": [
-            "https://libbsd.freedesktop.org/releases/libbsd-0.11.7.tar.xz.asc",
-            "4f3e74f436050c10f5696574b972bf3ea4ae57a3"
-        ]
-    },
-    {
-        "url": "No Match",
-        "hash": "0eac10ed90aeb0459ad8851f88081d439a4e41978e586ec743069e8b059370ac",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/0e/0eac10ed90aeb0459ad8851f88081d439a4e41978e586ec743069e8b059370ac",
-        "result": "ISSUE with identifying \"No Match\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/9b/9baa186059ebbf25c06308e9f991fda31f7183c0f24931826d83aa6abd8a0261.tar.xz",
+        "match": "freedesktop",
+        "package": "libbsd",
+        "version": "0.11.7",
+        "valid": true,
+        "validator": "https://libbsd.freedesktop.org/releases/libbsd-0.11.7.tar.xz.asc",
+        "output": "4f3e74f436050c10f5696574b972bf3ea4ae57a3"
     },
     {
         "url": "https://gnupg.org/ftp/gcrypt/libassuan/libassuan-2.5.5.tar.bz2",
         "hash": "8e8c2fcc982f9ca67dcbb1d95e2dc746b1739a4668bc20b3a3c5be632edb34e4",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/8e/8e8c2fcc982f9ca67dcbb1d95e2dc746b1739a4668bc20b3a3c5be632edb34e4.tar.bz2",
-        "result": [
-            "https://gnupg.org/ftp/gcrypt/libassuan/libassuan-2.5.5.tar.bz2.sig",
-            "6daa6e64a76d2840571b4902528897b826403ada"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/8e/8e8c2fcc982f9ca67dcbb1d95e2dc746b1739a4668bc20b3a3c5be632edb34e4.tar.bz2",
+        "match": "gnupg",
+        "package": "libassuan",
+        "version": "2.5.5",
+        "valid": true,
+        "validator": "https://gnupg.org/ftp/gcrypt/libassuan/libassuan-2.5.5.tar.bz2.sig",
+        "output": "6daa6e64a76d2840571b4902528897b826403ada"
     },
     {
         "url": "https://www.mpfr.org/mpfr-4.0.2/allpatches",
         "hash": "3f80b836948aa96f8d1cb9cc7f3f55973f19285482a96f9a4e1623d460bcccf0",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3f/3f80b836948aa96f8d1cb9cc7f3f55973f19285482a96f9a4e1623d460bcccf0",
-        "result": "ISSUE with identifying \"https://www.mpfr.org/mpfr-4.0.2/allpatches\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/3f/3f80b836948aa96f8d1cb9cc7f3f55973f19285482a96f9a4e1623d460bcccf0",
+        "match": "mpfr",
+        "package": "mpfr",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-8.2.tar.gz",
         "hash": "3feb7171f16a84ee82ca18a36d7b9be109a52c04f492a053331d7d1095007c35",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3f/3feb7171f16a84ee82ca18a36d7b9be109a52c04f492a053331d7d1095007c35.tar.gz",
-        "result": [
-            "https://mirror.freedif.org/GNU/readline/readline-8.2.tar.gz.sig",
-            "7c0135fb088aaf6c66c650b9bb5869f064ea74ab"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/3f/3feb7171f16a84ee82ca18a36d7b9be109a52c04f492a053331d7d1095007c35.tar.gz",
+        "match": "gnu",
+        "package": "readline",
+        "version": "8.2",
+        "valid": true,
+        "validator": "https://mirror.freedif.org/GNU/readline/readline-8.2.tar.gz.sig",
+        "output": "7c0135fb088aaf6c66c650b9bb5869f064ea74ab"
     },
     {
         "url": "https://github.com/openssl/openssl/commit/f9e578e720bb35228948564192adbe3bc503d5fb.patch?full_index=1",
         "hash": "3fdcf2d1e47c34f3a012f23306322c5a35cad55b180c9b6fb34537b55884645c",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3f/3fdcf2d1e47c34f3a012f23306322c5a35cad55b180c9b6fb34537b55884645c",
-        "result": "ISSUE with identifying \"https://github.com/openssl/openssl/commit/f9e578e720bb35228948564192adbe3bc503d5fb.patch?full_index=1\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/3f/3fdcf2d1e47c34f3a012f23306322c5a35cad55b180c9b6fb34537b55884645c",
+        "match": "github",
+        "package": "openssl",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://gnupg.org/ftp/gcrypt/libksba/libksba-1.6.3.tar.bz2",
         "hash": "3f72c68db30971ebbf14367527719423f0a4d5f8103fc9f4a1c01a9fa440de5c",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3f/3f72c68db30971ebbf14367527719423f0a4d5f8103fc9f4a1c01a9fa440de5c.tar.bz2",
-        "result": [
-            "https://gnupg.org/ftp/gcrypt/libksba/libksba-1.6.3.tar.bz2.sig",
-            "6daa6e64a76d2840571b4902528897b826403ada"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/3f/3f72c68db30971ebbf14367527719423f0a4d5f8103fc9f4a1c01a9fa440de5c.tar.bz2",
+        "match": "gnupg",
+        "package": "libksba",
+        "version": "1.6.3",
+        "valid": true,
+        "validator": "https://gnupg.org/ftp/gcrypt/libksba/libksba-1.6.3.tar.bz2.sig",
+        "output": "6daa6e64a76d2840571b4902528897b826403ada"
     },
     {
         "url": "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz",
         "hash": "ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/ab/ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269.tar.gz",
-        "result": [
-            "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz.sig",
-            "ec3cfe88f6ca0788774f5c1d1aa44be649de760a"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/ab/ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269.tar.gz",
+        "match": "sourceware",
+        "package": "bzip2",
+        "version": "1.0.8",
+        "valid": true,
+        "validator": "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz.sig",
+        "output": "ec3cfe88f6ca0788774f5c1d1aa44be649de760a"
     },
     {
         "url": "https://ixpeering.dl.sourceforge.net/project/lzmautils/xz-5.4.1.tar.bz2",
         "hash": "dd172acb53867a68012f94c17389401b2f274a1aa5ae8f84cbfb8b7e383ea8d3",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/dd/dd172acb53867a68012f94c17389401b2f274a1aa5ae8f84cbfb8b7e383ea8d3.tar.bz2",
-        "result": [
-            "https://tukaani.org/xz/xz-5.4.1.tar.bz2.sig",
-            "3690c240ce51b4670d30ad1c38ee757d69184620"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/dd/dd172acb53867a68012f94c17389401b2f274a1aa5ae8f84cbfb8b7e383ea8d3.tar.bz2",
+        "match": "xzutils",
+        "package": "lzmautils",
+        "version": "5.4.1",
+        "valid": true,
+        "validator": "https://tukaani.org/xz/xz-5.4.1.tar.bz2.sig",
+        "output": "3690c240ce51b4670d30ad1c38ee757d69184620"
     },
     {
         "url": "https://mirror.freedif.org/GNU/make/make-4.4.1.tar.gz",
         "hash": "dd16fb1d67bfab79a72f5e8390735c49e3e8e70b4945a15ab1f81ddb78658fb3",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/dd/dd16fb1d67bfab79a72f5e8390735c49e3e8e70b4945a15ab1f81ddb78658fb3.tar.gz",
-        "result": [
-            "https://mirror.freedif.org/GNU/make/make-4.4.1.tar.gz.sig",
-            "6d4eeb02ad834703510b117680cb727a20c79bb2"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/dd/dd16fb1d67bfab79a72f5e8390735c49e3e8e70b4945a15ab1f81ddb78658fb3.tar.gz",
+        "match": "gnu",
+        "package": "make",
+        "version": "4.4.1",
+        "valid": true,
+        "validator": "https://mirror.freedif.org/GNU/make/make-4.4.1.tar.gz.sig",
+        "output": "6d4eeb02ad834703510b117680cb727a20c79bb2"
     },
     {
         "url": "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.4.1.tar.bz2",
         "hash": "76b71e5aeb443bfd910ce9cbc8281b617c8341687afb67bae455877972b59de8",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/76/76b71e5aeb443bfd910ce9cbc8281b617c8341687afb67bae455877972b59de8.tar.bz2",
-        "result": [
-            "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.4.1.tar.bz2.sig",
-            "6daa6e64a76d2840571b4902528897b826403ada"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/76/76b71e5aeb443bfd910ce9cbc8281b617c8341687afb67bae455877972b59de8.tar.bz2",
+        "match": "gnupg",
+        "package": "gnupg",
+        "version": "2.4.1",
+        "valid": true,
+        "validator": "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.4.1.tar.bz2.sig",
+        "output": "6daa6e64a76d2840571b4902528897b826403ada"
     },
     {
         "url": "https://objects.githubusercontent.com/github-production-release-asset-2e65be/15682168/1cdaa4e4-5842-4201-9377-4c9a40fefe58?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202309Z&X-Amz-Expires=300&X-Amz-Signature=dd47c7ca979040745f91a69c95e27401b63c705415ded6ffa986c9f217418e3d&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=15682168&response-content-disposition=attachment%3B%20filename%3Dre2c-2.2.tar.xz&response-content-type=application%2Foctet-stream",
         "hash": "0fc45e4130a8a555d68e230d1795de0216dfe99096b61b28e67c86dfd7d86bda",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/0f/0fc45e4130a8a555d68e230d1795de0216dfe99096b61b28e67c86dfd7d86bda.tar.xz",
-        "result": [
-            "SKIP for https://objects.githubusercontent.com/github-production-release-asset-2e65be/15682168/1cdaa4e4-5842-4201-9377-4c9a40fefe58?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202309Z&X-Amz-Expires=300&X-Amz-Signature=dd47c7ca979040745f91a69c95e27401b63c705415ded6ffa986c9f217418e3d&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=15682168&response-content-disposition=attachment%3B%20filename%3Dre2c-2.2.tar.xz&response-content-type=application%2Foctet-stream github"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/0f/0fc45e4130a8a555d68e230d1795de0216dfe99096b61b28e67c86dfd7d86bda.tar.xz",
+        "match": "github",
+        "package": "re2c",
+        "version": "2.2",
+        "valid": null,
+        "validator": "SKIP for github",
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-004",
         "hash": "4547b906fb2570866c21887807de5dee19838a60a1afb66385b272155e4355cc",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/45/4547b906fb2570866c21887807de5dee19838a60a1afb66385b272155e4355cc",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-004\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/45/4547b906fb2570866c21887807de5dee19838a60a1afb66385b272155e4355cc",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://gnupg.org/ftp/gcrypt/pinentry/pinentry-1.2.1.tar.bz2",
         "hash": "457a185e5a85238fb945a955dc6352ab962dc8b48720b62fc9fa48c7540a4067",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/45/457a185e5a85238fb945a955dc6352ab962dc8b48720b62fc9fa48c7540a4067.tar.bz2",
-        "result": [
-            "https://gnupg.org/ftp/gcrypt/pinentry/pinentry-1.2.1.tar.bz2.sig",
-            "6daa6e64a76d2840571b4902528897b826403ada"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/45/457a185e5a85238fb945a955dc6352ab962dc8b48720b62fc9fa48c7540a4067.tar.bz2",
+        "match": "gnupg",
+        "package": "pinentry",
+        "version": "1.2.1",
+        "valid": true,
+        "validator": "https://gnupg.org/ftp/gcrypt/pinentry/pinentry-1.2.1.tar.bz2.sig",
+        "output": "6daa6e64a76d2840571b4902528897b826403ada"
     },
     {
         "url": "https://distfiles.dereferenced.org/pkgconf/pkgconf-1.9.5.tar.xz",
         "hash": "1ac1656debb27497563036f7bffc281490f83f9b8457c0d60bcfb638fb6b6171",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/1a/1ac1656debb27497563036f7bffc281490f83f9b8457c0d60bcfb638fb6b6171.tar.xz",
-        "result": [
-            "SKIP for https://distfiles.dereferenced.org/pkgconf/pkgconf-1.9.5.tar.xz pkgconf"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/1a/1ac1656debb27497563036f7bffc281490f83f9b8457c0d60bcfb638fb6b6171.tar.xz",
+        "match": "pkgconf",
+        "package": "pkgconf",
+        "version": "1.9.5",
+        "valid": null,
+        "validator": "SKIP for pkgconf",
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-001",
         "hash": "1a79bbb6eaee750e0d6f7f3d059b30a45fc54e8e388a8e05e9c3ae598590146f",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/1a/1a79bbb6eaee750e0d6f7f3d059b30a45fc54e8e388a8e05e9c3ae598590146f",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-001\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/1a/1a79bbb6eaee750e0d6f7f3d059b30a45fc54e8e388a8e05e9c3ae598590146f",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://www.mpfr.org/mpfr-3.1.5/allpatches",
         "hash": "1ae14fb3a54ae8e0faed20801970255b279eee9e5ac624891ab5d29727f0bc04",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/1a/1ae14fb3a54ae8e0faed20801970255b279eee9e5ac624891ab5d29727f0bc04",
-        "result": "ISSUE with identifying \"https://www.mpfr.org/mpfr-3.1.5/allpatches\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/1a/1ae14fb3a54ae8e0faed20801970255b279eee9e5ac624891ab5d29727f0bc04",
+        "match": "mpfr",
+        "package": "mpfr",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/gettext/gettext-0.21.1.tar.xz",
         "hash": "50dbc8f39797950aa2c98e939947c527e5ac9ebd2c1b99dd7b06ba33a6767ae6",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/50/50dbc8f39797950aa2c98e939947c527e5ac9ebd2c1b99dd7b06ba33a6767ae6.tar.xz",
-        "result": [
-            "https://mirror.freedif.org/GNU/gettext/gettext-0.21.1.tar.xz.sig",
-            "9001b85af9e1b83df1bda942f5be8b267c6a406d"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/50/50dbc8f39797950aa2c98e939947c527e5ac9ebd2c1b99dd7b06ba33a6767ae6.tar.xz",
+        "match": "gnu",
+        "package": "gettext",
+        "version": "0.21.1",
+        "valid": true,
+        "validator": "https://mirror.freedif.org/GNU/gettext/gettext-0.21.1.tar.xz.sig",
+        "output": "9001b85af9e1b83df1bda942f5be8b267c6a406d"
     },
     {
         "url": "https://src.fedoraproject.org/rpms/m4/raw/5d147168d4b93f38a4833f5dd1d650ad88af5a8a/f/m4-1.4.18-glibc-change-work-around.patch",
         "hash": "fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/fc/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8",
-        "result": "ISSUE with identifying \"https://src.fedoraproject.org/rpms/m4/raw/5d147168d4b93f38a4833f5dd1d650ad88af5a8a/f/m4-1.4.18-glibc-change-work-around.patch\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/fc/fc9b61654a3ba1a8d6cd78ce087e7c96366c290bc8d2c299f09828d793b853c8",
+        "match": "fedora",
+        "package": "m4",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/bison/bison-3.8.2.tar.gz",
         "hash": "06c9e13bdf7eb24d4ceb6b59205a4f67c2c7e7213119644430fe82fbd14a0abb",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/06/06c9e13bdf7eb24d4ceb6b59205a4f67c2c7e7213119644430fe82fbd14a0abb.tar.gz",
-        "result": [
-            "https://mirror.freedif.org/GNU/bison/bison-3.8.2.tar.gz.sig",
-            "7df84374b1ee1f9764bbe25d0ddcaa3278d5264e"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/06/06c9e13bdf7eb24d4ceb6b59205a4f67c2c7e7213119644430fe82fbd14a0abb.tar.gz",
+        "match": "gnu",
+        "package": "bison",
+        "version": "3.8.2",
+        "valid": true,
+        "validator": "https://mirror.freedif.org/GNU/bison/bison-3.8.2.tar.gz.sig",
+        "output": "7df84374b1ee1f9764bbe25d0ddcaa3278d5264e"
     },
     {
         "url": "https://src.fedoraproject.org/rpms/make/raw/519a7c5bcbead22e6ea2d2c2341d981ef9e25c0d/f/make-4.2.1-glob-fix-2.patch",
         "hash": "fe5b60d091c33f169740df8cb718bf4259f84528b42435194ffe0dd5b79cd125",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/fe/fe5b60d091c33f169740df8cb718bf4259f84528b42435194ffe0dd5b79cd125",
-        "result": "ISSUE with identifying \"https://src.fedoraproject.org/rpms/make/raw/519a7c5bcbead22e6ea2d2c2341d981ef9e25c0d/f/make-4.2.1-glob-fix-2.patch\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/fe/fe5b60d091c33f169740df8cb718bf4259f84528b42435194ffe0dd5b79cd125",
+        "match": "fedora",
+        "package": "make",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-8.0-patches/readline80-004",
         "hash": "b1aa3d2a40eee2dea9708229740742e649c32bb8db13535ea78f8ac15377394c",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/b1/b1aa3d2a40eee2dea9708229740742e649c32bb8db13535ea78f8ac15377394c",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-8.0-patches/readline80-004\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/b1/b1aa3d2a40eee2dea9708229740742e649c32bb8db13535ea78f8ac15377394c",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://www.sqlite.org/2022/sqlite-autoconf-3400100.tar.gz",
         "hash": "2c5dea207fa508d765af1ef620b637dcb06572afa6f01f0815bd5bbf864b33d9",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/2c/2c5dea207fa508d765af1ef620b637dcb06572afa6f01f0815bd5bbf864b33d9.tar.gz",
-        "result": [
-            "https://web.archive.org/web/20221228155058/https://www.sqlite.org/download.html",
-            "sha3:3136db4bcd9e9e1e485c291380a3d86f0f21cae0eff9f714c0ef4821e2e5cdf7"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/2c/2c5dea207fa508d765af1ef620b637dcb06572afa6f01f0815bd5bbf864b33d9.tar.gz",
+        "match": "sqlite",
+        "package": "sqlite",
+        "version": "3400100",
+        "valid": true,
+        "validator": "https://web.archive.org/web/20221228155058/https://www.sqlite.org/download.html",
+        "output": "sha3:3136db4bcd9e9e1e485c291380a3d86f0f21cae0eff9f714c0ef4821e2e5cdf7"
     },
     {
         "url": "https://mirror.freedif.org/GNU/texinfo/texinfo-7.0.3.tar.gz",
         "hash": "3cc5706fb086b895e1dc2b407aade9f95a3a233ff856273e2b659b089f117683",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3c/3cc5706fb086b895e1dc2b407aade9f95a3a233ff856273e2b659b089f117683.tar.gz",
-        "result": [
-            "https://mirror.freedif.org/GNU/texinfo/texinfo-7.0.3.tar.gz.sig",
-            "eaf669b31e31e1decbd11513ddbc579dab37fba9"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/3c/3cc5706fb086b895e1dc2b407aade9f95a3a233ff856273e2b659b089f117683.tar.gz",
+        "match": "gnu",
+        "package": "texinfo",
+        "version": "7.0.3",
+        "valid": true,
+        "validator": "https://mirror.freedif.org/GNU/texinfo/texinfo-7.0.3.tar.gz.sig",
+        "output": "eaf669b31e31e1decbd11513ddbc579dab37fba9"
     },
     {
         "url": "https://objects.githubusercontent.com/github-production-release-asset-2e65be/80314213/2209b97f-1505-46fb-abef-61798e869a4b?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202201Z&X-Amz-Expires=300&X-Amz-Signature=8e137fcdc822a75157f60aee5f83e41a63b99ed30007c80ea6c4bdd4129e9396&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=80314213&response-content-disposition=attachment%3B%20filename%3Dexpat-2.5.0.tar.bz2&response-content-type=application%2Foctet-stream",
         "hash": "6f0e6e01f7b30025fa05c85fdad1e5d0ec7fd35d9f61b22f34998de11969ff67",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/6f/6f0e6e01f7b30025fa05c85fdad1e5d0ec7fd35d9f61b22f34998de11969ff67.tar.bz2",
-        "result": [
-            "https://github.com/libexpat/libexpat/releases/download/R_2_5_0/expat-2.5.0.tar.bz2.asc",
-            "3176ef7db2367f1fca4f306b1f9b0e909af37285"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/6f/6f0e6e01f7b30025fa05c85fdad1e5d0ec7fd35d9f61b22f34998de11969ff67.tar.bz2",
+        "match": "libexpat",
+        "package": "expat",
+        "version": "2.5.0",
+        "valid": true,
+        "validator": "https://github.com/libexpat/libexpat/releases/download/R_2_5_0/expat-2.5.0.tar.bz2.asc",
+        "output": "3176ef7db2367f1fca4f306b1f9b0e909af37285"
     },
     {
         "url": "https://gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.47.tar.bz2",
         "hash": "9e3c670966b96ecc746c28c2c419541e3bcb787d1a73930f5e5f5e1bcbbb9bdb",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/9e/9e3c670966b96ecc746c28c2c419541e3bcb787d1a73930f5e5f5e1bcbbb9bdb.tar.bz2",
-        "result": [
-            "https://gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.47.tar.bz2.sig",
-            "6daa6e64a76d2840571b4902528897b826403ada"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/9e/9e3c670966b96ecc746c28c2c419541e3bcb787d1a73930f5e5f5e1bcbbb9bdb.tar.bz2",
+        "match": "gnupg",
+        "package": "libgpg",
+        "version": "error-1.47",
+        "valid": true,
+        "validator": "https://gnupg.org/ftp/gcrypt/libgpg-error/libgpg-error-1.47.tar.bz2.sig",
+        "output": "6daa6e64a76d2840571b4902528897b826403ada"
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-003",
         "hash": "9e43aa93378c7e9f7001d8174b1beb948deefa6799b6f581673f465b7d9d4780",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/9e/9e43aa93378c7e9f7001d8174b1beb948deefa6799b6f581673f465b7d9d4780",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-003\""
-    },
-    {
-        "url": "No Match",
-        "hash": "35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/35/35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2",
-        "result": "ISSUE with identifying \"No Match\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/9e/9e43aa93378c7e9f7001d8174b1beb948deefa6799b6f581673f465b7d9d4780",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://objects.githubusercontent.com/github-production-release-asset-2e65be/2928164/5eab00c8-fa59-4774-b219-c95d5339adc1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202703Z&X-Amz-Expires=300&X-Amz-Signature=753fc2a49b462bb65ce202d149d3403963117afada5412ea8728a7503778b0b1&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=2928164&response-content-disposition=attachment%3B%20filename%3Dpatchelf-0.17.2.tar.gz&response-content-type=application%2Foctet-stream",
         "hash": "20427b718dd130e4b66d95072c2a2bd5e17232e20dad58c1bea9da81fae330e0",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/20/20427b718dd130e4b66d95072c2a2bd5e17232e20dad58c1bea9da81fae330e0.tar.gz",
-        "result": [
-            "SKIP for https://objects.githubusercontent.com/github-production-release-asset-2e65be/2928164/5eab00c8-fa59-4774-b219-c95d5339adc1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202703Z&X-Amz-Expires=300&X-Amz-Signature=753fc2a49b462bb65ce202d149d3403963117afada5412ea8728a7503778b0b1&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=2928164&response-content-disposition=attachment%3B%20filename%3Dpatchelf-0.17.2.tar.gz&response-content-type=application%2Foctet-stream github"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/20/20427b718dd130e4b66d95072c2a2bd5e17232e20dad58c1bea9da81fae330e0.tar.gz",
+        "match": "github",
+        "package": "patchelf",
+        "version": "0.17.2",
+        "valid": null,
+        "validator": "SKIP for github",
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/autoconf-archive/autoconf-archive-2023.02.20.tar.xz",
         "hash": "71d4048479ae28f1f5794619c3d72df9c01df49b1c628ef85fde37596dc31a33",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/71/71d4048479ae28f1f5794619c3d72df9c01df49b1c628ef85fde37596dc31a33.tar.xz",
-        "result": [
-            "https://mirror.freedif.org/GNU/autoconf-archive/autoconf-archive-2023.02.20.tar.xz.sig",
-            "1a4f63a13a4649b632f65ee141bc28fe99089d72"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/71/71d4048479ae28f1f5794619c3d72df9c01df49b1c628ef85fde37596dc31a33.tar.xz",
+        "match": "gnu",
+        "package": "autoconf",
+        "version": "archive-2023.02.20",
+        "valid": true,
+        "validator": "https://mirror.freedif.org/GNU/autoconf-archive/autoconf-archive-2023.02.20.tar.xz.sig",
+        "output": "1a4f63a13a4649b632f65ee141bc28fe99089d72"
     },
     {
         "url": "https://mirror.freedif.org/GNU/autoconf/autoconf-2.69.tar.gz",
         "hash": "954bd69b391edc12d6a4a51a2dd1476543da5c6bbf05a95b59dc0dd6fd4c2969",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/95/954bd69b391edc12d6a4a51a2dd1476543da5c6bbf05a95b59dc0dd6fd4c2969.tar.gz",
-        "result": [
-            "https://mirror.freedif.org/GNU/autoconf/autoconf-2.69.tar.gz.sig",
-            "71c2cc22b1c4602927d2f3aaa7a16b4a2527436a"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/95/954bd69b391edc12d6a4a51a2dd1476543da5c6bbf05a95b59dc0dd6fd4c2969.tar.gz",
+        "match": "gnu",
+        "package": "autoconf",
+        "version": "2.69",
+        "valid": true,
+        "validator": "https://mirror.freedif.org/GNU/autoconf/autoconf-2.69.tar.gz.sig",
+        "output": "71c2cc22b1c4602927d2f3aaa7a16b4a2527436a"
     },
     {
         "url": "https://objects.githubusercontent.com/github-production-release-asset-2e65be/404495845/377a9db5-f72c-4bcc-87bf-3a8d5ac674ca?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202704Z&X-Amz-Expires=300&X-Amz-Signature=6de2ee47d5001f7af56a2304c64456e7ffef5ebdf3a4dfa892bccfe789c23a48&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=404495845&response-content-disposition=attachment%3B%20filename%3Dgnuconfig-2022-09-17.tar.gz&response-content-type=application%2Foctet-stream",
         "hash": "95306801ad7086e6a6e13397cb859183d8b7adbba2e372ce0819bad5fcb919b7",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/95/95306801ad7086e6a6e13397cb859183d8b7adbba2e372ce0819bad5fcb919b7.tar.gz",
-        "result": [
-            "SKIP for https://objects.githubusercontent.com/github-production-release-asset-2e65be/404495845/377a9db5-f72c-4bcc-87bf-3a8d5ac674ca?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231127%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231127T202704Z&X-Amz-Expires=300&X-Amz-Signature=6de2ee47d5001f7af56a2304c64456e7ffef5ebdf3a4dfa892bccfe789c23a48&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=404495845&response-content-disposition=attachment%3B%20filename%3Dgnuconfig-2022-09-17.tar.gz&response-content-type=application%2Foctet-stream github"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/95/95306801ad7086e6a6e13397cb859183d8b7adbba2e372ce0819bad5fcb919b7.tar.gz",
+        "match": "github",
+        "package": "gnuconfig",
+        "version": "2022-09-17",
+        "valid": null,
+        "validator": "SKIP for github",
+        "output": null
     },
     {
         "url": "https://www.w3.org/XML/Test/xmlts20080827.tar.gz",
         "hash": "96151685cec997e1f9f3387e3626d61e6284d4d6e66e0e440c209286c03e9cc7",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/96/96151685cec997e1f9f3387e3626d61e6284d4d6e66e0e440c209286c03e9cc7.tar.gz",
-        "result": [
-            "SKIP for https://www.w3.org/XML/Test/xmlts20080827.tar.gz xmltestsuite"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/96/96151685cec997e1f9f3387e3626d61e6284d4d6e66e0e440c209286c03e9cc7.tar.gz",
+        "match": "xmltestsuite",
+        "package": "xmlts",
+        "version": "20080827",
+        "valid": null,
+        "validator": "SKIP for xmltestsuite",
+        "output": null
     },
     {
         "url": "https://curl.se/ca/cacert-2023-01-10.pem",
         "hash": "fb1ecd641d0a02c01bc9036d513cb658bbda62a75e246bedbc01764560a639f0",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/fb/fb1ecd641d0a02c01bc9036d513cb658bbda62a75e246bedbc01764560a639f0",
-        "result": "ISSUE with identifying \"https://curl.se/ca/cacert-2023-01-10.pem\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/fb/fb1ecd641d0a02c01bc9036d513cb658bbda62a75e246bedbc01764560a639f0",
+        "match": "curl",
+        "package": "curl",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://www.python.org/ftp/python/3.10.10/Python-3.10.10.tgz",
         "hash": "fba64559dde21ebdc953e4565e731573bb61159de8e4d4cedee70fb1196f610d",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/fb/fba64559dde21ebdc953e4565e731573bb61159de8e4d4cedee70fb1196f610d.tgz",
-        "result": [
-            "https://www.python.org/ftp/python/3.10.10/Python-3.10.10.tgz.asc",
-            "a035c8c19219ba821ecea86b64e628f8d684696d"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/fb/fba64559dde21ebdc953e4565e731573bb61159de8e4d4cedee70fb1196f610d.tgz",
+        "match": "python",
+        "package": "python",
+        "version": "3.10.10",
+        "valid": true,
+        "validator": "https://www.python.org/ftp/python/3.10.10/Python-3.10.10.tgz.asc",
+        "output": "a035c8c19219ba821ecea86b64e628f8d684696d"
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-8.0-patches/readline80-003",
         "hash": "94ddb2210b71eb5389c7756865d60e343666dfb722c85892f8226b26bb3eeaef",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/94/94ddb2210b71eb5389c7756865d60e343666dfb722c85892f8226b26bb3eeaef",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-8.0-patches/readline80-003\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/94/94ddb2210b71eb5389c7756865d60e343666dfb722c85892f8226b26bb3eeaef",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://codeload.github.com/facebook/zstd/tar.gz/refs/tags/v1.5.5",
         "hash": "98e9c3d949d1b924e28e01eccb7deed865eefebf25c2f21c702e5cd5b63b85e1",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/98/98e9c3d949d1b924e28e01eccb7deed865eefebf25c2f21c702e5cd5b63b85e1.tar.gz",
-        "result": [
-            "https://github.com/facebook/zstd/releases/download/v1.5.5/zstd-1.5.5.tar.gz.sig",
-            "BAD Signature"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/98/98e9c3d949d1b924e28e01eccb7deed865eefebf25c2f21c702e5cd5b63b85e1.tar.gz",
+        "match": "zstd",
+        "package": "zstd",
+        "version": "1.5.5",
+        "valid": false,
+        "validator": "https://github.com/facebook/zstd/releases/download/v1.5.5/zstd-1.5.5.tar.gz.sig",
+        "output": "BAD Signature"
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-005",
         "hash": "877788f9228d1a9907a4bcfe3d6dd0439c08d728949458b41208d9bf9060274b",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/87/877788f9228d1a9907a4bcfe3d6dd0439c08d728949458b41208d9bf9060274b",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-005\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/87/877788f9228d1a9907a4bcfe3d6dd0439c08d728949458b41208d9bf9060274b",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-002",
         "hash": "8747c92c35d5db32eae99af66f17b384abaca961653e185677f9c9a571ed2d58",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/87/8747c92c35d5db32eae99af66f17b384abaca961653e185677f9c9a571ed2d58",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-002\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/87/8747c92c35d5db32eae99af66f17b384abaca961653e185677f9c9a571ed2d58",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/libtool/libtool-2.4.7.tar.gz",
         "hash": "04e96c2404ea70c590c546eba4202a4e12722c640016c12b9b2f1ce3d481e9a8",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/04/04e96c2404ea70c590c546eba4202a4e12722c640016c12b9b2f1ce3d481e9a8.tar.gz",
-        "result": [
-            "https://mirror.freedif.org/GNU/libtool/libtool-2.4.7.tar.gz.sig",
-            "7c5fbb96be82b954ac20df5f6eac957f8eeb55c0"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/04/04e96c2404ea70c590c546eba4202a4e12722c640016c12b9b2f1ce3d481e9a8.tar.gz",
+        "match": "gnu",
+        "package": "libtool",
+        "version": "2.4.7",
+        "valid": true,
+        "validator": "https://mirror.freedif.org/GNU/libtool/libtool-2.4.7.tar.gz.sig",
+        "output": "7c5fbb96be82b954ac20df5f6eac957f8eeb55c0"
     },
     {
         "url": "https://mirror.freedif.org/GNU/automake/automake-1.16.5.tar.gz",
         "hash": "07bd24ad08a64bc17250ce09ec56e921d6343903943e99ccf63bbf0705e34605",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/07/07bd24ad08a64bc17250ce09ec56e921d6343903943e99ccf63bbf0705e34605.tar.gz",
-        "result": [
-            "https://mirror.freedif.org/GNU/automake/automake-1.16.5.tar.gz.sig",
-            "155d3fc500c834486d1eea677fd9fccb000beeee"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/07/07bd24ad08a64bc17250ce09ec56e921d6343903943e99ccf63bbf0705e34605.tar.gz",
+        "match": "gnu",
+        "package": "automake",
+        "version": "1.16.5",
+        "valid": true,
+        "validator": "https://mirror.freedif.org/GNU/automake/automake-1.16.5.tar.gz.sig",
+        "output": "155d3fc500c834486d1eea677fd9fccb000beeee"
     },
     {
         "url": "https://codeload.github.com/madler/pigz/tar.gz/refs/tags/v2.7",
         "hash": "d2045087dae5e9482158f1f1c0f21c7d3de6f7cdc7cc5848bdabda544e69aa58",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/d2/d2045087dae5e9482158f1f1c0f21c7d3de6f7cdc7cc5848bdabda544e69aa58.tar.gz",
-        "result": [
-            "https://web.archive.org/web/20230419152919id_/http://zlib.net/pigz/pigz-2.7-sig.txt",
-            "BAD Signature"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/d2/d2045087dae5e9482158f1f1c0f21c7d3de6f7cdc7cc5848bdabda544e69aa58.tar.gz",
+        "match": "pigz",
+        "package": "pigz",
+        "version": "2.7",
+        "valid": false,
+        "validator": "https://web.archive.org/web/20230419152919id_/http://zlib.net/pigz/pigz-2.7-sig.txt",
+        "output": "BAD Signature"
     },
     {
         "url": "https://gnome.mirror.digitalpacific.com.au/sources/libxml2/2.10/libxml2-2.10.3.tar.xz",
         "hash": "5d2cc3d78bec3dbe212a9d7fa629ada25a7da928af432c93060ff5c17ee28a9c",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/5d/5d2cc3d78bec3dbe212a9d7fa629ada25a7da928af432c93060ff5c17ee28a9c.tar.xz",
-        "result": [
-            "https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.3.sha256sum",
-            "sha256:5d2cc3d78bec3dbe212a9d7fa629ada25a7da928af432c93060ff5c17ee28a9c"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/5d/5d2cc3d78bec3dbe212a9d7fa629ada25a7da928af432c93060ff5c17ee28a9c.tar.xz",
+        "match": "gnome",
+        "package": "libxml2",
+        "version": "2.10.3",
+        "valid": true,
+        "validator": "https://download.gnome.org/sources/libxml2/2.10/libxml2-2.10.3.sha256sum",
+        "output": "sha256:5d2cc3d78bec3dbe212a9d7fa629ada25a7da928af432c93060ff5c17ee28a9c"
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-007",
         "hash": "4d79b5a2adec3c2e8114cbd3d63c1771f7c6cf64035368624903d257014f5bea",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/4d/4d79b5a2adec3c2e8114cbd3d63c1771f7c6cf64035368624903d257014f5bea",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-007\""
-    },
-    {
-        "url": "No Match",
-        "hash": "7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/77/7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7",
-        "result": "ISSUE with identifying \"No Match\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/4d/4d79b5a2adec3c2e8114cbd3d63c1771f7c6cf64035368624903d257014f5bea",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-002",
         "hash": "39e304c7a526888f9e112e733848215736fb7b9d540729b9e31f3347b7a1e0a5",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/39/39e304c7a526888f9e112e733848215736fb7b9d540729b9e31f3347b7a1e0a5",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-002\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/39/39e304c7a526888f9e112e733848215736fb7b9d540729b9e31f3347b7a1e0a5",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/App-cpanminus-1.7042.tar.gz",
         "hash": "9da50e155df72bce55cb69f51f1dbb4b62d23740fb99f6178bb27f22ebdf8a46",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/9d/9da50e155df72bce55cb69f51f1dbb4b62d23740fb99f6178bb27f22ebdf8a46.tar.gz",
-        "result": [
-            "https://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/CHECKSUMS",
-            "sha256:9da50e155df72bce55cb69f51f1dbb4b62d23740fb99f6178bb27f22ebdf8a46"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/9d/9da50e155df72bce55cb69f51f1dbb4b62d23740fb99f6178bb27f22ebdf8a46.tar.gz",
+        "match": "cpan",
+        "package": "app-cpanminus",
+        "version": "1.7042",
+        "valid": true,
+        "validator": "https://cpan.metacpan.org/authors/id/M/MI/MIYAGAWA/CHECKSUMS",
+        "output": "sha256:9da50e155df72bce55cb69f51f1dbb4b62d23740fb99f6178bb27f22ebdf8a46"
     },
     {
         "url": "https://mirror.freedif.org/GNU/tar/tar-1.34.tar.gz",
         "hash": "03d908cf5768cfe6b7ad588c921c6ed21acabfb2b79b788d1330453507647aed",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/03/03d908cf5768cfe6b7ad588c921c6ed21acabfb2b79b788d1330453507647aed.tar.gz",
-        "result": [
-            "https://mirror.freedif.org/GNU/tar/tar-1.34.tar.gz.sig",
-            "325f650c4c2b6ad58807327a3602b07f55d0c732"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/03/03d908cf5768cfe6b7ad588c921c6ed21acabfb2b79b788d1330453507647aed.tar.gz",
+        "match": "gnu",
+        "package": "tar",
+        "version": "1.34",
+        "valid": true,
+        "validator": "https://mirror.freedif.org/GNU/tar/tar-1.34.tar.gz.sig",
+        "output": "325f650c4c2b6ad58807327a3602b07f55d0c732"
     },
     {
         "url": "https://mirror.freedif.org/GNU/m4/m4-1.4.19.tar.gz",
         "hash": "3be4a26d825ffdfda52a56fc43246456989a3630093cced3fbddf4771ee58a70",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3b/3be4a26d825ffdfda52a56fc43246456989a3630093cced3fbddf4771ee58a70.tar.gz",
-        "result": [
-            "https://mirror.freedif.org/GNU/m4/m4-1.4.19.tar.gz.sig",
-            "71c2cc22b1c4602927d2f3aaa7a16b4a2527436a"
-        ]
-    },
-    {
-        "url": "No Match",
-        "hash": "3bbd7d6f9933d80b9571533867b444c6f8f5a1ba0575bfba1fba4db9d885a71a",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3b/3bbd7d6f9933d80b9571533867b444c6f8f5a1ba0575bfba1fba4db9d885a71a",
-        "result": "ISSUE with identifying \"No Match\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/3b/3be4a26d825ffdfda52a56fc43246456989a3630093cced3fbddf4771ee58a70.tar.gz",
+        "match": "gnu",
+        "package": "m4",
+        "version": "1.4.19",
+        "valid": true,
+        "validator": "https://mirror.freedif.org/GNU/m4/m4-1.4.19.tar.gz.sig",
+        "output": "71c2cc22b1c4602927d2f3aaa7a16b4a2527436a"
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-008",
         "hash": "3bc093cf526ceac23eb80256b0ec87fa1735540d659742107b6284d635c43787",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3b/3bc093cf526ceac23eb80256b0ec87fa1735540d659742107b6284d635c43787",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-008\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/3b/3bc093cf526ceac23eb80256b0ec87fa1735540d659742107b6284d635c43787",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.10.2.tar.bz2",
         "hash": "3b9c02a004b68c256add99701de00b383accccf37177e0d6c58289664cce0c03",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/3b/3b9c02a004b68c256add99701de00b383accccf37177e0d6c58289664cce0c03.tar.bz2",
-        "result": [
-            "https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.10.2.tar.bz2.sig",
-            "6daa6e64a76d2840571b4902528897b826403ada"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/3b/3b9c02a004b68c256add99701de00b383accccf37177e0d6c58289664cce0c03.tar.bz2",
+        "match": "gnupg",
+        "package": "libgcrypt",
+        "version": "1.10.2",
+        "valid": true,
+        "validator": "https://gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.10.2.tar.bz2.sig",
+        "output": "6daa6e64a76d2840571b4902528897b826403ada"
     },
     {
         "url": "https://www.mpfr.org/mpfr-3.1.2/allpatches",
         "hash": "1b9fdb515efb09a506a01e1eb307b1464455f5ca63d6c193db3a3da371ab3220",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/1b/1b9fdb515efb09a506a01e1eb307b1464455f5ca63d6c193db3a3da371ab3220",
-        "result": "ISSUE with identifying \"https://www.mpfr.org/mpfr-3.1.2/allpatches\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/1b/1b9fdb515efb09a506a01e1eb307b1464455f5ca63d6c193db3a3da371ab3220",
+        "match": "mpfr",
+        "package": "mpfr",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-001",
         "hash": "9ac1b3ac2ec7b1bf0709af047f2d7d2a34ccde353684e57c6b47ebca77d7a376",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/9a/9ac1b3ac2ec7b1bf0709af047f2d7d2a34ccde353684e57c6b47ebca77d7a376",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-7.0-patches/readline70-001\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/9a/9ac1b3ac2ec7b1bf0709af047f2d7d2a34ccde353684e57c6b47ebca77d7a376",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://mirror.freedif.org/GNU/gdbm/gdbm-1.23.tar.gz",
         "hash": "74b1081d21fff13ae4bd7c16e5d6e504a4c26f7cde1dca0d963a484174bbcacd",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/74/74b1081d21fff13ae4bd7c16e5d6e504a4c26f7cde1dca0d963a484174bbcacd.tar.gz",
-        "result": [
-            "https://mirror.freedif.org/GNU/gdbm/gdbm-1.23.tar.gz.sig",
-            "325f650c4c2b6ad58807327a3602b07f55d0c732"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/74/74b1081d21fff13ae4bd7c16e5d6e504a4c26f7cde1dca0d963a484174bbcacd.tar.gz",
+        "match": "gnu",
+        "package": "gdbm",
+        "version": "1.23",
+        "valid": true,
+        "validator": "https://mirror.freedif.org/GNU/gdbm/gdbm-1.23.tar.gz.sig",
+        "output": "325f650c4c2b6ad58807327a3602b07f55d0c732"
     },
     {
         "url": "https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-006",
         "hash": "5c237ab3c6c97c23cf52b2a118adc265b7fb411b57c93a5f7c221d50fafbe556",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/archive/5c/5c237ab3c6c97c23cf52b2a118adc265b7fb411b57c93a5f7c221d50fafbe556",
-        "result": "ISSUE with identifying \"https://mirror.freedif.org/GNU/readline/readline-6.3-patches/readline63-006\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/5c/5c237ab3c6c97c23cf52b2a118adc265b7fb411b57c93a5f7c221d50fafbe556",
+        "match": "gnu",
+        "package": "readline",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
-        "url": "No Match",
+        "url": "https://github.com/potassco/clingo.git",
         "hash": "47955faec25a739254de3417aaf5ea6302888035f6bca46d724f17350626234a",
-        "filepath": "/data-mnt/scratch/spack_home/spack-mirror/bootstrap_cache/_source-cache/git/potassco/clingo.git/2a025667090d71b2c9dce60fe924feb6bde8f667.tar.gz",
-        "result": "ISSUE with identifying \"No Match\""
+        "filepath": "./bootstrap_cache/_source-cache/git/potassco/clingo.git/2a025667090d71b2c9dce60fe924feb6bde8f667.tar.gz",
+        "match": null,
+        "package": null,
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
+    },
+    {
+        "url": "https://mirror.spack.io/_source-cache/archive/ea/eaa3f69d927a853313a0b06e2117c51adab6377a2278549b05abc5df93643e16",
+        "hash": "eaa3f69d927a853313a0b06e2117c51adab6377a2278549b05abc5df93643e16",
+        "filepath": "./bootstrap_cache/_source-cache/archive/ea/eaa3f69d927a853313a0b06e2117c51adab6377a2278549b05abc5df93643e16",
+        "match": "spack",
+        "package": "spack",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
+    },
+    {
+        "url": "https://mirror.spack.io/_source-cache/archive/8c/8cf4302ca8b480c60ccdcaa29ec53d9d50a71d4baf469ac8c6fca00ca31e58a2",
+        "hash": "8cf4302ca8b480c60ccdcaa29ec53d9d50a71d4baf469ac8c6fca00ca31e58a2",
+        "filepath": "./bootstrap_cache/_source-cache/archive/8c/8cf4302ca8b480c60ccdcaa29ec53d9d50a71d4baf469ac8c6fca00ca31e58a2",
+        "match": "spack",
+        "package": "spack",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
+    },
+    {
+        "url": "https://mirror.spack.io/_source-cache/archive/3e/3e06d42596b105839648070a5921157fe284b932289ffdbfa304ddc3457e5637",
+        "hash": "3e06d42596b105839648070a5921157fe284b932289ffdbfa304ddc3457e5637",
+        "filepath": "./bootstrap_cache/_source-cache/archive/3e/3e06d42596b105839648070a5921157fe284b932289ffdbfa304ddc3457e5637",
+        "match": "spack",
+        "package": "spack",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
+    },
+    {
+        "url": "https://mirror.spack.io/_source-cache/archive/a4/a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee",
+        "hash": "a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee",
+        "filepath": "./bootstrap_cache/_source-cache/archive/a4/a49dd5bac3b62daa0ff688ab4d508d71dbd2f4f8d7e2a02321926346161bf3ee",
+        "match": "spack",
+        "package": "spack",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
+    },
+    {
+        "url": "https://mirror.spack.io/_source-cache/archive/0e/0eac10ed90aeb0459ad8851f88081d439a4e41978e586ec743069e8b059370ac",
+        "hash": "0eac10ed90aeb0459ad8851f88081d439a4e41978e586ec743069e8b059370ac",
+        "filepath": "./bootstrap_cache/_source-cache/archive/0e/0eac10ed90aeb0459ad8851f88081d439a4e41978e586ec743069e8b059370ac",
+        "match": "spack",
+        "package": "spack",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
+    },
+    {
+        "url": "https://mirror.spack.io/_source-cache/archive/35/35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2",
+        "hash": "35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2",
+        "filepath": "./bootstrap_cache/_source-cache/archive/35/35c449281546376449766f92d49fc121ca50e330e60fefcfc9be2af3253082c2",
+        "match": "spack",
+        "package": "spack",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
+    },
+    {
+        "url": "https://mirror.spack.io/_source-cache/archive/77/7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7",
+        "hash": "7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7",
+        "filepath": "./bootstrap_cache/_source-cache/archive/77/7793209b33013dc0f81208718c68440c5aae80e7a1c4b8d336e382525af791a7",
+        "match": "spack",
+        "package": "spack",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
+    },
+    {
+        "url": "https://mirror.spack.io/_source-cache/archive/3b/3bbd7d6f9933d80b9571533867b444c6f8f5a1ba0575bfba1fba4db9d885a71a",
+        "hash": "3bbd7d6f9933d80b9571533867b444c6f8f5a1ba0575bfba1fba4db9d885a71a",
+        "filepath": "./bootstrap_cache/_source-cache/archive/3b/3bbd7d6f9933d80b9571533867b444c6f8f5a1ba0575bfba1fba4db9d885a71a",
+        "match": "spack",
+        "package": "spack",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://www.sqlite.org/2023/sqlite-autoconf-3430200.tar.gz",
         "hash": "6d422b6f62c4de2ca80d61860e3a3fb693554d2f75bb1aaca743ccc4d6f609f0",
-        "filepath": "/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/6d/6d422b6f62c4de2ca80d61860e3a3fb693554d2f75bb1aaca743ccc4d6f609f0.tar.gz",
-        "result": [
-            "https://web.archive.org/web/20231010213520/https://www.sqlite.org/download.html",
-            "SHA3-256:a7463a45ed58849200858e514b79f7e5f5d69850047897c5b659a78a0bc75cc1"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/6d/6d422b6f62c4de2ca80d61860e3a3fb693554d2f75bb1aaca743ccc4d6f609f0.tar.gz",
+        "match": "sqlite",
+        "package": "sqlite",
+        "version": "3430200",
+        "valid": true,
+        "validator": "https://web.archive.org/web/20231010213520/https://www.sqlite.org/download.html",
+        "output": "sha3-256:a7463a45ed58849200858e514b79f7e5f5d69850047897c5b659a78a0bc75cc1"
     },
     {
         "url": "https://gnupg.org/ftp/gcrypt/libassuan/libassuan-2.5.6.tar.bz2",
         "hash": "e9fd27218d5394904e4e39788f9b1742711c3e6b41689a31aa3380bd5aa4f426",
-        "filepath": "/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/e9/e9fd27218d5394904e4e39788f9b1742711c3e6b41689a31aa3380bd5aa4f426.tar.bz2",
-        "result": [
-            "https://gnupg.org/ftp/gcrypt/libassuan/libassuan-2.5.6.tar.bz2.sig",
-            "6daa6e64a76d2840571b4902528897b826403ada"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/e9/e9fd27218d5394904e4e39788f9b1742711c3e6b41689a31aa3380bd5aa4f426.tar.bz2",
+        "match": "gnupg",
+        "package": "libassuan",
+        "version": "2.5.6",
+        "valid": true,
+        "validator": "https://gnupg.org/ftp/gcrypt/libassuan/libassuan-2.5.6.tar.bz2.sig",
+        "output": "6daa6e64a76d2840571b4902528897b826403ada"
     },
     {
         "url": "https://curl.se/download/curl-8.4.0.tar.bz2",
         "hash": "e5250581a9c032b1b6ed3cf2f9c114c811fc41881069e9892d115cc73f9e88c6",
-        "filepath": "/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/e5/e5250581a9c032b1b6ed3cf2f9c114c811fc41881069e9892d115cc73f9e88c6.tar.bz2",
-        "result": [
-            "https://curl.se/download/curl-8.4.0.tar.bz2.asc",
-            "27edeaf22f3abceb50db9a125cc908fdb71e12c2"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/e5/e5250581a9c032b1b6ed3cf2f9c114c811fc41881069e9892d115cc73f9e88c6.tar.bz2",
+        "match": "curl",
+        "package": "curl",
+        "version": "8.4.0",
+        "valid": true,
+        "validator": "https://curl.se/download/curl-8.4.0.tar.bz2.asc",
+        "output": "27edeaf22f3abceb50db9a125cc908fdb71e12c2"
     },
     {
         "url": "https://www.python.org/ftp/python/3.11.6/Python-3.11.6.tgz",
         "hash": "c049bf317e877cbf9fce8c3af902436774ecef5249a29d10984ca3a37f7f4736",
-        "filepath": "/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/c0/c049bf317e877cbf9fce8c3af902436774ecef5249a29d10984ca3a37f7f4736.tgz",
-        "result": [
-            "https://www.python.org/ftp/python/3.11.6/Python-3.11.6.tgz.asc",
-            "a035c8c19219ba821ecea86b64e628f8d684696d"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/c0/c049bf317e877cbf9fce8c3af902436774ecef5249a29d10984ca3a37f7f4736.tgz",
+        "match": "python",
+        "package": "python",
+        "version": "3.11.6",
+        "valid": true,
+        "validator": "https://www.python.org/ftp/python/3.11.6/Python-3.11.6.tgz.asc",
+        "output": "a035c8c19219ba821ecea86b64e628f8d684696d"
     },
     {
         "url": "https://gnupg.org/ftp/gcrypt/libksba/libksba-1.6.4.tar.bz2",
         "hash": "bbb43f032b9164d86c781ffe42213a83bf4f2fee91455edfa4654521b8b03b6b",
-        "filepath": "/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/bb/bbb43f032b9164d86c781ffe42213a83bf4f2fee91455edfa4654521b8b03b6b.tar.bz2",
-        "result": [
-            "https://gnupg.org/ftp/gcrypt/libksba/libksba-1.6.4.tar.bz2.sig",
-            "6daa6e64a76d2840571b4902528897b826403ada"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/bb/bbb43f032b9164d86c781ffe42213a83bf4f2fee91455edfa4654521b8b03b6b.tar.bz2",
+        "match": "gnupg",
+        "package": "libksba",
+        "version": "1.6.4",
+        "valid": true,
+        "validator": "https://gnupg.org/ftp/gcrypt/libksba/libksba-1.6.4.tar.bz2.sig",
+        "output": "6daa6e64a76d2840571b4902528897b826403ada"
     },
     {
         "url": "http://www.cpan.org/src/5.0/perl-5.38.0.tar.gz",
         "hash": "213ef58089d2f2c972ea353517dc60ec3656f050dcc027666e118b508423e517",
-        "filepath": "/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/21/213ef58089d2f2c972ea353517dc60ec3656f050dcc027666e118b508423e517.tar.gz",
-        "result": [
-            "http://www.cpan.org/src/5.0/perl-5.38.0.tar.gz.sha256.txt",
-            "sha256:213ef58089d2f2c972ea353517dc60ec3656f050dcc027666e118b508423e517"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/21/213ef58089d2f2c972ea353517dc60ec3656f050dcc027666e118b508423e517.tar.gz",
+        "match": "perl",
+        "package": "perl",
+        "version": "5.38.0",
+        "valid": true,
+        "validator": "http://www.cpan.org/src/5.0/perl-5.38.0.tar.gz.sha256.txt",
+        "output": "sha256:213ef58089d2f2c972ea353517dc60ec3656f050dcc027666e118b508423e517"
     },
     {
         "url": "https://objects.githubusercontent.com/github-production-release-asset-2e65be/537699/b9f272bc-7d1b-445b-b74c-8e42e725c3b1?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231214T221400Z&X-Amz-Expires=300&X-Amz-Signature=c3c2d0e7fe88086f01154de056dbc1397977f81edc30245a484c15bb3ffe672e&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=537699&response-content-disposition=attachment%3B%20filename%3Dcmake-3.27.7.tar.gz&response-content-type=application%2Foctet-stream",
         "hash": "08f71a106036bf051f692760ef9558c0577c42ac39e96ba097e7662bd4158d8e",
-        "filepath": "/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/08/08f71a106036bf051f692760ef9558c0577c42ac39e96ba097e7662bd4158d8e.tar.gz",
-        "result": [
-            "https://github.com/Kitware/CMake/releases/download/v3.27.7/cmake-3.27.7-SHA-256.txt",
-            "cba23971357c2e6590d9efd3ec8fef3a7bfb4eda"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/08/08f71a106036bf051f692760ef9558c0577c42ac39e96ba097e7662bd4158d8e.tar.gz",
+        "match": "cmake",
+        "package": "cmake",
+        "version": "3.27.7",
+        "valid": true,
+        "validator": "https://github.com/Kitware/CMake/releases/download/v3.27.7/cmake-3.27.7-SHA-256.txt",
+        "output": "cba23971357c2e6590d9efd3ec8fef3a7bfb4eda"
     },
     {
         "url": "https://objects.githubusercontent.com/github-production-release-asset-2e65be/35503965/6ce20ab6-efbf-4993-b32f-5052b12a9003?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231214T221442Z&X-Amz-Expires=300&X-Amz-Signature=2da2d91a8d6a072856aa950f633aed2c2040596251053570df5e8d4e3be3b59e&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=35503965&response-content-disposition=attachment%3B%20filename%3Dlibxcrypt-4.4.35.tar.xz&response-content-type=application%2Foctet-stream",
         "hash": "a8c935505b55f1df0d17f8bfd59468c7c6709a1d31831b0f8e3e045ab8fd455d",
-        "filepath": "/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/a8/a8c935505b55f1df0d17f8bfd59468c7c6709a1d31831b0f8e3e045ab8fd455d.tar.xz",
-        "result": [
-            "https://github.com/besser82/libxcrypt/releases/download/v4.4.35/libxcrypt-4.4.35.tar.xz.asc",
-            "678ce3fee430311596db8c16f52e98007594c21d"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/a8/a8c935505b55f1df0d17f8bfd59468c7c6709a1d31831b0f8e3e045ab8fd455d.tar.xz",
+        "match": "libxcrypt",
+        "package": "libxcrypt",
+        "version": "4.4.35",
+        "valid": true,
+        "validator": "https://github.com/besser82/libxcrypt/releases/download/v4.4.35/libxcrypt-4.4.35.tar.xz.asc",
+        "output": "678ce3fee430311596db8c16f52e98007594c21d"
     },
     {
         "url": "https://objects.githubusercontent.com/github-production-release-asset-2e65be/11452676/6206460a-13a3-4082-b6b5-c4f6e35e1c34?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231214T221411Z&X-Amz-Expires=300&X-Amz-Signature=c1efc16e5094b5e97d1cde7b48680f958a4ca758d952535153534885a91902e7&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=11452676&response-content-disposition=attachment%3B%20filename%3Dnghttp2-1.57.0.tar.gz&response-content-type=application%2Foctet-stream",
         "hash": "1e3258453784d3b7e6cc48d0be087b168f8360b5d588c66bfeda05d07ad39ffd",
-        "filepath": "/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/1e/1e3258453784d3b7e6cc48d0be087b168f8360b5d588c66bfeda05d07ad39ffd.tar.gz",
-        "result": [
-            "https://github.com/nghttp2/nghttp2/releases/download/v1.57.0/nghttp2-1.57.0.tar.gz.asc",
-            "f4f3b91474d1eb29889bd0ef7e8403d5d673c366"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/1e/1e3258453784d3b7e6cc48d0be087b168f8360b5d588c66bfeda05d07ad39ffd.tar.gz",
+        "match": "nghttp2",
+        "package": "nghttp2",
+        "version": "1.57.0",
+        "valid": true,
+        "validator": "https://github.com/nghttp2/nghttp2/releases/download/v1.57.0/nghttp2-1.57.0.tar.gz.asc",
+        "output": "f4f3b91474d1eb29889bd0ef7e8403d5d673c366"
     },
     {
         "url": "https://mirror.koddos.net/gnu/gawk/gawk-5.2.2.tar.xz",
         "hash": "3c1fce1446b4cbee1cd273bd7ec64bc87d89f61537471cd3e05e33a965a250e9",
-        "filepath": "/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/3c/3c1fce1446b4cbee1cd273bd7ec64bc87d89f61537471cd3e05e33a965a250e9.tar.xz",
-        "result": [
-            "https://mirror.koddos.net/gnu/gawk/gawk-5.2.2.tar.xz.sig",
-            "d1967c63788713177d861ed7df597815937ec0d2"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/3c/3c1fce1446b4cbee1cd273bd7ec64bc87d89f61537471cd3e05e33a965a250e9.tar.xz",
+        "match": "gnu",
+        "package": "gawk",
+        "version": "5.2.2",
+        "valid": true,
+        "validator": "https://mirror.koddos.net/gnu/gawk/gawk-5.2.2.tar.xz.sig",
+        "output": "d1967c63788713177d861ed7df597815937ec0d2"
     },
     {
         "url": "https://ftp.snt.utwente.nl/pub/software/gnu/gettext/gettext-0.22.3.tar.xz",
         "hash": "b838228b3f8823a6c1eddf07297197c4db13f7e1b173b9ef93f3f945a63080b6",
-        "filepath": "/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/b8/b838228b3f8823a6c1eddf07297197c4db13f7e1b173b9ef93f3f945a63080b6.tar.xz",
-        "result": [
-            "https://ftp.snt.utwente.nl/pub/software/gnu/gettext/gettext-0.22.3.tar.xz.sig",
-            "9001b85af9e1b83df1bda942f5be8b267c6a406d"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/b8/b838228b3f8823a6c1eddf07297197c4db13f7e1b173b9ef93f3f945a63080b6.tar.xz",
+        "match": "gnu",
+        "package": "gettext",
+        "version": "0.22.3",
+        "valid": true,
+        "validator": "https://ftp.snt.utwente.nl/pub/software/gnu/gettext/gettext-0.22.3.tar.xz.sig",
+        "output": "9001b85af9e1b83df1bda942f5be8b267c6a406d"
     },
     {
         "url": "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.4.3.tar.bz2",
         "hash": "a271ae6d732f6f4d80c258ad9ee88dd9c94c8fdc33c3e45328c4d7c126bd219d",
-        "filepath": "/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/a2/a271ae6d732f6f4d80c258ad9ee88dd9c94c8fdc33c3e45328c4d7c126bd219d.tar.bz2",
-        "result": [
-            "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.4.3.tar.bz2.sig",
-            "6daa6e64a76d2840571b4902528897b826403ada"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/a2/a271ae6d732f6f4d80c258ad9ee88dd9c94c8fdc33c3e45328c4d7c126bd219d.tar.bz2",
+        "match": "gnupg",
+        "package": "gnupg",
+        "version": "2.4.3",
+        "valid": true,
+        "validator": "https://gnupg.org/ftp/gcrypt/gnupg/gnupg-2.4.3.tar.bz2.sig",
+        "output": "6daa6e64a76d2840571b4902528897b826403ada"
     },
     {
         "url": "https://curl.se/ca/cacert-2023-05-30.pem",
         "hash": "5fadcae90aa4ae041150f8e2d26c37d980522cdb49f923fc1e1b5eb8d74e71ad",
-        "filepath": "/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/5f/5fadcae90aa4ae041150f8e2d26c37d980522cdb49f923fc1e1b5eb8d74e71ad",
-        "result": "ISSUE with identifying \"https://curl.se/ca/cacert-2023-05-30.pem\""
+        "filepath": "./bootstrap_cache/_source-cache/archive/5f/5fadcae90aa4ae041150f8e2d26c37d980522cdb49f923fc1e1b5eb8d74e71ad",
+        "match": "curl",
+        "package": "curl",
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     },
     {
         "url": "https://www.openssl.org/source/openssl-3.1.3.tar.gz",
         "hash": "f0316a2ebd89e7f2352976445458689f80302093788c466692fb2a188b2eacf6",
-        "filepath": "/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/f0/f0316a2ebd89e7f2352976445458689f80302093788c466692fb2a188b2eacf6.tar.gz",
-        "result": [
-            "https://www.openssl.org/source/openssl-3.1.3.tar.gz.asc",
-            "efc0a467d613cb83c7ed6d30d894e2ce8b3d79f5"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/f0/f0316a2ebd89e7f2352976445458689f80302093788c466692fb2a188b2eacf6.tar.gz",
+        "match": "openssl",
+        "package": "openssl",
+        "version": "3.1.3",
+        "valid": true,
+        "validator": "https://www.openssl.org/source/openssl-3.1.3.tar.gz.asc",
+        "output": "efc0a467d613cb83c7ed6d30d894e2ce8b3d79f5"
     },
     {
         "url": "https://codeload.github.com/zlib-ng/zlib-ng/tar.gz/refs/tags/2.1.4",
         "hash": "a0293475e6a44a3f6c045229fe50f69dc0eebc62a42405a51f19d46a5541e77a",
-        "filepath": "/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/a0/a0293475e6a44a3f6c045229fe50f69dc0eebc62a42405a51f19d46a5541e77a.tar.gz",
-        "result": [
-            "SKIP for https://codeload.github.com/zlib-ng/zlib-ng/tar.gz/refs/tags/2.1.4 github"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/a0/a0293475e6a44a3f6c045229fe50f69dc0eebc62a42405a51f19d46a5541e77a.tar.gz",
+        "match": "github",
+        "package": "zlib-ng",
+        "version": "2.1.4",
+        "valid": null,
+        "validator": "SKIP for github",
+        "output": null
     },
     {
         "url": "https://objects.githubusercontent.com/github-production-release-asset-2e65be/2928164/467f4c1b-eb74-4133-b030-25c03b649c67?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231214T221727Z&X-Amz-Expires=300&X-Amz-Signature=a19e9e3faed5f44201a568c8b3dbd3002c76f8dd0af4bf10bf58df0914fbaba3&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=2928164&response-content-disposition=attachment%3B%20filename%3Dpatchelf-0.18.0.tar.gz&response-content-type=application%2Foctet-stream",
         "hash": "64de10e4c6b8b8379db7e87f58030f336ea747c0515f381132e810dbf84a86e7",
-        "filepath": "/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/archive/64/64de10e4c6b8b8379db7e87f58030f336ea747c0515f381132e810dbf84a86e7.tar.gz",
-        "result": [
-            "SKIP for https://objects.githubusercontent.com/github-production-release-asset-2e65be/2928164/467f4c1b-eb74-4133-b030-25c03b649c67?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20231214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20231214T221727Z&X-Amz-Expires=300&X-Amz-Signature=a19e9e3faed5f44201a568c8b3dbd3002c76f8dd0af4bf10bf58df0914fbaba3&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=2928164&response-content-disposition=attachment%3B%20filename%3Dpatchelf-0.18.0.tar.gz&response-content-type=application%2Foctet-stream github"
-        ]
+        "filepath": "./bootstrap_cache/_source-cache/archive/64/64de10e4c6b8b8379db7e87f58030f336ea747c0515f381132e810dbf84a86e7.tar.gz",
+        "match": "github",
+        "package": "patchelf",
+        "version": "0.18.0",
+        "valid": null,
+        "validator": "SKIP for github",
+        "output": null
     },
     {
-        "url": "No Match",
+        "url": "https://github.com/potassco/clingo.git",
         "hash": "998051d0e8c0ead0a7f14dad4f196413f2911d39f28771ba174fb006ec9fe0ea",
-        "filepath": "/data-mnt/scratch/spack_home2/spack-mirror/bootstrap_cache/_source-cache/git/potassco/clingo.git/2a025667090d71b2c9dce60fe924feb6bde8f667.tar.gz",
-        "result": "ISSUE with identifying \"No Match\""
+        "filepath": "./bootstrap_cache/_source-cache/git/potassco/clingo.git/2a025667090d71b2c9dce60fe924feb6bde8f667.tar.gz",
+        "match": null,
+        "package": null,
+        "version": null,
+        "valid": null,
+        "validator": null,
+        "output": null
     }
 ]
